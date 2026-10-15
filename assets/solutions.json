@@ -1,0 +1,222 @@
+[
+ {
+  "n": "01",
+  "slug": "01-ai-workspace",
+  "area": 1,
+  "en": "Enterprise AI Workspace",
+  "ar": "مساحة العمل الذكية للمؤسسة",
+  "pen": "Turn company knowledge into useful, completed work.",
+  "par": "حوّل معرفة المؤسسة إلى عمل مُنجز ومفيد.",
+  "sen": "Search institutional knowledge, draft sourced outputs and carry out approved tasks in connected systems.",
+  "sar": "ابحث في المعرفة المؤسسية، وأعدّ مخرجات موثقة المصادر، ونفّذ المهام المعتمدة في الأنظمة المتصلة."
+ },
+ {
+  "n": "02",
+  "slug": "02-decision-intelligence",
+  "area": 1,
+  "en": "Business Performance & Decision Intelligence",
+  "ar": "ذكاء الأداء واتخاذ القرار",
+  "pen": "Know what changed. Bring the next decision into focus.",
+  "par": "اعرف ما الذي تغيّر، وركّز على القرار التالي.",
+  "sen": "AI combines performance figures and business updates into a sourced review briefing with open actions.",
+  "sar": "يدمج الذكاء الاصطناعي مؤشرات الأداء وتحديثات العمل في إحاطة مراجعة موثقة مع الإجراءات المفتوحة."
+ },
+ {
+  "n": "03",
+  "slug": "03-process-intelligence",
+  "area": 1,
+  "en": "Business Process Intelligence & Improvement",
+  "ar": "ذكاء العمليات وتحسينها",
+  "pen": "Find the delay. Fix the process. Measure the change.",
+  "par": "اكتشف التأخير، وأصلح العملية، وقِس التغيير.",
+  "sen": "Process analytics maps handoffs and rework; AI interprets the notes behind the delays and tests the fix.",
+  "sar": "تحليلات العمليات ترسم التسليمات وإعادة العمل، والذكاء الاصطناعي يفسّر أسباب التأخير ويختبر الحل."
+ },
+ {
+  "n": "04",
+  "slug": "04-private-ai-platform",
+  "area": 1,
+  "en": "Private AI Platform Deployment & Operations",
+  "ar": "نشر وتشغيل منصة الذكاء الاصطناعي الخاصة",
+  "pen": "Run business AI in an environment shaped around you.",
+  "par": "شغّل ذكاء الأعمال في بيئة مصممة حولك.",
+  "sen": "Models, access, evaluation and costs for every AI workload — on your infrastructure, with data that never leaves.",
+  "sar": "النماذج والصلاحيات والتقييم والتكاليف لكل أحمال الذكاء الاصطناعي — على بنيتك التحتية دون خروج البيانات."
+ },
+ {
+  "n": "05",
+  "slug": "05-case-operations",
+  "area": 2,
+  "en": "Document, Application & Case Operations",
+  "ar": "عمليات المستندات والطلبات والحالات",
+  "pen": "Move from incoming documents to resolved cases.",
+  "par": "من المستندات الواردة إلى حالات منجزة.",
+  "sen": "AI reads incoming documents, extracts case details, flags missing information and drafts the clarification.",
+  "sar": "يقرأ الذكاء الاصطناعي المستندات الواردة ويستخرج بيانات الحالة ويرصد النواقص ويصوغ طلب الاستيفاء."
+ },
+ {
+  "n": "06",
+  "slug": "06-arabic-documents",
+  "area": 2,
+  "en": "Arabic & Multilingual Document Operations",
+  "ar": "عمليات المستندات العربية ومتعددة اللغات",
+  "pen": "Keep the meaning, terminology and document intact.",
+  "par": "حافظ على المعنى والمصطلحات وبنية المستند.",
+  "sen": "Translation that follows your terminology, keeps layout and tables, and routes disputed terms to specialists.",
+  "sar": "ترجمة تلتزم بمصطلحاتك وتحافظ على التنسيق والجداول وتحيل المصطلحات الخلافية إلى المختصين."
+ },
+ {
+  "n": "07",
+  "slug": "07-contact-operations",
+  "area": 3,
+  "en": "Customer Service & Contact Operations",
+  "ar": "خدمة المتعاملين وعمليات الاتصال",
+  "pen": "Help customers finish what they came to do.",
+  "par": "ساعد المتعاملين على إنجاز ما جاؤوا من أجله.",
+  "sen": "Voice and chat assistants in Arabic and English that resolve requests, act in systems and hand over with full context.",
+  "sar": "مساعدون صوتيون ونصيون بالعربية والإنجليزية ينجزون الطلبات وينفذون الإجراءات ويحيلون مع كامل السياق."
+ },
+ {
+  "n": "08",
+  "slug": "08-sales-intelligence",
+  "area": 3,
+  "en": "Sales Intelligence & Execution",
+  "ar": "ذكاء المبيعات والتنفيذ",
+  "pen": "Keep sales opportunities moving across teams.",
+  "par": "حافظ على تقدّم فرص المبيعات بين الفرق.",
+  "sen": "Account briefs from enquiries, interactions and offers; conflicts flagged, follow-ups drafted, CRM updated on approval.",
+  "sar": "ملخصات حسابات من الاستفسارات والتفاعلات والعروض، مع رصد التعارضات وصياغة المتابعات وتحديث النظام بعد الاعتماد."
+ },
+ {
+  "n": "09",
+  "slug": "09-bid-proposal",
+  "area": 3,
+  "en": "Bid & Proposal Intelligence",
+  "ar": "ذكاء العطاءات والعروض",
+  "pen": "Turn tender requirements into a response ready for review.",
+  "par": "حوّل متطلبات المناقصة إلى عرض جاهز للمراجعة.",
+  "sen": "Maps every tender requirement to approved evidence, drafts sourced sections and flags gaps and unsupported claims.",
+  "sar": "يربط كل متطلب في المناقصة بأدلة معتمدة، ويصوغ أقساماً موثقة، ويرصد الفجوات والادعاءات غير المدعومة."
+ },
+ {
+  "n": "10",
+  "slug": "10-brand-content",
+  "area": 3,
+  "en": "Brand Content Operations",
+  "ar": "عمليات محتوى العلامة التجارية",
+  "pen": "Create more usable content from approved facts.",
+  "par": "أنتج محتوى أكثر قابلية للاستخدام من حقائق معتمدة.",
+  "sen": "Channel and language variants generated from one approved fact sheet, checked for factual drift before release.",
+  "sar": "نسخ للقنوات واللغات من ورقة حقائق معتمدة واحدة، مع فحص الانحراف عن الحقائق قبل النشر."
+ },
+ {
+  "n": "11",
+  "slug": "11-employee-services",
+  "area": 4,
+  "en": "Employee Services Hub",
+  "ar": "مركز خدمات الموظفين",
+  "pen": "Connect employee questions to completed requests.",
+  "par": "اربط أسئلة الموظفين بطلبات منجزة.",
+  "sen": "Employees ask in everyday language; AI answers from policy and prepares HR or IT requests with live status.",
+  "sar": "يسأل الموظفون بلغتهم اليومية، فيجيب الذكاء الاصطناعي من السياسات ويجهّز طلبات الموارد البشرية وتقنية المعلومات."
+ },
+ {
+  "n": "12",
+  "slug": "12-recruitment",
+  "area": 4,
+  "en": "Recruitment & Hiring Intelligence",
+  "ar": "ذكاء التوظيف والاستقطاب",
+  "pen": "From application overload to a clear finalist comparison.",
+  "par": "من تكدّس الطلبات إلى مقارنة واضحة للمرشحين النهائيين.",
+  "sen": "Applications compared against job-related criteria with traceable evidence. HR selects; AI never decides.",
+  "sar": "مقارنة الطلبات بمعايير الوظيفة مع أدلة قابلة للتتبع. الموارد البشرية تختار، والذكاء الاصطناعي لا يقرر."
+ },
+ {
+  "n": "13",
+  "slug": "13-contract-intelligence",
+  "area": 5,
+  "en": "Contract & Obligation Intelligence",
+  "ar": "ذكاء العقود والالتزامات",
+  "pen": "Turn agreements into visible, owned commitments.",
+  "par": "حوّل الاتفاقيات إلى التزامات واضحة ومحددة المسؤول.",
+  "sen": "Clauses compared with approved positions; dates and commitments become assigned obligations with reminders.",
+  "sar": "مقارنة البنود بالمواقف المعتمدة، وتحويل التواريخ والتعهدات إلى التزامات مسندة مع تذكيرات."
+ },
+ {
+  "n": "14",
+  "slug": "14-finance-operations",
+  "area": 5,
+  "en": "Finance Operations Intelligence",
+  "ar": "ذكاء العمليات المالية",
+  "pen": "Resolve the discrepancies holding finance work up.",
+  "par": "عالج الفروقات التي تعطّل العمل المالي.",
+  "sen": "Invoices matched against orders and receipts; mismatches assembled into resolution cases for finance approval.",
+  "sar": "مطابقة الفواتير مع أوامر الشراء والاستلام، وتجميع الفروقات في حالات معالجة لاعتماد المالية."
+ },
+ {
+  "n": "15",
+  "slug": "15-procurement-intelligence",
+  "area": 5,
+  "en": "Procurement & Supplier Intelligence",
+  "ar": "ذكاء المشتريات والموردين",
+  "pen": "Make supplier decisions easier to explain and execute.",
+  "par": "اجعل قرارات الموردين أسهل في التبرير والتنفيذ.",
+  "sen": "Supplier submissions compared against tender criteria with evidence, gaps and clarification questions.",
+  "sar": "مقارنة عروض الموردين بمعايير المناقصة مع الأدلة والفجوات وأسئلة الاستيضاح."
+ },
+ {
+  "n": "16",
+  "slug": "16-order-exceptions",
+  "area": 5,
+  "en": "Order Fulfilment & Exception Intelligence",
+  "ar": "ذكاء تنفيذ الطلبات ومعالجة الاستثناءات",
+  "pen": "Keep accepted orders moving through the business.",
+  "par": "حافظ على تدفّق الطلبات المقبولة عبر المؤسسة.",
+  "sen": "Mismatched terms, stock and delivery constraints brought into one exception view with options to approve.",
+  "sar": "جمع تعارضات الشروط والمخزون وقيود التسليم في عرض استثناءات واحد مع خيارات للاعتماد."
+ },
+ {
+  "n": "17",
+  "slug": "17-demand-planning",
+  "area": 5,
+  "en": "Demand & Resource Planning",
+  "ar": "تخطيط الطلب والموارد",
+  "pen": "Turn changing demand into a feasible plan.",
+  "par": "حوّل الطلب المتغيّر إلى خطة قابلة للتنفيذ.",
+  "sen": "Forecast demand with uncertainty, compare plans against real capacity limits and explain the trade-offs.",
+  "sar": "توقّع الطلب مع هامش عدم اليقين، وقارن الخطط بحدود السعة الفعلية، واشرح المفاضلات."
+ },
+ {
+  "n": "18",
+  "slug": "18-visual-inspection",
+  "area": 6,
+  "en": "Visual Inspection & Quality Intelligence",
+  "ar": "ذكاء الفحص البصري والجودة",
+  "pen": "Turn observable defects into corrective work.",
+  "par": "حوّل العيوب الظاهرة إلى أعمال تصحيحية.",
+  "sen": "Vision models flag defined defects in site photos; accepted findings become owned corrective tasks.",
+  "sar": "تكشف نماذج الرؤية العيوب المحددة في صور المواقع، وتتحول الملاحظات المعتمدة إلى مهام تصحيحية."
+ },
+ {
+  "n": "19",
+  "slug": "19-field-service",
+  "area": 6,
+  "en": "Field Service Intelligence",
+  "ar": "ذكاء الخدمات الميدانية",
+  "pen": "Prepare the job. Support the team. Complete the record.",
+  "par": "جهّز المهمة، وادعم الفريق، وأكمل السجل.",
+  "sen": "Job briefs from asset history and manuals; voice notes turned into structured service reports.",
+  "sar": "ملخصات مهام من سجل الأصول والأدلة الفنية، وتحويل الملاحظات الصوتية إلى تقارير خدمة منظمة."
+ },
+ {
+  "n": "20",
+  "slug": "20-facility-intelligence",
+  "area": 6,
+  "en": "Workplace & Facility Intelligence",
+  "ar": "ذكاء بيئة العمل والمرافق",
+  "pen": "See the site issue. Connect the response. Check the result.",
+  "par": "اكتشف مشكلة الموقع، واربط الاستجابة، وتحقق من النتيجة.",
+  "sen": "Building signals, space records and service requests in one view; recurring issues explained and resolved.",
+  "sar": "إشارات المباني وسجلات المساحات وطلبات الخدمة في عرض واحد، مع تفسير المشكلات المتكررة ومعالجتها."
+ }
+]
