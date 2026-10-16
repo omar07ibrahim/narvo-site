@@ -116,5 +116,23 @@ window.NARVO_MEDIA = {
   "solution": "04",
   "poster": "media/case04-poster.jpg"
  },
+ "case18": {
+  "title": {
+   "en": "Site inspection — from a photo to a notice",
+   "ar": "التفتيش الميداني — من صورةٍ إلى إشعار"
+  },
+  "src": {
+   "en": "media/case18-en.mp4"
+  },
+  "dur": {
+   "en": 49
+  },
+  "blurb": {
+   "en": "A vision model marks each defect with its confidence, maps it to the building code — and the inspector decides.",
+   "ar": "نموذج الرؤية يحدّد كلَّ مخالفةٍ ودرجة الثقة، ويربطها بمادة الكود — والمفتّش يقرّر."
+  },
+  "solution": "18",
+  "poster": "media/case18-poster.jpg"
+ },
  "reel": "media/reel.mp4"
 };
