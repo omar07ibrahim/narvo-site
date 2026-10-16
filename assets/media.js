@@ -134,5 +134,23 @@ window.NARVO_MEDIA = {
   "solution": "18",
   "poster": "media/case18-poster.jpg"
  },
+ "case14": {
+  "title": {
+   "en": "Invoice exceptions — computed, not guessed",
+   "ar": "استثناءات الفواتير — محسوبةٌ لا مُخمَّنة"
+  },
+  "src": {
+   "en": "media/case14-en.mp4"
+  },
+  "dur": {
+   "en": 42
+  },
+  "blurb": {
+   "en": "Reads the scan, runs the 3-way match, computes the treatment and routes it to the right approver with a balanced journal.",
+   "ar": "يقرأ الفاتورة، ويطابقها ثلاثياً، ويحسب المعالجة، ويرسلها إلى المعتمِد الصحيح مع قيدٍ متوازن."
+  },
+  "solution": "14",
+  "poster": "media/case14-poster.jpg"
+ },
  "reel": "media/reel.mp4"
 };
