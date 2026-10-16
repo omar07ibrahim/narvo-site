@@ -84,10 +84,12 @@ window.NARVO_MEDIA = {
    "ar": "اسأل البيانات — أرقامٌ محسوبة"
   },
   "src": {
-   "ar": "media/case02-ar.mp4"
+   "ar": "media/case02-ar.mp4",
+   "en": "media/case02-en.mp4"
   },
   "dur": {
-   "ar": 38
+   "ar": 38,
+   "en": 34
   },
   "blurb": {
    "en": "Leadership asks in plain language; NARVO answers from the scorecard with numbers, a chart and sources.",
