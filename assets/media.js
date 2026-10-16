@@ -164,9 +164,11 @@ window.NARVO_MEDIA = {
    "ar": "عربي ⇄ إنجليزي، ملتزمٌ بمسردكم"
   },
   "src": {
+   "ar": "media/case06-ar.mp4",
    "en": "media/case06-en.mp4"
   },
   "dur": {
+   "ar": 42,
    "en": 39
   },
   "blurb": {
