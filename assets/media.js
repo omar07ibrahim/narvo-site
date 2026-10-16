@@ -152,5 +152,23 @@ window.NARVO_MEDIA = {
   "solution": "14",
   "poster": "media/case14-poster.jpg"
  },
+ "case06": {
+  "title": {
+   "en": "Arabic ⇄ English, bound to your glossary",
+   "ar": "عربي ⇄ إنجليزي، ملتزمٌ بمسردكم"
+  },
+  "src": {
+   "en": "media/case06-en.mp4"
+  },
+  "dur": {
+   "en": 39
+  },
+  "blurb": {
+   "en": "Translates on your servers segment by segment, checks numbers, dates and references — and a reviewer confirms.",
+   "ar": "يترجم على خوادمكم مقطعاً مقطعاً، ويدقّق الأرقام والتواريخ والمراجع — ويؤكّد المراجع."
+  },
+  "solution": "06",
+  "poster": "media/case06-poster.jpg"
+ },
  "reel": "media/reel.mp4"
 };
