@@ -539,7 +539,18 @@
     $("#playerLangs").innerHTML = ["ar", "en"].filter((x) => m.src[x]).map((x) => `<button type="button" data-l="${x}" aria-pressed="${x === chosen}">${t("player." + x)}</button>`).join("");
     if (!player.open) player.showModal();
     pv.play().catch(() => {});
+    if (phone && !document.fullscreenElement) landscape();
   }
+  // on a phone the film goes full screen and turns sideways (Android locks landscape; iOS uses its own player)
+  const phone = matchMedia("(pointer: coarse)").matches && Math.min(screen.width, screen.height) < 820;
+  function landscape() {
+    const fs = pv.requestFullscreen || pv.webkitRequestFullscreen;
+    try {
+      if (fs) Promise.resolve(fs.call(pv)).then(() => screen.orientation?.lock?.("landscape")).catch(() => {});
+      else if (pv.webkitEnterFullscreen) pv.webkitEnterFullscreen();
+    } catch {}
+  }
+  document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement) try { screen.orientation?.unlock?.(); } catch {} });
   const closePlayer = () => { pv.pause(); pv.removeAttribute("src"); pv.load(); if (player.open) player.close(); };
   document.addEventListener("click", (e) => {
     const b = e.target.closest("[data-video]"); if (!b) return;
