@@ -144,9 +144,11 @@ window.NARVO_MEDIA = {
    "ar": "استثناءات الفواتير — محسوبةٌ لا مُخمَّنة"
   },
   "src": {
+   "ar": "media/case14-ar.mp4",
    "en": "media/case14-en.mp4"
   },
   "dur": {
+   "ar": 47,
    "en": 42
   },
   "blurb": {
