@@ -20,35 +20,35 @@
     en: {
       "nav.platform": "Platform", "nav.solutions": "Solutions", "nav.films": "Films", "nav.pilot": "Pilot", "nav.about": "About", "nav.talk": "Contact", "nav.lang": "عربي",
       "cta.talk": "Talk to NARVO", "cta.film": "Watch the film", "cur.play": "Play",
-      "hero.found": "Emirati-founded. Abu Dhabi-based.", "hero.l1": "Technology you *control.*", "hero.l2": "Built around your *requirement.*",
+      "hero.found": "Emirati-founded. Abu Dhabi-based.", "hero.l1": "Technology you control.", "hero.l2": "Built around your requirement.",
       "hero.sub": "Private, Arabic-first AI that runs on your own servers. One core, twenty solutions, a person approving every action — and zero bytes leaving your organisation.",
       "hero.k1": "bytes leave your organisation", "hero.k2": "solutions on one private core", "hero.k3": "weeks from pilot to decision",
       "hero.backed": "Backed by the MBZUAI Incubation and Entrepreneurship Center",
       "film.kicker": "The film", "film.name": "NARVO — platform overview", "film.play": "Play with sound",
       "film.title": "Most AI asks you to send your data away. NARVO brings the AI to your data.",
-      "pr.kicker": "Private by design", "zr.t": "bytes leave *your organisation.*",
+      "pr.kicker": "Private by design", "zr.t": "bytes leave your organisation.",
       "zr.d": "Models, data and the audit trail stay on your servers or UAE sovereign cloud. Disconnect the internet, and everything keeps working.",
       "pr.1t": "On your servers", "pr.1d": "Open-weight models run on your own infrastructure or UAE sovereign cloud — not on foreign AI services. Disconnect the internet and everything keeps working.",
       "pr.2t": "Arabic-first", "pr.2d": "Modern Standard Arabic, Emirati dialect and English — in speech, scanned documents and conversation.",
       "pr.3t": "A person approves", "pr.3d": "The AI reads, checks and drafts. A named official approves every action that matters — nothing changes without a person.",
       "pr.4t": "Every action on record", "pr.4d": "Every model call, approval and action is written to an audit trail on your infrastructure. Numbers are computed from your data — never invented by the model.",
-      "st.kicker": "The architecture", "st.title": "Five layers, all under *your control.*",
+      "st.kicker": "The architecture", "st.title": "Five layers, all under your control.",
       "st.5": "Twenty solutions", "st.5d": "cases · customers · decisions · documents · operations · sites",
       "st.4": "The NARVO core", "st.4d": "agents · rules engine · retrieval · speech · governance · audit",
       "st.3": "Model runtime", "st.3d": "vLLM · OpenAI-compatible · on CPU or GPU",
       "st.2": "Open-weight models", "st.2d": "Qwen · Whisper · forecasting — weights you hold",
       "st.1": "Your hardware", "st.1d": "on-premises server · private cloud · UAE sovereign cloud",
-      "so.kicker": "Twenty solutions", "so.title": "Starting points, built around *your requirement.*",
+      "so.kicker": "Twenty solutions", "so.title": "Starting points, built around your requirement.",
       "so.lede": "We don't start from a product. We start from your requirement — and build, adapt or integrate around it.",
       "so.all": "All", "so.film": "Film", "so.watch": "Watch the film", "so.ask": "Discuss with the concierge",
       "area.1": "Enterprise", "area.2": "Documents", "area.3": "Customers", "area.4": "People", "area.5": "Operations", "area.6": "Sites & field",
-      "mq.kicker": "In the pilot stage", "mq.title": "Muqarrir — the AI meeting *rapporteur*",
+      "mq.kicker": "In the pilot stage", "mq.title": "Muqarrir — the AI meeting rapporteur",
       "mq.lede": "Built for a UAE government entity: it listens to the meeting live, in fuṣḥā, Emirati dialect and English — and the official minutes are ready before you leave the room.",
       "mq.b1": "Live transcript with speakers recognised", "mq.b2": "Numbered decisions and actions with owners and deadlines",
       "mq.b3": "Every decision linked to the original recording — click and listen", "mq.b4": "Approve, stamp and export in Arabic and English",
       "mq.b5": "Runs on your own GPU server — no internet, no cloud", "mq.cta": "Watch Muqarrir in action",
-      "cs.kicker": "Films", "cs.title": "Real systems, recorded on *real screens.*",
-      "pi.kicker": "The pilot programme", "pi.title": "A working pilot in weeks, *not quarters.*",
+      "cs.kicker": "Films", "cs.title": "Real systems, recorded on real screens.",
+      "pi.kicker": "The pilot programme", "pi.title": "A working pilot in weeks, not quarters.",
       "pi.lede": "One priority use case becomes a working AI system — built on your data, under your control. You see it work before you commit to anything larger.",
       "pi.s1t": "Before we start", "pi.s1": "Requirements session", "pi.s1d": "Agree the use case, success criteria, data access and deployment.",
       "pi.s2t": "Week 1", "pi.s2": "First working version", "pi.s2d": "We build, adapt or integrate a working system on your real or representative data.",
@@ -57,7 +57,7 @@
       "pk.2": "AI agents for operations", "pk.2d": "Case intake, approvals routing, customer requests, documenting legacy systems.",
       "pk.3": "Arabic-first document & knowledge AI", "pk.3d": "Policy Q&A, contract review, bilingual document processing.",
       "pk.4": "Predictive ML & decision intelligence", "pk.4d": "Demand forecasting, risk flags, operational performance briefs.",
-      "ab.kicker": "Who we are", "ab.title": "Emirati-founded. Abu Dhabi-based. Built with *MBZUAI engineers.*",
+      "ab.kicker": "Who we are", "ab.title": "Emirati-founded. Abu Dhabi-based. Built with MBZUAI engineers.",
       "ab.lede": "NARVO is an Emirati advanced-technology company in Masdar City, Abu Dhabi. We turn institutional requirements into working technology systems — keeping the solution path open and the delivery accountable.",
       "ab.founders": "Founders & leadership", "ab.advisors": "Strategic advisors",
       "ab.p1n": "Ahmed Alawlaqi", "ab.p2n": "Ali AlMehrzi", "ab.p3n": "Hamdan Bin Rakkad",
@@ -66,11 +66,11 @@
       "ab.a2n": "Daniel Searle", "ab.a2": "AI transformation & growth · €1bn+ total contract value",
       "ab.a3n": "Prof. Olivier Oullier", "ab.a3": "AI, innovation & strategy · 300+ publications",
       "ab.a4n": "Tom Hudson", "ab.a4": "Government & international markets · $20bn+ UAE deals",
-      "tk.kicker": "Start a conversation", "tk.title": "Start with *one priority.*",
+      "tk.kicker": "Start a conversation", "tk.title": "Start with one priority.",
       "tk.lede": "Talk to our AI concierge — describe your challenge and agree the next step. At the end, your summary goes to our team on WhatsApp in one tap.",
       "tk.privacy": "Voice conversations on this website run through our voice partner, ElevenLabs. NARVO deployments for clients run entirely on their own servers.",
       "tk.writeT": "Prefer to write?", "tk.writeD": "Fill this in — WhatsApp opens with your request already written. Just press send.", "tk.addr": "Masdar City, Abu Dhabi",
-      "f.name": "Full name", "f.org": "Organisation", "f.role": "Role", "f.email": "Work email (optional)", "f.need": "What would you like AI to do for your organisation?", "f.send": "Send on WhatsApp",
+      "f.name": "Full name", "f.org": "Organisation", "f.role": "Role", "f.need": "What would you like AI to do for your organisation?", "f.send": "Send on WhatsApp",
       "ft.tag": "Technology you control.", "ft.rights": "Masdar City, Abu Dhabi",
       "cg.name": "NARVO concierge", "cg.connecting": "Connecting…", "cg.listening": "Listening", "cg.speaking": "Speaking", "cg.ended": "Conversation ended",
       "cg.mute": "Mute", "cg.unmute": "Unmute", "cg.end": "End", "cg.finish": "Finish & send on WhatsApp", "cg.wa": "Send on WhatsApp",
@@ -79,6 +79,8 @@
       "cg.auto": "Opening WhatsApp in {n}…", "cg.stay": "Stay here",
       "cg.mic": "Microphone access is needed to talk. You can also write to us on WhatsApp.", "cg.error": "Couldn't connect. Please try again, or write to us on WhatsApp.",
       "player.ar": "العربية", "player.en": "English",
+      "pr.title": "Intelligence that stays where your data lives.", "film.langs": "Arabic · English", "so.discuss": "Discuss with the concierge", "cs.pilot": "In pilot", "cs.lede": "Each film is a real NARVO system at work, in under two minutes — in Arabic and in English.",
+      "tk.cta": "Talk to our AI concierge", "tk.ctaSub": "Arabic or English · about five minutes · no account needed", "f.email": "Work email",
       "wa.hello": "Hello NARVO 👋", "wa.agent": "I've just spoken with your AI concierge on narvo.ae.", "wa.form": "I'm writing from narvo.ae.",
       "wa.me": "About me", "wa.discussed": "What we discussed", "wa.need": "What I need", "wa.interest": "Solution", "wa.timeline": "Timeline",
       "wa.agreed": "What we agreed", "wa.questions": "Notes", "wa.said": "What I said", "wa.cont": "I'd like to continue here.", "wa.ref": "Ref.",
@@ -87,35 +89,35 @@
     ar: {
       "nav.platform": "المنصة", "nav.solutions": "الحلول", "nav.films": "الأفلام", "nav.pilot": "التجربة", "nav.about": "من نحن", "nav.talk": "تواصل", "nav.lang": "English",
       "cta.talk": "تحدّث مع نارفو", "cta.film": "شاهد الفيلم", "cur.play": "تشغيل",
-      "hero.found": "شركةٌ إماراتية، مقرّها أبوظبي.", "hero.l1": "تقنيةٌ تحت *سيطرتك.*", "hero.l2": "مبنيّةٌ حول *متطلباتك.*",
+      "hero.found": "شركةٌ إماراتية، مقرّها أبوظبي.", "hero.l1": "تقنيةٌ تحت سيطرتك.", "hero.l2": "مبنيّةٌ حول متطلباتك.",
       "hero.sub": "ذكاءٌ اصطناعي خاص، بالعربية أولاً، يعمل على خوادمكم. نواةٌ واحدة، وعشرون حلاً، وإنسانٌ يعتمد كل إجراء — وصفرُ بايت يغادر جهتكم.",
       "hero.k1": "بايت تغادر جهتكم", "hero.k2": "حلاً على نواةٍ خاصة واحدة", "hero.k3": "أسابيع من التجربة إلى القرار",
       "hero.backed": "بدعمٍ من مركز الاحتضان وريادة الأعمال في جامعة محمد بن زايد للذكاء الاصطناعي",
       "film.kicker": "الفيلم", "film.name": "نارفو — نظرة على المنصة", "film.play": "شاهد مع الصوت",
       "film.title": "معظمُ حلول الذكاء الاصطناعي تطلب منك أن ترسل بياناتك إليها. «نارفو» تأتي بالذكاء الاصطناعي إلى بياناتك.",
-      "pr.kicker": "الخصوصية في التصميم", "zr.t": "بايت يغادر *جهتكم.*",
+      "pr.kicker": "الخصوصية في التصميم", "zr.t": "بايت يغادر جهتكم.",
       "zr.d": "النماذج والبيانات وسجل التدقيق تبقى على خوادمكم أو على السحابة السيادية في الإمارات. افصلوا الإنترنت، ويستمر كل شيء بالعمل.",
       "pr.1t": "على خوادمكم", "pr.1d": "نماذج مفتوحة الأوزان تعمل على بنيتكم التحتية أو على السحابة السيادية في الإمارات — لا على خدمات ذكاء اصطناعي أجنبية. افصلوا الإنترنت، ويستمر كل شيء بالعمل.",
       "pr.2t": "العربية أولاً", "pr.2d": "الفصحى واللهجة الإماراتية والإنجليزية — في الكلام والوثائق الممسوحة والمحادثة.",
       "pr.3t": "الإنسان يعتمد", "pr.3d": "الذكاء الاصطناعي يقرأ ويدقق ويصوغ، والموظف المسؤول بالاسم يعتمد كل إجراءٍ مهم — لا يتغيّر شيءٌ دون إنسان.",
       "pr.4t": "كل إجراءٍ مسجّل", "pr.4d": "كل استدعاءٍ للنموذج وكل اعتمادٍ وكل إجراء يُسجَّل في سجل تدقيق على بنيتكم التحتية. والأرقام تُحسب من بياناتكم — لا يخترعها النموذج.",
-      "st.kicker": "البنية", "st.title": "خمس طبقات، كلّها *تحت سيطرتكم.*",
+      "st.kicker": "البنية", "st.title": "خمس طبقات، كلّها تحت سيطرتكم.",
       "st.5": "عشرون حلاً", "st.5d": "الحالات · المتعاملون · القرار · المستندات · العمليات · المواقع",
       "st.4": "نواة نارفو", "st.4d": "الوكلاء · محرك القواعد · الاسترجاع · الكلام · الحوكمة · التدقيق",
       "st.3": "تشغيل النماذج", "st.3d": "vLLM · متوافق مع OpenAI · على المعالج أو وحدة الرسوميات",
       "st.2": "نماذج مفتوحة الأوزان", "st.2d": "Qwen · Whisper · التنبؤ — أوزانٌ تملكونها",
       "st.1": "أجهزتكم", "st.1d": "خادم داخل الجهة · سحابة خاصة · سحابة سيادية إماراتية",
-      "so.kicker": "عشرون حلاً", "so.title": "نقاط انطلاق… تُبنى *حول متطلباتكم.*",
+      "so.kicker": "عشرون حلاً", "so.title": "نقاط انطلاق… تُبنى حول متطلباتكم.",
       "so.lede": "لا نبدأ من منتج، بل من متطلباتكم — ثم نبني أو نكيّف أو ندمج حولها.",
       "so.all": "الكل", "so.film": "فيلم", "so.watch": "شاهد الفيلم", "so.ask": "ناقشه مع المساعد الذكي",
       "area.1": "المؤسسة", "area.2": "المستندات", "area.3": "العملاء", "area.4": "الموظفون", "area.5": "العمليات", "area.6": "المواقع والميدان",
-      "mq.kicker": "في مرحلة التجربة", "mq.title": "مُقرِّر — مقرّر الاجتماعات *الذكي*",
+      "mq.kicker": "في مرحلة التجربة", "mq.title": "مُقرِّر — مقرّر الاجتماعات الذكي",
       "mq.lede": "صُمّم لجهةٍ حكومية في الإمارات: يستمع إلى الاجتماع مباشرةً بالفصحى واللهجة الإماراتية والإنجليزية — ويكون المحضر الرسمي جاهزاً قبل أن تغادر القاعة.",
       "mq.b1": "تفريغٌ مباشر مع تمييز المتحدثين", "mq.b2": "قراراتٌ مرقّمة وتكليفاتٌ بأسماء المسؤولين ومواعيدها",
       "mq.b3": "كل قرارٍ مرتبط بلحظته في التسجيل الأصلي — انقر واسمع", "mq.b4": "اعتمادٌ وختمٌ وتصدير بالعربية والإنجليزية",
       "mq.b5": "يعمل على خادم الجهة — لا إنترنت، لا سحابة", "mq.cta": "شاهد «مُقرِّر» أثناء العمل",
-      "cs.kicker": "الأفلام", "cs.title": "أنظمةٌ حقيقية، مسجّلة على *شاشاتٍ حقيقية.*",
-      "pi.kicker": "برنامج التجربة", "pi.title": "تجربةٌ عاملة خلال أسابيع، *لا أرباع سنة.*",
+      "cs.kicker": "الأفلام", "cs.title": "أنظمةٌ حقيقية، مسجّلة على شاشاتٍ حقيقية.",
+      "pi.kicker": "برنامج التجربة", "pi.title": "تجربةٌ عاملة خلال أسابيع، لا أرباع سنة.",
       "pi.lede": "أولويةٌ واحدة تتحول إلى نظام ذكاء اصطناعي عامل — على بياناتكم وتحت سيطرتكم. ترونه يعمل قبل أن تلتزموا بأي شيءٍ أكبر.",
       "pi.s1t": "قبل البدء", "pi.s1": "جلسة المتطلبات", "pi.s1d": "نتفق على حالة الاستخدام ومعايير النجاح والوصول إلى البيانات وطريقة النشر.",
       "pi.s2t": "الأسبوع الأول", "pi.s2": "أول نسخةٍ عاملة", "pi.s2d": "نبني أو نكيّف أو ندمج نظاماً عاملاً على بياناتكم الحقيقية أو التمثيلية.",
@@ -124,18 +126,18 @@
       "pk.2": "وكلاء ذكيون للعمليات", "pk.2d": "استقبال الحالات، وتوجيه الاعتمادات، وطلبات المتعاملين، وتوثيق الأنظمة القديمة.",
       "pk.3": "ذكاء المستندات والمعرفة بالعربية أولاً", "pk.3d": "أسئلة السياسات، ومراجعة العقود، ومعالجة المستندات ثنائية اللغة.",
       "pk.4": "التعلم التنبؤي وذكاء القرار", "pk.4d": "التنبؤ بالطلب، وإشارات المخاطر، وموجزات الأداء التشغيلي.",
-      "ab.kicker": "من نحن", "ab.title": "شركةٌ إماراتية في أبوظبي، بمهندسين من *جامعة محمد بن زايد للذكاء الاصطناعي.*",
+      "ab.kicker": "من نحن", "ab.title": "شركةٌ إماراتية في أبوظبي، بمهندسين من جامعة محمد بن زايد للذكاء الاصطناعي.",
       "ab.lede": "«نارفو» شركة إماراتية للتقنيات المتقدمة في مدينة مصدر بأبوظبي. نحوّل متطلبات المؤسسات إلى أنظمةٍ تقنية عاملة — مع إبقاء خيارات الحلول مفتوحة وتحمّل مسؤولية التنفيذ.",
       "ab.founders": "المؤسسون والقيادة", "ab.advisors": "المستشارون الاستراتيجيون",
       "ab.p1": "شريكٌ مؤسس والرئيس التنفيذي", "ab.p2": "شريكٌ مؤسس · العمليات التجارية", "ab.p3": "شريكٌ مؤسس · الأسواق الاستراتيجية والعلاقات",
       "ab.a1n": "د. محمد اللوغاني", "ab.a1": "الذكاء الاصطناعي التطبيقي وأنظمته · أول إماراتي يحصل على دكتوراه في الذكاء الاصطناعي",
       "ab.a2": "التحول بالذكاء الاصطناعي والنمو · عقودٌ تتجاوز مليار يورو", "ab.a3n": "البروفيسور أوليفييه أولييه", "ab.a3": "الذكاء الاصطناعي والابتكار والاستراتيجية · أكثر من 300 منشور",
       "ab.a4": "الحكومة والأسواق الدولية · صفقات في الإمارات تتجاوز 20 مليار دولار",
-      "tk.kicker": "ابدأ المحادثة", "tk.title": "ابدأ *بأولويةٍ واحدة.*",
+      "tk.kicker": "ابدأ المحادثة", "tk.title": "ابدأ بأولويةٍ واحدة.",
       "tk.lede": "تحدّث مع مساعدنا الذكي — صِف التحدي واتفق على الخطوة التالية. وفي النهاية يصل ملخّصك إلى فريقنا عبر واتساب بضغطةٍ واحدة.",
       "tk.privacy": "تتم المحادثات الصوتية على هذا الموقع عبر شريكنا الصوتي ElevenLabs. أما حلول نارفو لدى العملاء فتعمل بالكامل على خوادمهم.",
       "tk.writeT": "تفضّل الكتابة؟", "tk.writeD": "املأ هذه الحقول — يفتح واتساب وطلبك مكتوبٌ وجاهز. اضغط إرسال فقط.", "tk.addr": "مدينة مصدر، أبوظبي",
-      "f.name": "الاسم الكامل", "f.org": "الجهة", "f.role": "المسمّى الوظيفي", "f.email": "البريد الإلكتروني (اختياري)", "f.need": "ما الذي تودّ أن يقوم به الذكاء الاصطناعي في جهتك؟", "f.send": "إرسال عبر واتساب",
+      "f.name": "الاسم الكامل", "f.org": "الجهة", "f.role": "المسمّى الوظيفي", "f.need": "ما الذي تودّ أن يقوم به الذكاء الاصطناعي في جهتك؟", "f.send": "إرسال عبر واتساب",
       "ft.tag": "تقنيةٌ تحت سيطرتك.", "ft.rights": "مدينة مصدر، أبوظبي",
       "cg.name": "مساعد نارفو الذكي", "cg.connecting": "جارٍ الاتصال…", "cg.listening": "أستمع إليك", "cg.speaking": "يتحدث", "cg.ended": "انتهت المحادثة",
       "cg.mute": "كتم", "cg.unmute": "إلغاء الكتم", "cg.end": "إنهاء", "cg.finish": "إنهاء وإرسال عبر واتساب", "cg.wa": "إرسال عبر واتساب",
@@ -144,6 +146,8 @@
       "cg.auto": "سيُفتح واتساب خلال {n}…", "cg.stay": "البقاء هنا",
       "cg.mic": "يلزم الإذن باستخدام الميكروفون للتحدث. ويمكنك أيضاً مراسلتنا عبر واتساب.", "cg.error": "تعذّر الاتصال. حاول مجدداً، أو راسلنا عبر واتساب.",
       "player.ar": "العربية", "player.en": "English",
+      "pr.title": "ذكاءٌ يبقى حيث تعيش بياناتكم.", "film.langs": "العربية · الإنجليزية", "so.discuss": "ناقشه مع المساعد الذكي", "cs.pilot": "في التجربة", "cs.lede": "كل فيلم نظامُ نارفو حقيقيٌّ أثناء العمل، في أقل من دقيقتين — بالعربية وبالإنجليزية.",
+      "tk.cta": "تحدّث مع مساعدنا الذكي", "tk.ctaSub": "بالعربية أو الإنجليزية · نحو خمس دقائق · دون تسجيل", "f.email": "البريد الإلكتروني للعمل",
       "wa.hello": "مرحباً نارفو 👋", "wa.agent": "تحدّثتُ للتو مع المساعد الذكي على موقع narvo.ae.", "wa.form": "أكتب إليكم من موقع narvo.ae.",
       "wa.me": "بياناتي", "wa.discussed": "ما ناقشناه", "wa.need": "ما أحتاجه", "wa.interest": "الحل", "wa.timeline": "الإطار الزمني",
       "wa.agreed": "ما اتفقنا عليه", "wa.questions": "ملاحظات", "wa.said": "ما قلته", "wa.cont": "وأودّ المتابعة هنا.", "wa.ref": "المرجع",
@@ -159,18 +163,10 @@
   const tl = (l, k) => T[l][k] ?? T.en[k] ?? k;
   const t = (k) => tl(lang, k);
 
-  // words rise one by one; *marked words* are set as accents
+  // the words of a heading rise one after another
   function split(el) {
     const words = el.textContent.trim().split(/\s+/);
-    let em = false;
-    el.innerHTML = words.map((w, i) => {
-      const open = w.startsWith("*"), close = w.endsWith("*");
-      w = w.replace(/^\*|\*$/g, "");
-      if (open) em = true;
-      const html = `<span class="w"><span style="--i:${i}">${em ? `<em>${esc(w)}</em>` : esc(w)}</span></span>`;
-      if (close) em = false;
-      return html;
-    }).join(" ");
+    el.innerHTML = words.map((w, i) => `<span class="w"><span style="--i:${i}">${esc(w)}</span></span>`).join(" ");
   }
   function applyLang() {
     const root = document.documentElement;
@@ -183,52 +179,124 @@
     renderSolutions();
     renderFilms();
     renderDurations();
+    observe();
     try { localStorage.setItem("narvo-lang", lang); } catch {}
   }
   $("#langBtn").addEventListener("click", () => { lang = lang === "ar" ? "en" : "ar"; applyLang(); });
 
   /* ------------------------------------------------------------------ header, menu, floating talk */
-  const menu = $("#menu"), menuBtn = $("#menuBtn");
-  const setMenu = (open) => { menu.hidden = !open; menuBtn.setAttribute("aria-expanded", String(open)); document.body.style.overflow = open ? "hidden" : ""; };
+  const menu = $("#menu"), menuBtn = $("#menuBtn"), hd = $("#hd");
+  const setMenu = (open) => { menu.hidden = !open; menuBtn.setAttribute("aria-expanded", String(open)); hd.classList.toggle("menu-open", open); document.body.style.overflow = open ? "hidden" : ""; };
   menuBtn.addEventListener("click", () => setMenu(menu.hidden));
-  menu.addEventListener("click", (e) => { if (e.target.closest("a")) setMenu(false); });
-  const floatTalk = $(".float-talk"), hd = $("#hd");
-  let lastY = scrollY;
+  menu.addEventListener("click", (e) => { if (e.target.closest("a, .talk-open")) setMenu(false); });
+  const floatTalk = $(".float-talk");
+  const chapters = $$("main > section");
   const onScroll = () => {
-    const y = scrollY;
-    // the header steps away while reading down, and returns on the way up
-    if (Math.abs(y - lastY) > 6) { hd.classList.toggle("away", y > lastY && y > innerHeight * 0.6 && menu.hidden); lastY = y; }
+    hd.classList.toggle("solid", scrollY > 24);
+    // the header takes the colour of the chapter beneath it
+    let theme = "dark";
+    for (const s of chapters) { const r = s.getBoundingClientRect(); if (r.top <= 36 && r.bottom > 36) { theme = s.classList.contains("dark") ? "dark" : "paper"; break; } }
+    if (hd.dataset.theme !== theme) hd.dataset.theme = theme;
     const talkTop = $("#talk").getBoundingClientRect().top;
-    floatTalk.classList.toggle("show", scrollY > innerHeight * 0.85 && talkTop > innerHeight * 0.4);
+    floatTalk.classList.toggle("show", scrollY > innerHeight * 0.85 && talkTop > innerHeight * 0.5);
     stackProgress();
   };
   addEventListener("scroll", onScroll, { passive: true });
 
-  /* ------------------------------------------------------------------ reveals */
-  const io = new IntersectionObserver((entries) => {
-    for (const e of entries) {
-      if (!e.isIntersecting) continue;
-      e.target.classList.add("in");
-      io.unobserve(e.target);
-      if (e.target.id === "zeroDigits") countdown(e.target);
-    }
-  }, { rootMargin: "0px 0px -8% 0px", threshold: 0.12 });
-  function observe(root = document) {
-    $$(".reveal", root).forEach((el) => {
-      const sibs = [...el.parentElement.children].filter((x) => x.classList.contains("reveal"));
-      el.style.setProperty("--d", `${Math.min(sibs.indexOf(el), 5) * 0.07}s`);
-      io.observe(el);
-    });
-    $$("[data-split], .ft-word, #zeroDigits, .mask", root).forEach((el) => io.observe(el));
+  /* ------------------------------------------------------------------ reveals: a block appears once a fair part of it is on screen */
+  const onSee = (entries, obs) => { for (const e of entries) { if (!e.isIntersecting) continue; e.target.classList.add("in"); obs.unobserve(e.target); } };
+  const io = new IntersectionObserver(onSee, { rootMargin: "0px 0px -12% 0px", threshold: 0.2 });
+  const ioTall = new IntersectionObserver(onSee, { rootMargin: "0px 0px -6% 0px", threshold: 0.02 });
+  // a tall block (a grid, the stack) only needs its top on screen; a short one waits for a fifth of itself
+  function watch(el) {
+    if (el.classList.contains("in")) return;
+    io.unobserve(el); ioTall.unobserve(el);
+    (el.getBoundingClientRect().height > innerHeight * 0.55 ? ioTall : io).observe(el);
   }
-  // the zero counts down from nine as it arrives
-  function countdown(el) {
-    if (reduced) return;
-    let n = 9;
-    el.textContent = "9";
-    const id = setInterval(() => { n -= 1; el.textContent = String(n); if (n <= 0) clearInterval(id); }, 95);
+  function observe(root = document) {
+    $$(".reveal, [data-split], #stackSvg", root).forEach((el) => {
+      if (el.classList.contains("reveal") && !el.style.getPropertyValue("--d")) {
+        const sibs = [...el.parentElement.children].filter((x) => x.classList.contains("reveal"));
+        el.style.setProperty("--d", `${Math.min(sibs.indexOf(el), 7) * 0.06}s`);
+      }
+      watch(el);
+    });
   }
 
+  /* ------------------------------------------------------------------ the twenty solutions: a grid, and a sheet with the detail */
+  let SOL = [], area = 0;
+  fetch("assets/solutions.json").then((r) => r.json()).then((d) => { SOL = d; renderSolutions(); }).catch(() => {});
+  const caseFor = (n) => Object.entries(MEDIA).find(([, m]) => m.solution === n)?.[0];
+  const play = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>`;
+  const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
+  const durOf = (m) => m.dur?.[lang] || m.dur?.ar || m.dur?.en || 0;
+  const posterOf = (key, m, cls = "poster poster-sm play", chip = "") => `<button class="${cls}" type="button" data-video="${key}" aria-label="${esc(m.title[lang] || m.title.en)}">
+      <img src="${m.poster}" alt="" loading="lazy"><span class="play-big" aria-hidden="true">${play}</span>${chip ? `<span class="chip">${chip}</span>` : ""}
+      <span class="poster-meta"><b>${esc(m.title[lang] || m.title.en)}</b><span><span class="dur">${durOf(m) ? fmt(durOf(m)) : ""}</span></span></span>
+    </button>`;
+  function renderSolutions() {
+    const grid = $("#soGrid"), bar = $("#filters");
+    if (!grid || !SOL.length) return;
+    const count = (a) => (a ? SOL.filter((s) => s.area === a).length : SOL.length);
+    bar.innerHTML = [0, 1, 2, 3, 4, 5, 6].map((a) => `<button role="tab" type="button" aria-selected="${a === area}" data-area="${a}">${a ? t("area." + a) : t("so.all")}<sup>${count(a)}</sup></button>`).join("");
+    const ar = lang === "ar";
+    grid.innerHTML = (area ? SOL.filter((s) => s.area === area) : SOL).map((s) => {
+      const key = caseFor(s.n);
+      return `<button class="cell" type="button" data-sol="${s.n}">
+        <span class="top"><i>${s.n}</i><span>${t("area." + s.area)}</span>${key ? `<span class="tag">${play}${t("so.film")}</span>` : ""}</span>
+        <span class="body"><b>${esc(ar ? s.ar : s.en)}</b><span>${esc(ar ? s.par : s.pen)}</span></span>
+        <span class="go" aria-hidden="true">→</span>
+      </button>`;
+    }).join("");
+    watch(grid);
+  }
+  $("#filters").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; area = Number(b.dataset.area); renderSolutions(); });
+  const solSheet = $("#sheet");
+  function openSheet(n) {
+    const s = SOL.find((x) => x.n === n); if (!s) return;
+    const key = caseFor(n), m = key && MEDIA[key], ar = lang === "ar";
+    $("#sheetIn").innerHTML = `
+      <p class="label"><i>${s.n}</i><span>${t("area." + s.area)}</span></p>
+      <h3>${esc(ar ? s.ar : s.en)}</h3>
+      <p class="pitch">${esc(ar ? s.par : s.pen)}</p>
+      <p class="desc">${esc(ar ? s.sar : s.sen)}</p>
+      ${m ? posterOf(key, m) : ""}
+      <div class="acts"><button class="pill pill-ink talk-open" type="button" data-topic="${s.n} ${esc(s.en)}"><i class="live"></i><span>${t("so.discuss")}</span></button>${m ? `<button class="pill pill-line play" type="button" data-video="${key}"><svg class="ico" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg><span>${t("so.watch")}</span></button>` : ""}</div>`;
+    $("#sheetIn").scrollTop = 0;
+    if (!solSheet.open) solSheet.showModal();
+    requestAnimationFrame(() => requestAnimationFrame(() => solSheet.classList.add("on")));
+  }
+  function closeSheet(now = false) {
+    if (!solSheet.open) return;
+    solSheet.classList.remove("on");
+    if (now) solSheet.close(); else setTimeout(() => { if (solSheet.open) solSheet.close(); }, 450);
+  }
+  $("#soGrid").addEventListener("click", (e) => { const c = e.target.closest(".cell"); if (c) openSheet(c.dataset.sol); });
+  $("#sheetClose").addEventListener("click", () => closeSheet());
+  solSheet.addEventListener("click", (e) => { if (e.target === solSheet) closeSheet(); });
+  solSheet.addEventListener("cancel", (e) => { e.preventDefault(); closeSheet(); });
+
+  /* ------------------------------------------------------------------ the films: a grid of posters */
+  function renderFilms() {
+    const grid = $("#filmsGrid"); if (!grid) return;
+    const order = ["muqarrir", ...Object.keys(MEDIA).filter((k) => MEDIA[k].solution).sort((a, b) => MEDIA[a].solution.localeCompare(MEDIA[b].solution))];
+    const list = order.filter((k) => MEDIA[k] && MEDIA[k].src);
+    $("#films").hidden = !list.length;
+    grid.innerHTML = list.map((key) => {
+      const m = MEDIA[key], d = durOf(m);
+      const chip = key === "muqarrir" ? t("cs.pilot") : m.solution || "";
+      return `<article class="fcard reveal">
+        ${posterOf(key, m, "poster poster-sm play", chip)}
+        <div class="fmeta"><b>${esc(m.title[lang] || m.title.en)}</b>
+          <span class="line"><span class="dur">${d ? fmt(d) : ""}</span>${["ar", "en"].filter((x) => m.src[x]).map((x) => `<button type="button" data-video="${key}" data-l="${x}">${t("player." + x)}</button>`).join("")}</span>
+        </div>
+      </article>`;
+    }).join("");
+    observe(grid);
+  }
+  function renderDurations() {
+    $$("[data-dur]").forEach((el) => { const m = MEDIA[el.dataset.dur]; const d = m && durOf(m); el.textContent = d ? fmt(d) : ""; });
+  }
   /* ------------------------------------------------------------------ the ribbon: a ruled surface drawn in hairlines */
   function ribbon(canvas, cfg) {
     if (!canvas) return;
@@ -414,33 +482,6 @@
     : { lines: 130, x0: -0.15, x1: 1.2, y0: 0.66, y1: 0.0, bow: 0.06, w: 0.13, twist: 1.2, alpha: 0.42, lw: 0.6, fade: () => 1 - clamp(scrollY / (heroEl.offsetHeight * 0.9), 0, 1) * 0.7 });
   ribbon($("#talkRibbon"), (W, H) => ({ lines: W >= 860 ? 180 : 110, x0: -0.08, x1: 1.08, y0: 0.95, y1: 0.18, bow: -0.04, w: W >= 860 ? 0.16 : 0.1, twist: 1.1, alpha: 0.32, lw: 0.6 }));
 
-  /* ------------------------------------------------------------------ the film: a silent reel in the frame, sound in the player */
-  (function reel() {
-    const v = $("#reel");
-    const save = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ""));
-    if (!v || !MEDIA.reel || save || reduced) return;
-    let loaded = false;
-    new IntersectionObserver(([e]) => {
-      if (e.isIntersecting) {
-        if (!loaded) { loaded = true; v.src = MEDIA.reel; v.addEventListener("playing", () => v.classList.add("on"), { once: true }); }
-        v.play().catch(() => {});
-      } else v.pause();
-    }, { threshold: 0.25 }).observe(v);
-  })();
-
-  /* the play cursor over films */
-  const cursor = $("#cursor");
-  if (fine && cursor) {
-    let cx = -200, cy = -200, x = -200, y = -200, on = false, ticking = false;
-    const loop = () => { x += (cx - x) * 0.22; y += (cy - y) * 0.22; cursor.style.transform = `translate3d(${x}px,${y}px,0)`; if (Math.abs(cx - x) + Math.abs(cy - y) > 0.3 || on) requestAnimationFrame(loop); else ticking = false; };
-    addEventListener("pointermove", (e) => {
-      cx = e.clientX; cy = e.clientY;
-      const over = !!e.target.closest?.("[data-cursor]");
-      if (over !== on) { on = over; cursor.classList.toggle("on", on); }
-      if (!ticking) { ticking = true; if (!on) { x = cx; y = cy; } requestAnimationFrame(loop); }
-    }, { passive: true });
-  }
-
   /* ------------------------------------------------------------------ the stack separates as you scroll through it */
   const svg = $("#stackSvg"), stackEl = $("#stack");
   const NS = "http://www.w3.org/2000/svg";
@@ -473,86 +514,6 @@
     li.addEventListener("click", () => lightPlate(li.dataset.l));
   });
   $("#layers").addEventListener("pointerleave", () => lightPlate(null));
-
-  /* ------------------------------------------------------------------ the twenty solutions, as an index */
-  let SOL = [], area = 0;
-  const openRows = new Set();
-  fetch("assets/solutions.json").then((r) => r.json()).then((d) => { SOL = d; renderSolutions(); }).catch(() => {});
-  const caseFor = (n) => Object.entries(MEDIA).find(([, m]) => m.solution === n)?.[0];
-  const play = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>`;
-  function renderSolutions() {
-    const list = $("#soList"), bar = $("#filters");
-    if (!list || !SOL.length) return;
-    const count = (a) => (a ? SOL.filter((s) => s.area === a).length : SOL.length);
-    bar.innerHTML = [0, 1, 2, 3, 4, 5, 6].map((a) => `<button role="tab" type="button" aria-selected="${a === area}" data-area="${a}">${a ? t("area." + a) : t("so.all")}<sup>${count(a)}</sup></button>`).join("");
-    list.innerHTML = SOL.map((s) => {
-      const key = caseFor(s.n), open = openRows.has(s.n);
-      const ar = lang === "ar";
-      return `<li class="${area && s.area !== area ? "dim" : ""}${open ? " open" : ""}" data-n="${s.n}"${key ? ` data-key="${key}"` : ""}>
-        <button class="row-h" type="button" aria-expanded="${open}">
-          <span class="n">${s.n}</span>
-          <span class="t">${esc(ar ? s.ar : s.en)}${key ? `<span class="tag-film">${play}${t("so.film")}</span>` : ""}</span>
-          <span class="g">${esc(ar ? s.par : s.pen)}</span>
-          <span class="a">${t("area." + s.area)}</span>
-          <span class="pl" aria-hidden="true"></span>
-        </button>
-        <div class="row-b"><div><div class="in">
-          <p class="body">${esc(ar ? s.sar : s.sen)}</p>
-          <div class="acts">${key ? `<button class="pill pill-ink" type="button" data-video="${key}">${play}<span>${t("so.watch")}</span></button>` : ""}<button class="pill pill-line talk-open" type="button" data-topic="${s.n} ${esc(s.en)}"><span>${t("so.ask")}</span></button></div>
-        </div></div></div>
-      </li>`;
-    }).join("");
-  }
-  $("#filters").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; area = Number(b.dataset.area); renderSolutions(); });
-  $("#soList").addEventListener("click", (e) => {
-    const h = e.target.closest(".row-h"); if (!h) return;
-    const li = h.parentElement, n = li.dataset.n;
-    const open = !li.classList.contains("open");
-    li.classList.toggle("open", open); h.setAttribute("aria-expanded", String(open));
-    if (open) openRows.add(n); else openRows.delete(n);
-  });
-  // a still from the film floats beside the row
-  const peek = $("#peek");
-  if (fine && peek) {
-    let shown = null;
-    $("#soList").addEventListener("pointermove", (e) => {
-      const li = e.target.closest("li[data-key]");
-      const key = li && !li.classList.contains("open") ? li.dataset.key : null;
-      if (key !== shown) {
-        shown = key;
-        if (key) { $("img", peek).src = MEDIA[key].poster; $("span", peek).textContent = `▶ ${t("so.film")} · ${fmt(MEDIA[key].dur?.[lang] || MEDIA[key].dur?.ar || MEDIA[key].dur?.en || 0)}`; }
-        peek.classList.toggle("on", !!key);
-      }
-      if (key) peek.style.transform = `translate3d(${e.clientX + (lang === "ar" ? -344 : 24)}px, ${e.clientY - 200}px, 0)`;
-    });
-    $("#soList").addEventListener("pointerleave", () => { shown = null; peek.classList.remove("on"); });
-  }
-
-  /* ------------------------------------------------------------------ films */
-  const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
-  function renderFilms() {
-    const strip = $("#strip"); if (!strip) return;
-    const order = ["overview", "muqarrir", ...Object.keys(MEDIA).filter((k) => MEDIA[k].solution).sort((a, b) => MEDIA[a].solution.localeCompare(MEDIA[b].solution))];
-    const list = order.filter((k) => MEDIA[k] && MEDIA[k].src);
-    $("#films").hidden = !list.length;
-    strip.innerHTML = list.map((key, i) => {
-      const m = MEDIA[key];
-      const d = m.dur?.[lang] || m.dur?.ar || m.dur?.en;
-      return `<article class="card">
-        <button class="thumb mask" type="button" data-video="${key}" data-cursor="film" aria-label="${esc(m.title[lang] || m.title.en)}"><img src="${m.poster}" alt="" loading="lazy"><span class="pl">${play}</span>${d ? `<span class="chip">${fmt(d)}</span>` : ""}</button>
-        <div class="meta"><i>${m.solution || String(i + 1).padStart(2, "0")}</i><b>${esc(m.title[lang] || m.title.en)}</b></div>
-        ${m.blurb ? `<p>${esc(m.blurb[lang] || m.blurb.en)}</p>` : ""}
-        <div class="langs">${["ar", "en"].filter((x) => m.src[x]).map((x) => `<button type="button" data-video="${key}" data-l="${x}">${t("player." + x)}</button>`).join("")}</div>
-      </article>`;
-    }).join("");
-    observe(strip);
-  }
-  const stripStep = (dir) => { const s = $("#strip"), c = $(".card", s); if (!c) return; const w = c.getBoundingClientRect().width + 24; s.scrollBy({ left: dir * w * (document.documentElement.dir === "rtl" ? -1 : 1), behavior: "smooth" }); };
-  $("#stripPrev").addEventListener("click", () => stripStep(-1));
-  $("#stripNext").addEventListener("click", () => stripStep(1));
-  function renderDurations() {
-    $$("[data-dur]").forEach((el) => { const m = MEDIA[el.dataset.dur]; const d = m && (m.dur?.[lang] || m.dur?.ar || m.dur?.en); el.textContent = d ? fmt(d) : ""; });
-  }
 
   /* ------------------------------------------------------------------ the player */
   const player = $("#player"), pv = $("#playerVideo");
@@ -746,7 +707,7 @@
   }
   document.addEventListener("click", (e) => {
     const b = e.target.closest(".talk-open"); if (!b) return;
-    e.preventDefault(); openConcierge({ lang: b.dataset.lang, topic: b.dataset.topic });
+    e.preventDefault(); closeSheet(true); openConcierge({ lang: b.dataset.lang, topic: b.dataset.topic });
   });
   $$(".cg-choices button").forEach((b) => b.addEventListener("click", () => begin(b.dataset.lang)));
   $("#cgEnd").addEventListener("click", () => endTalk(false));
@@ -807,76 +768,29 @@
   // ?debug exposes the live conversation for rehearsals (text turns instead of a microphone)
   if (new URLSearchParams(location.search).has("debug")) window.NARVO_DEBUG = { get conv() { return conv; }, get lead() { return lead; }, waMessage };
 
-  /* ------------------------------------------------------------------ the opening: the wordmark draws, then the page */
+  /* ------------------------------------------------------------------ the opening: the wordmark draws, then the page rises */
   (function intro() {
     const el = $("#intro");
     if (!document.body.classList.contains("loading")) { el.remove(); return; }
     try { sessionStorage.setItem("narvo-intro", "1"); } catch {}
     const go = () => {
       el.classList.add("draw");
-      setTimeout(() => { el.classList.add("off"); document.body.classList.remove("loading"); }, 1500);
-      setTimeout(() => el.remove(), 2800);
+      setTimeout(() => { el.classList.add("off"); document.body.classList.remove("loading"); }, 1150);
+      setTimeout(() => el.remove(), 2200);
     };
     (document.fonts?.ready || Promise.resolve()).then(go, go);
   })();
 
-  /* the rail: which chapter you are in, and how far along */
-  const rail = $("#rail"), railN = $("#railN"), railT = $("#railT"), railDot = $("#railDot");
-  const CH = ["hero", "film", "platform", "solutions", "films", "pilot", "about", "talk"];
-  const chName = { film: "film.kicker", platform: "nav.platform", solutions: "nav.solutions", films: "nav.films", pilot: "nav.pilot", about: "nav.about", talk: "nav.talk" };
-  let chNow = "";
-  function railUpdate() {
-    if (!rail) return;
-    const mid = innerHeight * 0.45;
-    let cur = "hero";
-    for (const s of $$("[data-ch]")) { if (s.getBoundingClientRect().top <= mid) cur = s.dataset.ch; }
-    if (cur !== chNow) {
-      chNow = cur;
-      railN.textContent = String(CH.indexOf(cur) + 1).padStart(2, "0");
-      railT.textContent = cur === "hero" ? "NARVO" : t(chName[cur]);
-    }
-    const p = clamp(scrollY / Math.max(1, document.documentElement.scrollHeight - innerHeight), 0, 1);
-    railDot.style.top = `${(p * 100).toFixed(2)}%`;
-  }
-  addEventListener("scroll", railUpdate, { passive: true });
-
-  /* buttons lean toward the pointer */
-  if (fine) {
-    $$(".pill, .hd-talk, .voice-btn, .strip-nav button, .cg-choices button").forEach((b) => {
-      b.addEventListener("pointermove", (e) => {
-        const r = b.getBoundingClientRect();
-        b.style.translate = `${((e.clientX - r.left) / r.width - 0.5) * 10}px ${((e.clientY - r.top) / r.height - 0.5) * 8}px`;
-      });
-      b.addEventListener("pointerleave", () => { b.style.translate = ""; });
-    });
-  }
-
-  /* a small dot follows the pointer and opens over anything you can press */
-  const dot = $("#dot");
-  if (fine && dot) {
-    let dx = -100, dy = -100, x = -100, y = -100, raf = 0;
-    const step = () => { x += (dx - x) * 0.3; y += (dy - y) * 0.3; dot.style.transform = `translate3d(${x}px,${y}px,0)`; if (Math.abs(dx - x) + Math.abs(dy - y) > 0.2) raf = requestAnimationFrame(step); else raf = 0; };
-    addEventListener("pointermove", (e) => {
-      dx = e.clientX; dy = e.clientY;
-      dot.classList.toggle("big", !!e.target.closest?.("a, button, [role=button], input, textarea, label"));
-      dot.classList.toggle("off", !!e.target.closest?.("[data-cursor]"));
-      if (!raf) raf = requestAnimationFrame(step);
-    }, { passive: true });
-    addEventListener("pointerleave", () => { dx = -100; dy = -100; });
-  }
-
   /* the hero figures count up once the page is open */
-  function countUp(el, to, ms = 1400) {
+  function countUp(el, to, ms = 1200) {
     if (reduced || !to) { el.textContent = String(to); return; }
     const t0 = performance.now();
     const step = (now) => { const k = Math.min(1, (now - t0) / ms); el.textContent = String(Math.round(to * (1 - Math.pow(1 - k, 4)))); if (k < 1) requestAnimationFrame(step); };
     requestAnimationFrame(step);
   }
-  setTimeout(() => $$(".hero-foot b").forEach((b) => countUp(b, Number(b.textContent))), document.body.classList.contains("loading") ? 2200 : 600);
+  setTimeout(() => $$(".hero-foot b").forEach((b) => countUp(b, Number(b.textContent))), document.body.classList.contains("loading") ? 1900 : 500);
 
   /* ------------------------------------------------------------------ go */
   applyLang();
-  observe();
   onScroll();
-  railUpdate();
 })();
