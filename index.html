@@ -8,9 +8,18 @@
 <meta name="theme-color" content="#0b0f13">
 <meta property="og:title" content="NARVO — Technology you control">
 <meta property="og:description" content="Private, Arabic-first AI on your own servers. Emirati-founded in Abu Dhabi.">
-<meta property="og:image" content="media/og.jpg">
+<!-- link previews need absolute addresses: change the host here when the domain is connected -->
+<meta property="og:url" content="https://omar07ibrahim.github.io/narvo-site/">
+<meta property="og:site_name" content="NARVO">
+<meta property="og:image" content="https://omar07ibrahim.github.io/narvo-site/media/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="NARVO — Technology you control. Built around your requirement.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="ar_AE">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://omar07ibrahim.github.io/narvo-site/media/og.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,18 +69,18 @@
 <section class="ch dark hero" id="hero">
   <canvas class="ribbon" id="heroRibbon" aria-hidden="true"></canvas>
   <div class="wrap hero-in">
-    <p class="label reveal"><span data-i18n="hero.found">Emirati-founded. Abu Dhabi-based.</span></p>
+    <p class="label reveal" style="--d:.05s"><span data-i18n="hero.found">Emirati-founded. Abu Dhabi-based.</span></p>
     <h1 class="hero-t">
-      <span class="l1" data-i18n="hero.l1" data-split>Technology you control.</span>
-      <span class="l2" data-i18n="hero.l2" data-split>Built around your requirement.</span>
+      <span class="l1" data-i18n="hero.l1" data-split style="--d:.1s">Technology you control.</span>
+      <span class="l2" data-i18n="hero.l2" data-split style="--d:.28s">Built around your requirement.</span>
     </h1>
-    <p class="hero-sub reveal" data-i18n="hero.sub">Private, Arabic-first AI that runs on your own servers. One core, twenty solutions, a person approving every action — and zero bytes leaving your organisation.</p>
-    <div class="hero-cta reveal">
+    <p class="hero-sub reveal" style="--d:.55s" data-i18n="hero.sub">Private, Arabic-first AI that runs on your own servers. One core, twenty solutions, a person approving every action — and zero bytes leaving your organisation.</p>
+    <div class="hero-cta reveal" style="--d:.7s">
       <button class="pill pill-paper talk-open" type="button"><i class="live"></i><span data-i18n="cta.talk">Talk to NARVO</span></button>
       <button class="pill pill-line play" type="button" data-video="overview"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-i18n="cta.film">Watch the film</span><span class="dur" data-dur="overview"></span></button>
     </div>
   </div>
-  <div class="wrap hero-foot reveal">
+  <div class="wrap hero-foot reveal" style="--d:.9s">
     <div><b>0</b><span data-i18n="hero.k1">bytes leave your organisation</span></div>
     <div><b>20</b><span data-i18n="hero.k2">solutions on one private core</span></div>
     <div><b>4</b><span data-i18n="hero.k3">weeks from pilot to decision</span></div>
@@ -87,7 +96,7 @@
       <h2 class="sec-t" data-i18n="film.title" data-split>Most AI asks you to send your data away. NARVO brings the AI to your data.</h2>
     </div>
     <button class="poster reveal play" type="button" data-video="overview">
-      <img src="media/overview-poster.jpg" alt="">
+      <img src="media/overview-poster-en.jpg" data-poster="overview" alt="" decoding="async">
       <span class="play-big" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg></span>
       <span class="poster-meta"><b data-i18n="film.name">NARVO — platform overview</b><span><span class="dur" data-dur="overview"></span><span class="sep">·</span><span data-i18n="film.langs">Arabic · English</span></span></span>
     </button>
@@ -114,9 +123,12 @@
 <!-- ============================== 03 the architecture -->
 <section class="ch paper2 arch" id="stack">
   <div class="wrap">
-    <div class="sec-head">
-      <p class="label reveal"><i>03</i><span data-i18n="st.kicker">The architecture</span></p>
-      <h2 class="sec-t" data-i18n="st.title" data-split>Five layers, all under your control.</h2>
+    <div class="sec-head split">
+      <div>
+        <p class="label reveal"><i>03</i><span data-i18n="st.kicker">The architecture</span></p>
+        <h2 class="sec-t" data-i18n="st.title" data-split>Five layers, all under your control.</h2>
+      </div>
+      <p class="lede reveal" data-i18n="st.lede">From the hardware up to the twenty solutions, every layer runs inside your organisation — none of it depends on an outside AI service.</p>
     </div>
     <div class="arch-grid">
       <div class="iso-wrap" aria-hidden="true"><svg class="stack-svg" id="stackSvg" viewBox="0 0 640 560"></svg></div>
@@ -143,12 +155,12 @@
     </div>
     <div class="tabs reveal" id="filters" role="tablist"></div>
     <div class="sol-grid reveal" id="soGrid"></div>
+    <button class="pill pill-line so-more" id="soMore" type="button" hidden><span>Show all 20 solutions</span><span class="so-more-i" aria-hidden="true">↓</span></button>
   </div>
 </section>
 
 <!-- ============================== 05 muqarrir -->
 <section class="ch dark mq" id="muqarrir">
-  <div class="mq-word" aria-hidden="true">مُقرِّر</div>
   <div class="wrap mq-grid">
     <div class="mq-copy">
       <p class="label reveal"><i>05</i><span data-i18n="mq.kicker">In the pilot stage</span></p>
@@ -163,7 +175,7 @@
       </ol>
     </div>
     <button class="poster poster-sm reveal play" type="button" data-video="muqarrir">
-      <img src="media/muqarrir-poster.jpg" alt="" loading="lazy">
+      <img src="media/muqarrir-poster-en.jpg" data-poster="muqarrir" alt="" loading="lazy" decoding="async">
       <span class="play-big" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg></span>
       <span class="poster-meta"><b>مُقرِّر · Muqarrir</b><span><span class="dur" data-dur="muqarrir"></span><span class="sep">·</span><span data-i18n="film.langs">Arabic · English</span></span></span>
     </button>
@@ -338,9 +350,15 @@
       <a class="pill pill-wa" id="cgWaBtn" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg><span data-i18n="cg.wa">Send on WhatsApp</span></a>
       <p class="cg-count" id="cgCount" role="status"></p>
     </div>
+    <div class="cg-after" id="cgAfter" hidden>
+      <p id="cgAfterT"></p>
+      <div class="cg-after-acts">
+        <button class="pill pill-paper" type="button" id="cgAgain"><span data-i18n="cg.again">Try again</span></button>
+        <button class="pill pill-line" type="button" id="cgWrite"><span data-i18n="cg.write">Write instead</span></button>
+      </div>
+    </div>
     <div class="cg-bar">
-      <button class="pill pill-line" type="button" id="cgMute"><span data-i18n="cg.mute">Mute</span></button>
-      <button class="pill pill-wa-line" type="button" id="cgFinish"><span data-i18n="cg.finish">Finish & send on WhatsApp</span></button>
+      <button class="pill pill-line" type="button" id="cgMute" aria-pressed="false"><svg class="mic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a3 3 0 0 0-3 3V12a3 3 0 0 0 6 0V6.5a3 3 0 0 0-3-3zM6 11.5a6 6 0 0 0 12 0M12 17.5V21"/><path class="slash" d="M4.5 4.5l15 15"/></svg><span data-i18n="cg.mute">Mute</span></button>
       <button class="pill pill-paper" type="button" id="cgEnd"><span data-i18n="cg.end">End</span></button>
     </div>
   </div>
