@@ -73,13 +73,14 @@
       "f.name": "Full name", "f.org": "Organisation", "f.role": "Role", "f.need": "What would you like AI to do for your organisation?", "f.send": "Send on WhatsApp",
       "ft.tag": "Technology you control.", "ft.rights": "Masdar City, Abu Dhabi",
       "cg.name": "NARVO concierge", "cg.connecting": "Connecting…", "cg.listening": "Listening", "cg.speaking": "Speaking", "cg.ended": "Conversation ended",
-      "cg.mute": "Mute", "cg.unmute": "Unmute", "cg.end": "End", "cg.finish": "Finish & send on WhatsApp", "cg.wa": "Send on WhatsApp",
+      "cg.mute": "Mute", "cg.unmute": "Unmute", "cg.end": "End", "cg.wa": "Send on WhatsApp",
       "cg.waReady": "Your summary is ready", "cg.waFallback": "Continue on WhatsApp", "cg.saved": "Summary ready — tap the green button",
-      "cg.finishMsg": "I'd like to finish now and send my request to the team on WhatsApp.",
       "cg.auto": "Opening WhatsApp in {n}…", "cg.stay": "Stay here",
-      "cg.mic": "Microphone access is needed to talk. You can also write to us on WhatsApp.", "cg.error": "Couldn't connect. Please try again, or write to us on WhatsApp.",
+      "cg.mic": "To talk, allow the microphone in your browser and try again — or write to us instead.", "cg.error": "Couldn't connect. Please try again — or write to us instead.",
+      "cg.dropped": "The conversation ended before the summary.", "cg.again": "Try again", "cg.write": "Write instead",
       "player.ar": "العربية", "player.en": "English",
-      "pr.title": "Intelligence that stays where your data lives.", "film.langs": "Arabic · English", "so.discuss": "Discuss with the concierge", "cs.pilot": "In pilot", "cs.lede": "Each film is a real NARVO system at work, in under two minutes — in Arabic and in English.",
+      "pr.title": "Intelligence that stays where your data lives.", "film.langs": "Arabic · English", "so.discuss": "Discuss with the concierge", "cs.pilot": "In pilot", "cs.lede": "Short films of real NARVO systems at work, recorded on their own screens — each in Arabic and in English.",
+      "st.lede": "From the hardware up to the twenty solutions, every layer runs inside your organisation — none of it depends on an outside AI service.", "so.more": "Show all {n} solutions",
       "tk.cta": "Talk to our AI concierge", "tk.ctaSub": "Arabic or English · about five minutes · no account needed", "f.email": "Work email",
       "wa.hello": "Hello NARVO 👋", "wa.agent": "I've just spoken with your AI concierge on narvo.ae.", "wa.form": "I'm writing from narvo.ae.",
       "wa.me": "About me", "wa.discussed": "What we discussed", "wa.need": "What I need", "wa.interest": "Solution", "wa.timeline": "Timeline",
@@ -140,13 +141,14 @@
       "f.name": "الاسم الكامل", "f.org": "الجهة", "f.role": "المسمّى الوظيفي", "f.need": "ما الذي تودّ أن يقوم به الذكاء الاصطناعي في جهتك؟", "f.send": "إرسال عبر واتساب",
       "ft.tag": "تقنيةٌ تحت سيطرتك.", "ft.rights": "مدينة مصدر، أبوظبي",
       "cg.name": "مساعد نارفو الذكي", "cg.connecting": "جارٍ الاتصال…", "cg.listening": "أستمع إليك", "cg.speaking": "يتحدث", "cg.ended": "انتهت المحادثة",
-      "cg.mute": "كتم", "cg.unmute": "إلغاء الكتم", "cg.end": "إنهاء", "cg.finish": "إنهاء وإرسال عبر واتساب", "cg.wa": "إرسال عبر واتساب",
+      "cg.mute": "كتم", "cg.unmute": "إلغاء الكتم", "cg.end": "إنهاء", "cg.wa": "إرسال عبر واتساب",
       "cg.waReady": "ملخّصك جاهز", "cg.waFallback": "تابع عبر واتساب", "cg.saved": "الملخّص جاهز — اضغط الزر الأخضر",
-      "cg.finishMsg": "أودّ إنهاء المحادثة الآن وإرسال طلبي إلى الفريق عبر واتساب.",
       "cg.auto": "سيُفتح واتساب خلال {n}…", "cg.stay": "البقاء هنا",
-      "cg.mic": "يلزم الإذن باستخدام الميكروفون للتحدث. ويمكنك أيضاً مراسلتنا عبر واتساب.", "cg.error": "تعذّر الاتصال. حاول مجدداً، أو راسلنا عبر واتساب.",
+      "cg.mic": "للتحدث، اسمح باستخدام الميكروفون في المتصفح وحاول مجدداً — أو اكتب لنا بدلاً من ذلك.", "cg.error": "تعذّر الاتصال. حاول مجدداً — أو اكتب لنا بدلاً من ذلك.",
+      "cg.dropped": "انتهت المحادثة قبل إعداد الملخّص.", "cg.again": "حاول مجدداً", "cg.write": "اكتب لنا",
       "player.ar": "العربية", "player.en": "English",
-      "pr.title": "ذكاءٌ يبقى حيث تعيش بياناتكم.", "film.langs": "العربية · الإنجليزية", "so.discuss": "ناقشه مع المساعد الذكي", "cs.pilot": "في التجربة", "cs.lede": "كل فيلم نظامُ نارفو حقيقيٌّ أثناء العمل، في أقل من دقيقتين — بالعربية وبالإنجليزية.",
+      "pr.title": "ذكاءٌ يبقى حيث تعيش بياناتكم.", "film.langs": "العربية · الإنجليزية", "so.discuss": "ناقشه مع المساعد الذكي", "cs.pilot": "في التجربة", "cs.lede": "أفلامٌ قصيرة لأنظمة نارفو حقيقية أثناء العمل، مسجّلة على شاشاتها — كلٌّ منها بالعربية وبالإنجليزية.",
+      "st.lede": "من الأجهزة وحتى الحلول العشرين، تعمل كل طبقةٍ داخل جهتكم — دون الاعتماد على أي خدمة ذكاء اصطناعي خارجية.", "so.more": "عرض جميع الحلول ({n})",
       "tk.cta": "تحدّث مع مساعدنا الذكي", "tk.ctaSub": "بالعربية أو الإنجليزية · نحو خمس دقائق · دون تسجيل", "f.email": "البريد الإلكتروني للعمل",
       "wa.hello": "مرحباً نارفو 👋", "wa.agent": "تحدّثتُ للتو مع المساعد الذكي على موقع narvo.ae.", "wa.form": "أكتب إليكم من موقع narvo.ae.",
       "wa.me": "بياناتي", "wa.discussed": "ما ناقشناه", "wa.need": "ما أحتاجه", "wa.interest": "الحل", "wa.timeline": "الإطار الزمني",
@@ -176,6 +178,8 @@
     $$("[data-split]").forEach(split);
     document.title = lang === "ar" ? "نارفو — تقنيةٌ تحت سيطرتك" : "NARVO — Technology you control";
     $("#waDirect").href = waUrl(t("wa.direct"));
+    // each film has a poster per language: the system's own screen in that language
+    $$("img[data-poster]").forEach((im) => { const m = MEDIA[im.dataset.poster]; const src = m && posterSrc(m); if (src && im.getAttribute("src") !== src) im.src = src; });
     renderSolutions();
     renderFilms();
     renderDurations();
@@ -191,27 +195,32 @@
   menu.addEventListener("click", (e) => { if (e.target.closest("a, .talk-open")) setMenu(false); });
   const floatTalk = $(".float-talk");
   const chapters = $$("main > section");
+  // the theme of the chapter at a given height of the screen
+  const themeAt = (y) => { for (const s of chapters) { const r = s.getBoundingClientRect(); if (r.top <= y && r.bottom > y) return s.classList.contains("dark") ? "dark" : "paper"; } return "dark"; };
   const onScroll = () => {
     hd.classList.toggle("solid", scrollY > 24);
-    // the header takes the colour of the chapter beneath it
-    let theme = "dark";
-    for (const s of chapters) { const r = s.getBoundingClientRect(); if (r.top <= 36 && r.bottom > 36) { theme = s.classList.contains("dark") ? "dark" : "paper"; break; } }
+    // the header takes the colour of the chapter beneath it, and so does the floating button
+    const theme = themeAt(36);
     if (hd.dataset.theme !== theme) hd.dataset.theme = theme;
+    const below = themeAt(innerHeight - 40);
+    if (floatTalk.dataset.theme !== below) floatTalk.dataset.theme = below;
     const talkTop = $("#talk").getBoundingClientRect().top;
     floatTalk.classList.toggle("show", scrollY > innerHeight * 0.85 && talkTop > innerHeight * 0.5);
     stackProgress();
   };
   addEventListener("scroll", onScroll, { passive: true });
 
-  /* ------------------------------------------------------------------ reveals: a block appears once a fair part of it is on screen */
-  const onSee = (entries, obs) => { for (const e of entries) { if (!e.isIntersecting) continue; e.target.classList.add("in"); obs.unobserve(e.target); } };
-  const io = new IntersectionObserver(onSee, { rootMargin: "0px 0px -12% 0px", threshold: 0.2 });
-  const ioTall = new IntersectionObserver(onSee, { rootMargin: "0px 0px -6% 0px", threshold: 0.02 });
-  // a tall block (a grid, the stack) only needs its top on screen; a short one waits for a fifth of itself
+  /* ------------------------------------------------------------------ reveals */
+  // A block rises as soon as its top passes the lower edge of the screen, so nothing on screen is ever still waiting.
+  // The first screen does not wait for scrolling at all: it plays as one sequence when the page opens.
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) { if (!e.isIntersecting) continue; e.target.classList.add("in"); io.unobserve(e.target); }
+  }, { rootMargin: "0px 0px -4% 0px", threshold: 0 });
   function watch(el) {
     if (el.classList.contains("in")) return;
-    io.unobserve(el); ioTall.unobserve(el);
-    (el.getBoundingClientRect().height > innerHeight * 0.55 ? ioTall : io).observe(el);
+    // two frames later, so the browser has painted the start of the transition
+    if (el.closest("#hero")) { requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add("in"))); return; }
+    io.unobserve(el); io.observe(el);
   }
   function observe(root = document) {
     $$(".reveal, [data-split], #stackSvg", root).forEach((el) => {
@@ -224,14 +233,18 @@
   }
 
   /* ------------------------------------------------------------------ the twenty solutions: a grid, and a sheet with the detail */
-  let SOL = [], area = 0;
+  let SOL = [], area = 0, allShown = false;
   fetch("assets/solutions.json").then((r) => r.json()).then((d) => { SOL = d; renderSolutions(); }).catch(() => {});
+  // on a phone the full index is a long list: the first six, then the rest on request
+  const narrow = matchMedia("(max-width: 860px)");
+  narrow.addEventListener?.("change", () => renderSolutions());
   const caseFor = (n) => Object.entries(MEDIA).find(([, m]) => m.solution === n)?.[0];
   const play = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>`;
   const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
   const durOf = (m) => m.dur?.[lang] || m.dur?.ar || m.dur?.en || 0;
+  function posterSrc(m) { return typeof m.poster === "string" ? m.poster : m.poster?.[lang] || m.poster?.ar || m.poster?.en || ""; }
   const posterOf = (key, m, cls = "poster poster-sm play", chip = "") => `<button class="${cls}" type="button" data-video="${key}" aria-label="${esc(m.title[lang] || m.title.en)}">
-      <img src="${m.poster}" alt="" loading="lazy"><span class="play-big" aria-hidden="true">${play}</span>${chip ? `<span class="chip">${chip}</span>` : ""}
+      <img src="${posterSrc(m)}" alt="" loading="lazy" decoding="async"><span class="play-big" aria-hidden="true">${play}</span>${chip ? `<span class="chip">${chip}</span>` : ""}
       <span class="poster-meta"><b>${esc(m.title[lang] || m.title.en)}</b><span><span class="dur">${durOf(m) ? fmt(durOf(m)) : ""}</span></span></span>
     </button>`;
   function renderSolutions() {
@@ -240,7 +253,9 @@
     const count = (a) => (a ? SOL.filter((s) => s.area === a).length : SOL.length);
     bar.innerHTML = [0, 1, 2, 3, 4, 5, 6].map((a) => `<button role="tab" type="button" aria-selected="${a === area}" data-area="${a}">${a ? t("area." + a) : t("so.all")}<sup>${count(a)}</sup></button>`).join("");
     const ar = lang === "ar";
-    grid.innerHTML = (area ? SOL.filter((s) => s.area === area) : SOL).map((s) => {
+    const list = area ? SOL.filter((s) => s.area === area) : SOL;
+    const cut = !area && !allShown && narrow.matches ? 6 : list.length;
+    grid.innerHTML = list.slice(0, cut).map((s) => {
       const key = caseFor(s.n);
       return `<button class="cell" type="button" data-sol="${s.n}">
         <span class="top"><i>${s.n}</i><span>${t("area." + s.area)}</span>${key ? `<span class="tag">${play}${t("so.film")}</span>` : ""}</span>
@@ -248,9 +263,13 @@
         <span class="go" aria-hidden="true">→</span>
       </button>`;
     }).join("");
+    const more = $("#soMore");
+    more.hidden = cut >= list.length;
+    more.querySelector("span").textContent = t("so.more").replace("{n}", list.length);
     watch(grid);
   }
   $("#filters").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; area = Number(b.dataset.area); renderSolutions(); });
+  $("#soMore").addEventListener("click", () => { allShown = true; renderSolutions(); });
   const solSheet = $("#sheet");
   function openSheet(n) {
     const s = SOL.find((x) => x.n === n); if (!s) return;
@@ -461,11 +480,14 @@
       const asp = W / Math.max(1, H), wide = asp > 1.05, rtl = document.documentElement.dir === "rtl";
       gl.uniform1f(U.uT, reduced ? 6 : tt);
       gl.uniform1f(U.uAsp, asp);
-      gl.uniform1f(U.uScale, wide ? 0.8 : 0.46);
+      // a tablet held upright has a tall sky above the title: the ribbon grows to fill it
+      const tab = !wide && W >= 700;
+      gl.uniform1f(U.uScale, wide ? 0.86 : tab ? 0.64 : 0.46);
       gl.uniform1f(U.uScroll, sc);
       gl.uniform1f(U.uMirror, rtl ? -1 : 1);
       gl.uniform1f(U.uRot, wide ? 0 : (rtl ? 1 : -1) * 1.05);
-      gl.uniform2f(U.uOff, wide ? (rtl ? -1 : 1) * Math.min(0.95, (asp - 1) * 0.85 + 0.25) : (rtl ? 0.1 : -0.1), wide ? -0.02 : 0.8 + sc * 0.1);
+      // on a wide screen the ribbon stands beside the title, its twist inside the frame
+      gl.uniform2f(U.uOff, wide ? (rtl ? -1 : 1) * Math.min(0.95, (asp - 1) * 0.5 + 0.16) : (rtl ? 0.1 : -0.1), wide ? -0.02 : (tab ? 0.6 : 0.86) + sc * 0.1);
       gl.uniform2f(U.uPtr, ptr[0], ptr[1]);
       gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
       gl.drawElements(gl.TRIANGLES, idx.length, gl.UNSIGNED_SHORT, 0);
@@ -480,7 +502,6 @@
   if (!sheet($("#heroRibbon"))) ribbon($("#heroRibbon"), (W, H) => W >= 860
     ? { lines: 210, x0: 0.3, x1: 1.12, y0: 1.12, y1: -0.08, bow: 0.1, w: 0.2, twist: 1.35, alpha: 0.5, lw: 0.7, fade: () => 1 - clamp(scrollY / (heroEl.offsetHeight * 0.9), 0, 1) * 0.7 }
     : { lines: 130, x0: -0.15, x1: 1.2, y0: 0.66, y1: 0.0, bow: 0.06, w: 0.13, twist: 1.2, alpha: 0.42, lw: 0.6, fade: () => 1 - clamp(scrollY / (heroEl.offsetHeight * 0.9), 0, 1) * 0.7 });
-  ribbon($("#talkRibbon"), (W, H) => ({ lines: W >= 860 ? 180 : 110, x0: -0.08, x1: 1.08, y0: 0.95, y1: 0.18, bow: -0.04, w: W >= 860 ? 0.16 : 0.1, twist: 1.1, alpha: 0.32, lw: 0.6 }));
 
   /* ------------------------------------------------------------------ the stack separates as you scroll through it */
   const svg = $("#stackSvg"), stackEl = $("#stack");
@@ -522,7 +543,7 @@
     const m = MEDIA[key]; if (!m || !m.src) return;
     const chosen = m.src[l] ? l : m.src.ar ? "ar" : "en";
     current = key;
-    pv.poster = m.poster || "";
+    pv.poster = posterSrc(m);
     pv.src = m.src[chosen];
     $("#playerTitle").textContent = m.title[lang] || m.title.en;
     $("#playerLangs").innerHTML = ["ar", "en"].filter((x) => m.src[x]).map((x) => `<button type="button" data-l="${x}" aria-pressed="${x === chosen}">${t("player." + x)}</button>`).join("");
@@ -571,7 +592,9 @@
     sec(k("wa.discussed"), d.summary, "💬");
     sec(k("wa.need"), d.use_case, "🎯");
     if (d.interest || d.timeline) out.push("");
-    if (d.interest) out.push(`🧩 *${k("wa.interest")}:* ${d.interest}`);
+    // solution names never carry brackets: anything in brackets is the model talking to itself
+    const interest = String(d.interest || "").replace(/\s*[(（][^)）]*[)）]/g, "").trim();
+    if (interest) out.push(`🧩 *${k("wa.interest")}:* ${interest}`);
     if (d.timeline) out.push(`🗓️ *${k("wa.timeline")}:* ${d.timeline}`);
     sec(k("wa.agreed"), d.agreed, "✅");
     sec(k("wa.questions"), d.notes, "📝");
@@ -586,8 +609,17 @@
   }
 
   /* ------------------------------------------------------------------ the voice concierge */
-  const cg = $("#cg"), cgPick = $("#cgPick"), cgTalk = $("#cgTalk"), cgLog = $("#cgLog"), cgStatus = $("#cgStatus"), cgWa = $("#cgWa");
-  let conv = null, cl = lang, muted = false, lead = null, mine = [], topic = null, sdk = null, wave = null, live = false;
+  // WhatsApp appears only at the end: when the agent has written the summary, or (as a fallback) after a call
+  // that ended before it. While the visitor talks, the bar holds nothing but Mute and End.
+  const cg = $("#cg"), cgPick = $("#cgPick"), cgTalk = $("#cgTalk"), cgLog = $("#cgLog"), cgStatus = $("#cgStatus"), cgWa = $("#cgWa"), cgAfter = $("#cgAfter");
+  let conv = null, cl = lang, muted = false, lead = null, mine = [], topic = null, sdk = null, wave = null, live = false, leaving = false, session = 0;
+  const setState = (s) => { cg.dataset.state = s; };
+  // nothing to summarise: say why, and offer to try again or to write instead
+  function after(k) {
+    $("#cgAfterT").textContent = tc(k);
+    cgAfter.hidden = false;
+    setState("ended");
+  }
   const tc = (k) => tl(cl, k);
   const loadSdk = () => sdk || (sdk = new Promise((res, rej) => {
     if (window.ElevenLabsClient) return res(window.ElevenLabsClient);
@@ -633,24 +665,27 @@
   function openConcierge(opts = {}) {
     topic = opts.topic || null;
     stopAuto(null); speaking = false; saidBye = false;
-    lead = null; mine = []; cgLog.innerHTML = ""; cgWa.hidden = true; muted = false;
+    lead = null; mine = []; cgLog.innerHTML = ""; cgWa.hidden = true; cgAfter.hidden = true; muted = false;
     cg.hidden = false; document.body.style.overflow = "hidden";
     loadSdk().catch(() => {});
     if (opts.lang) begin(opts.lang);
-    else { cgPick.hidden = false; cgTalk.hidden = true; cg.lang = lang; cg.dir = lang === "ar" ? "rtl" : "ltr"; cl = lang; localise(); setStatus(null); }
+    else { setState("pick"); cgPick.hidden = false; cgTalk.hidden = true; cg.lang = lang; cg.dir = lang === "ar" ? "rtl" : "ltr"; cl = lang; localise(); setStatus(null); }
   }
   function localise() {
     $$("[data-i18n]", cg).forEach((el) => { el.textContent = tc(el.dataset.i18n); });
   }
   async function begin(l) {
+    const my = ++session;
     cl = l; cg.lang = l; cg.dir = l === "ar" ? "rtl" : "ltr";
-    cgPick.hidden = true; cgTalk.hidden = false; localise();
-    $("#cgMute span").textContent = tc("cg.mute");
+    cgPick.hidden = true; cgTalk.hidden = false; cgAfter.hidden = true; localise();
+    setState("connecting");
+    $("#cgMute span").textContent = tc("cg.mute"); $("#cgMute").setAttribute("aria-pressed", "false");
     setStatus("cg.connecting");
     wave?.stop(); wave = drawWave($("#cgWave"));
     try {
       await navigator.mediaDevices.getUserMedia({ audio: true }).then((s) => s.getTracks().forEach((x) => x.stop()));
-    } catch { setStatus(null); say(tc("cg.mic"), "sys"); showWa(waFallback(cl, []), true); return; }
+    } catch { if (my === session) { setStatus(null); after("cg.mic"); } return; }
+    if (my !== session) return;
     try {
       const { Conversation } = await loadSdk();
       const opts = (connectionType) => ({
@@ -668,11 +703,14 @@
             return JSON.stringify({ ok: true, reference, whatsapp_button_shown: true, whatsapp_opens_automatically_after_goodbye: true });
           },
         },
-        onConnect: () => { live = true; setStatus("cg.listening"); if (topic) setTimeout(() => conv?.sendContextualUpdate?.(`The visitor opened this conversation from solution ${topic} on the website.`), 400); },
+        onConnect: () => { live = true; setState("live"); setStatus("cg.listening"); if (topic) setTimeout(() => conv?.sendContextualUpdate?.(`The visitor opened this conversation from solution ${topic} on the website.`), 400); },
         onDisconnect: () => {
-          live = false; conv = null; speaking = false; setStatus("cg.ended");
+          if (my !== session) return;
+          live = false; conv = null; speaking = false; setStatus("cg.ended"); setState("ended");
           if (lead) armAuto();
-          else if (mine.length) showWa(waFallback(cl, mine), true);
+          // the call ended before the summary: offer what the visitor said, if they said enough to continue from
+          else if (mine.length >= 2) showWa(waFallback(cl, mine), true);
+          else if (!leaving) after("cg.dropped");
         },
         onError: () => { setStatus("cg.error"); },
         onModeChange: ({ mode }) => {
@@ -692,18 +730,24 @@
         },
       });
       // WebRTC first (best on phones); plain WebSocket if a network blocks it
-      conv = await Conversation.startSession(opts("webrtc")).catch(() => Conversation.startSession(opts("websocket")));
+      const c = await Conversation.startSession(opts("webrtc")).catch(() => Conversation.startSession(opts("websocket")));
+      // closed while it was connecting: hang up at once
+      if (my !== session) { c.endSession().catch(() => {}); return; }
+      conv = c;
     } catch (e) {
-      setStatus("cg.error"); console.error(e);
-      showWa(waFallback(cl, mine), true);
+      console.error(e);
+      if (my !== session) return;
+      setStatus(null);
+      if (mine.length >= 2) { setState("ended"); showWa(waFallback(cl, mine), true); } else after("cg.error");
     }
   }
+  function hideCg() { session++; stopAuto(null); wave?.stop(); wave = null; cg.hidden = true; document.body.style.overflow = ""; }
   async function endTalk(close) {
-    const c = conv; conv = null;
+    const c = conv; conv = null; leaving = true;
     try { await c?.endSession(); } catch {}
-    if (close || cgWa.hidden) {
-      wave?.stop(); wave = null; cg.hidden = true; document.body.style.overflow = "";
-    }
+    leaving = false;
+    // keep the screen open while it holds something to act on: the summary, or the way forward
+    if (close || (cgWa.hidden && cgAfter.hidden)) hideCg();
   }
   document.addEventListener("click", (e) => {
     const b = e.target.closest(".talk-open"); if (!b) return;
@@ -712,18 +756,20 @@
   $$(".cg-choices button").forEach((b) => b.addEventListener("click", () => begin(b.dataset.lang)));
   $("#cgEnd").addEventListener("click", () => endTalk(false));
   $("#cgClose").addEventListener("click", () => endTalk(true));
-  $("#cgMute").addEventListener("click", () => { if (!conv) return; muted = !muted; conv.setMicMuted(muted); $("#cgMute span").textContent = tc(muted ? "cg.unmute" : "cg.mute"); });
-  $("#cgFinish").addEventListener("click", () => {
-    if (lead) { $("#cgWaBtn").click(); return; }
-    if (conv && live) {
-      // the agent hears it as the visitor's wish and closes: details, read-back, then the summary
-      conv.sendUserMessage?.(tc("cg.finishMsg"));
-      say(tc("cg.finishMsg"), "me");
-      return;
-    }
-    const text = waFallback(cl, mine);
-    showWa(text, true);
-    window.open(waUrl(text), "_blank", "noopener");
+  $("#cgMute").addEventListener("click", () => {
+    if (!conv) return;
+    muted = !muted; conv.setMicMuted(muted);
+    $("#cgMute span").textContent = tc(muted ? "cg.unmute" : "cg.mute");
+    $("#cgMute").setAttribute("aria-pressed", String(muted));
+  });
+  $("#cgAgain").addEventListener("click", () => openConcierge({ lang: cl, topic }));
+  $("#cgWrite").addEventListener("click", async () => {
+    await endTalk(true);
+    // the form speaks the language of the conversation the visitor chose
+    if (cl !== lang) { lang = cl; applyLang(); }
+    const f = $("#leadForm");
+    f.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
+    if (fine) setTimeout(() => f.querySelector("input[name=name]")?.focus({ preventScroll: true }), 700);
   });
   addEventListener("keydown", (e) => { if (e.key === "Escape" && !cg.hidden) endTalk(true); });
 
@@ -788,7 +834,9 @@
     const step = (now) => { const k = Math.min(1, (now - t0) / ms); el.textContent = String(Math.round(to * (1 - Math.pow(1 - k, 4)))); if (k < 1) requestAnimationFrame(step); };
     requestAnimationFrame(step);
   }
-  setTimeout(() => $$(".hero-foot b").forEach((b) => countUp(b, Number(b.textContent))), document.body.classList.contains("loading") ? 1900 : 500);
+  // they start as the line of figures fades in, the last beat of the opening
+  const figs = $$(".hero-foot b").map((b) => { const to = Number(b.textContent); if (!reduced) b.textContent = "0"; return [b, to]; });
+  setTimeout(() => figs.forEach(([b, to]) => countUp(b, to)), document.body.classList.contains("loading") ? 2150 : 950);
 
   /* ------------------------------------------------------------------ go */
   applyLang();
