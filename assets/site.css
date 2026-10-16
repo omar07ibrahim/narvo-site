@@ -282,6 +282,15 @@ html[lang="ar"] .people-h { letter-spacing: 0; font-size: 16px; text-transform: 
 @media (max-width: 900px) { .talk-wrap { grid-template-columns: 1fr; } }
 @media (max-width: 520px) { .lead .row { grid-template-columns: 1fr; } }
 
+.orb-privacy { text-align: center; color: rgba(239,236,229,.38); font-size: 12.5px; line-height: 1.5; margin: -14px auto 24px; max-width: 380px; }
+.mobile-talk { display: none; }
+@media (max-width: 720px) {
+  .mobile-talk { display: inline-flex; align-items: center; gap: 10px; position: fixed; z-index: 60; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom)); transform: translate(-50%, 140%);
+    height: 52px; padding: 0 24px; border-radius: 999px; background: var(--gold); color: #17140c; font-weight: 600; box-shadow: 0 16px 40px -10px rgba(0,0,0,.7), 0 10px 30px -12px rgba(201,173,110,.6); transition: transform .6s var(--ease); }
+  .mobile-talk.show { transform: translate(-50%, 0); }
+  .nav .btn-gold { display: none; }
+}
+
 /* ---------------------------------------------------------------- footer */
 .foot { border-top: 1px solid var(--faint); padding: 70px 0 calc(40px + env(safe-area-inset-bottom)); }
 .foot-wrap { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; }
