@@ -44,10 +44,12 @@ window.NARVO_MEDIA = {
    "ar": "الطلبات والحالات — من أيامٍ إلى دقائق"
   },
   "src": {
-   "ar": "media/case05-ar.mp4"
+   "ar": "media/case05-ar.mp4",
+   "en": "media/case05-en.mp4"
   },
   "dur": {
-   "ar": 63
+   "ar": 63,
+   "en": 56
   },
   "blurb": {
    "en": "An agent reads Arabic and English documents, checks the circular in code, drafts the clarification — and waits for a person.",
