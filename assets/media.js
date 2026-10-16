@@ -98,5 +98,23 @@ window.NARVO_MEDIA = {
   "solution": "02",
   "poster": "media/case02-poster.jpg"
  },
+ "case04": {
+  "title": {
+   "en": "Your AI, on your own servers",
+   "ar": "ذكاؤكم، على خوادمكم"
+  },
+  "src": {
+   "en": "media/case04-en.mp4"
+  },
+  "dur": {
+   "en": 41
+  },
+  "blurb": {
+   "en": "An open-weight model in your data centre: a live Arabic benchmark, every call measured, zero bytes out.",
+   "ar": "نموذجٌ مفتوح الأوزان في مركز بياناتكم: اختبارٌ عربيٌّ حيّ، وكلُّ استدعاءٍ مُقاس، وصفر بايت إلى الخارج."
+  },
+  "solution": "04",
+  "poster": "media/case04-poster.jpg"
+ },
  "reel": "media/reel.mp4"
 };
