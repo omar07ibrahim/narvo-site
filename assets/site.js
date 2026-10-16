@@ -57,7 +57,7 @@
       "ab.a4": "Government & international markets · $20bn+ UAE deals",
       "tk.kicker": "Start a conversation", "tk.title": "Start with one priority.",
       "tk.lede": "Talk to our AI concierge in Arabic or English — describe your challenge, and book a requirements session. You'll leave with a scope, success criteria and a pilot start date.",
-      "tk.addr": "Masdar City, Abu Dhabi", "tk.note": "Uses your microphone. Prefer to write? Use the form below.",
+      "tk.addr": "Masdar City, Abu Dhabi", "tk.note": "Uses your microphone. Prefer to write? Use the form below.", "tk.privacy": "Voice conversations on this website run through our voice partner, ElevenLabs. NARVO deployments for clients run entirely on their own servers.",
       "f.name": "Full name", "f.org": "Organisation", "f.email": "Work email", "f.phone": "Phone (optional)", "f.need": "What would you like AI to do for your organisation?",
       "f.send": "Request a requirements session", "f.ok": "Thank you — the NARVO team will contact you shortly.", "f.mail": "Your email app will open with the request — just press send.",
       "ft.tag": "Technology you control.", "ft.c1": "Company", "ft.c2": "Platform", "ft.c3": "Reach us", "ft.contact": "Contact", "ft.private": "Private by design", "ft.rights": "Emirati-founded. Abu Dhabi-based.",
@@ -110,7 +110,7 @@
       "ab.a4": "الحكومة والأسواق الدولية · صفقات في الإمارات تتجاوز 20 مليار دولار",
       "tk.kicker": "ابدأ المحادثة", "tk.title": "ابدأ بأولويةٍ واحدة.",
       "tk.lede": "تحدّث مع مساعدنا الذكي بالعربية أو الإنجليزية — صِف التحدي واحجز جلسة المتطلبات. ستخرج بنطاق عمل ومعايير نجاح وموعدٍ لبدء التجربة.",
-      "tk.addr": "مدينة مصدر، أبوظبي", "tk.note": "يستخدم الميكروفون. تفضّل الكتابة؟ استخدم النموذج أدناه.",
+      "tk.addr": "مدينة مصدر، أبوظبي", "tk.note": "يستخدم الميكروفون. تفضّل الكتابة؟ استخدم النموذج أدناه.", "tk.privacy": "تتم المحادثات الصوتية على هذا الموقع عبر شريكنا الصوتي ElevenLabs. أما حلول نارفو لدى العملاء فتعمل بالكامل على خوادمهم.",
       "f.name": "الاسم الكامل", "f.org": "الجهة", "f.email": "البريد الإلكتروني للعمل", "f.phone": "الهاتف (اختياري)", "f.need": "ما الذي تودّ أن يقوم به الذكاء الاصطناعي في جهتك؟",
       "f.send": "اطلب جلسة متطلبات", "f.ok": "شكراً لك — سيتواصل معك فريق نارفو قريباً.", "f.mail": "سيفتح تطبيق البريد مع طلبك — اضغط إرسال فقط.",
       "ft.tag": "تقنيةٌ تحت سيطرتك.", "ft.c1": "الشركة", "ft.c2": "المنصة", "ft.c3": "تواصل معنا", "ft.contact": "تواصل", "ft.private": "الخصوصية في التصميم", "ft.rights": "شركةٌ إماراتية في أبوظبي.",
@@ -143,7 +143,13 @@
 
   /* ------------------------------------------------------------------ nav + reveal + counters */
   const nav = $("#nav");
-  const onScroll = () => nav.classList.toggle("solid", scrollY > 30);
+  const mtalk = $(".mobile-talk");
+  const onScroll = () => {
+    nav.classList.toggle("solid", scrollY > 30);
+    // the floating talk button appears once the hero is behind, and steps aside at the contact section
+    const talkTop = $("#talk").getBoundingClientRect().top;
+    mtalk?.classList.toggle("show", scrollY > innerHeight * 0.8 && talkTop > innerHeight * 0.6);
+  };
   addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 

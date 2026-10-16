@@ -230,6 +230,7 @@
     <div class="orb-card reveal">
       <button class="orb talk-open" id="orbBig" type="button" aria-label="Talk to NARVO"><canvas id="orbCanvas" width="560" height="560"></canvas><span class="orb-label" data-i18n="cta.tap">Tap to talk</span></button>
       <p class="orb-note" data-i18n="tk.note">Uses your microphone. Prefer to write? Use the form below.</p>
+      <p class="orb-privacy" data-i18n="tk.privacy">Voice conversations on this website run through our voice partner, ElevenLabs. NARVO deployments for clients run entirely on their own servers.</p>
       <form class="lead" id="leadForm" name="narvo-request" method="POST" data-netlify="true" netlify-honeypot="company_website">
         <input type="hidden" name="form-name" value="narvo-request">
         <p class="hp"><label>Leave empty <input name="company_website"></label></p>
@@ -259,6 +260,8 @@
     <p class="copy">© 2026 NARVO · <span data-i18n="ft.rights">Emirati-founded. Abu Dhabi-based.</span></p>
   </div>
 </footer>
+
+<button class="mobile-talk talk-open" type="button" aria-label="Talk to NARVO"><span class="dot-live"></span><span data-i18n="cta.talk">Talk to NARVO</span></button>
 
 <!-- ============================== video player -->
 <dialog class="player" id="player" aria-label="Video">
