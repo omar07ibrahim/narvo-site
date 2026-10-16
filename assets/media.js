@@ -124,9 +124,11 @@ window.NARVO_MEDIA = {
    "ar": "التفتيش الميداني — من صورةٍ إلى إشعار"
   },
   "src": {
+   "ar": "media/case18-ar.mp4",
    "en": "media/case18-en.mp4"
   },
   "dur": {
+   "ar": 55,
    "en": 49
   },
   "blurb": {
