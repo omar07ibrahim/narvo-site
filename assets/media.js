@@ -74,5 +74,23 @@ window.NARVO_MEDIA = {
   "solution": "07",
   "poster": "media/case07-poster.jpg"
  },
+ "case02": {
+  "title": {
+   "en": "Ask the data — numbers that are computed",
+   "ar": "اسأل البيانات — أرقامٌ محسوبة"
+  },
+  "src": {
+   "ar": "media/case02-ar.mp4"
+  },
+  "dur": {
+   "ar": 38
+  },
+  "blurb": {
+   "en": "Leadership asks in plain language; NARVO answers from the scorecard with numbers, a chart and sources.",
+   "ar": "تسأل القيادة بلغتها، ويجيب «نارفو» من بطاقة الأداء بالأرقام والرسم البياني والمصادر."
+  },
+  "solution": "02",
+  "poster": "media/case02-poster.jpg"
+ },
  "reel": "media/reel.mp4"
 };
