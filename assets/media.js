@@ -56,5 +56,23 @@ window.NARVO_MEDIA = {
   "solution": "05",
   "poster": "media/case05-poster.jpg"
  },
+ "case07": {
+  "title": {
+   "en": "Customer service on WhatsApp, in Emirati dialect",
+   "ar": "خدمة المتعاملين عبر واتساب باللهجة الإماراتية"
+  },
+  "src": {
+   "ar": "media/case07-ar.mp4"
+  },
+  "dur": {
+   "ar": 52
+  },
+  "blurb": {
+   "en": "Verifies identity, reads the live case, books a real appointment and hands over with full context.",
+   "ar": "يتحقق من الهوية، ويقرأ الحالة مباشرةً، ويحجز موعداً حقيقياً، ويحوّل مع كامل السياق."
+  },
+  "solution": "07",
+  "poster": "media/case07-poster.jpg"
+ },
  "reel": "media/reel.mp4"
 };
