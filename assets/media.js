@@ -104,9 +104,11 @@ window.NARVO_MEDIA = {
    "ar": "ذكاؤكم، على خوادمكم"
   },
   "src": {
+   "ar": "media/case04-ar.mp4",
    "en": "media/case04-en.mp4"
   },
   "dur": {
+   "ar": 47,
    "en": 41
   },
   "blurb": {
