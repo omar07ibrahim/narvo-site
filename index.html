@@ -15,10 +15,15 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&family=Reem+Kufi:wght@400..700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
+<script>try{if(!sessionStorage.getItem("narvo-intro")&&!matchMedia("(prefers-reduced-motion: reduce)").matches)document.body.classList.add("loading")}catch(e){}</script>
+<div class="intro" id="intro" aria-hidden="true"><svg class="intro-word" viewBox="-6 -6 632 112"><path d="M0 100V0l80 100V0M130 100 170 0l40 100M260 100V0h50a25 25 0 0 1 0 50h-50M296 50l44 50M390 0l40 100 40-100"/><circle cx="570" cy="50" r="50"/></svg></div>
+<div class="grain" aria-hidden="true"></div>
+<aside class="rail" id="rail" aria-hidden="true"><span class="rail-n" id="railN">01</span><span class="rail-line"><i id="railDot"></i></span><span class="rail-t" id="railT"></span></aside>
+<div class="dot" id="dot" aria-hidden="true"></div>
 
 <!-- ============================== header (blends over dark and light chapters) -->
 <header class="hd" id="hd">
@@ -54,7 +59,7 @@
 <main id="top">
 
 <!-- ============================== I. hero -->
-<section class="ch dark hero" id="hero">
+<section class="ch dark hero" id="hero" data-ch="hero">
   <canvas class="ribbon" id="heroRibbon" aria-hidden="true"></canvas>
   <div class="hero-in">
     <p class="label reveal"><span data-i18n="hero.found">Emirati-founded. Abu Dhabi-based.</span></p>
@@ -74,11 +79,12 @@
     <p><b>4</b><span data-i18n="hero.k3">weeks from pilot to decision</span></p>
     <p class="backed"><span data-i18n="hero.backed">Backed by the MBZUAI Incubation and Entrepreneurship Center</span></p>
   </div>
+  <a class="scroll-cue" href="#film" aria-label="Scroll"><span></span></a>
 </section>
 
 <!-- ============================== the film -->
-<section class="ch dark film" id="film">
-  <button class="film-frame play" type="button" data-video="overview" data-cursor="film">
+<section class="ch dark film" id="film" data-ch="film">
+  <button class="film-frame play mask" type="button" data-video="overview" data-cursor="film">
     <video id="reel" muted playsinline loop preload="none" aria-hidden="true"></video>
     <img class="film-poster" src="media/overview-poster.jpg" alt="" loading="lazy">
     <span class="film-cap">
@@ -90,7 +96,7 @@
 </section>
 
 <!-- ============================== II. zero -->
-<section class="ch paper zero" id="platform">
+<section class="ch paper zero" id="platform" data-ch="platform">
   <div class="wrap">
     <p class="label reveal"><i>01</i><span data-i18n="pr.kicker">Private by design</span></p>
     <div class="zero-grid">
@@ -112,20 +118,12 @@
 </section>
 
 <!-- ============================== III. the stack -->
-<section class="ch paper2 stack" id="stack">
+<section class="ch paper2 stack" id="stack" data-ch="platform">
   <div class="wrap">
     <p class="label reveal"><i>02</i><span data-i18n="st.kicker">The architecture</span></p>
     <h2 class="sec-t" data-i18n="st.title" data-split>Five layers, all under your control.</h2>
     <div class="stack-grid">
-      <div class="iso-wrap" aria-hidden="true">
-        <div class="iso" id="iso">
-          <div class="plate" style="--i:0" data-l="1"><b>01</b></div>
-          <div class="plate" style="--i:1" data-l="2"><b>02</b></div>
-          <div class="plate" style="--i:2" data-l="3"><b>03</b></div>
-          <div class="plate core" style="--i:3" data-l="4"><b>04</b></div>
-          <div class="plate" style="--i:4" data-l="5"><b>05</b></div>
-        </div>
-      </div>
+      <div class="iso-wrap" aria-hidden="true"><svg class="stack-svg" id="stackSvg" viewBox="0 0 640 560"></svg></div>
       <ol class="layers" id="layers">
         <li data-l="5"><i>05</i><b data-i18n="st.5">Twenty solutions</b><span data-i18n="st.5d">cases · customers · decisions · documents · operations · sites</span></li>
         <li data-l="4" class="core"><i>04</i><b data-i18n="st.4">The NARVO core</b><span data-i18n="st.4d">agents · rules engine · retrieval · speech · governance · audit</span></li>
@@ -138,7 +136,7 @@
 </section>
 
 <!-- ============================== IV. twenty solutions -->
-<section class="ch paper solutions" id="solutions">
+<section class="ch paper solutions" id="solutions" data-ch="solutions">
   <div class="wrap">
     <p class="label reveal"><i>03</i><span data-i18n="so.kicker">Twenty solutions</span></p>
     <div class="so-head">
@@ -152,7 +150,7 @@
 </section>
 
 <!-- ============================== V. muqarrir -->
-<section class="ch dark mq" id="muqarrir">
+<section class="ch dark mq" id="muqarrir" data-ch="films">
   <div class="mq-word" aria-hidden="true">مُقرِّر</div>
   <div class="wrap mq-grid">
     <div class="mq-copy">
@@ -167,7 +165,7 @@
         <li class="reveal" data-i18n="mq.b5">Runs on your own GPU server — no internet, no cloud</li>
       </ol>
     </div>
-    <button class="mq-frame play reveal" type="button" data-video="muqarrir" data-cursor="film">
+    <button class="mq-frame play mask" type="button" data-video="muqarrir" data-cursor="film">
       <img src="media/muqarrir-poster.jpg" alt="" loading="lazy">
       <span class="film-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-i18n="mq.cta">Watch Muqarrir in action</span><span class="dur" data-dur="muqarrir"></span></span>
     </button>
@@ -175,7 +173,7 @@
 </section>
 
 <!-- ============================== VI. films -->
-<section class="ch dark films" id="films">
+<section class="ch dark films" id="films" data-ch="films">
   <div class="wrap">
     <p class="label reveal"><i>05</i><span data-i18n="cs.kicker">Films</span></p>
     <div class="films-head">
@@ -187,7 +185,7 @@
 </section>
 
 <!-- ============================== VII. pilot -->
-<section class="ch paper pilot" id="pilot">
+<section class="ch paper pilot" id="pilot" data-ch="pilot">
   <div class="wrap">
     <p class="label reveal"><i>06</i><span data-i18n="pi.kicker">The pilot programme</span></p>
     <div class="so-head">
@@ -209,7 +207,7 @@
 </section>
 
 <!-- ============================== VIII. about -->
-<section class="ch paper2 about" id="about">
+<section class="ch paper2 about" id="about" data-ch="about">
   <div class="wrap">
     <p class="label reveal"><i>07</i><span data-i18n="ab.kicker">Who we are</span></p>
     <h2 class="sec-t" data-i18n="ab.title" data-split>Emirati-founded. Abu Dhabi-based. Built with MBZUAI engineers.</h2>
@@ -237,7 +235,7 @@
 </section>
 
 <!-- ============================== IX. talk -->
-<section class="ch dark talk" id="talk">
+<section class="ch dark talk" id="talk" data-ch="talk">
   <canvas class="ribbon" id="talkRibbon" aria-hidden="true"></canvas>
   <div class="wrap talk-in">
     <p class="label reveal"><i>08</i><span data-i18n="tk.kicker">Start a conversation</span></p>
