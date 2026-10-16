@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>NARVO — Technology you control</title>
-<meta name="description" content="NARVO is an Emirati advanced-technology company in Abu Dhabi. Private, Arabic-first AI on your own servers: one core, twenty solutions, a human approving every action — and zero bytes leaving your organisation.">
-<meta name="theme-color" content="#0a0b0a">
+<meta name="description" content="NARVO is an Emirati advanced-technology company in Abu Dhabi. Private, Arabic-first AI on your own servers: one core, twenty solutions, a person approving every action — and zero bytes leaving your organisation.">
+<meta name="theme-color" content="#0c1115">
 <meta property="og:title" content="NARVO — Technology you control">
 <meta property="og:description" content="Private, Arabic-first AI on your own servers. Emirati-founded in Abu Dhabi.">
 <meta property="og:image" content="media/og.jpg">
@@ -15,271 +15,326 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<div class="grain" aria-hidden="true"></div>
 
-<!-- ============================== navigation -->
-<header class="nav" id="nav">
-  <a class="brand" href="#top" aria-label="NARVO">
+<!-- ============================== header (blends over dark and light chapters) -->
+<header class="hd" id="hd">
+  <a class="hd-brand" href="#top" aria-label="NARVO">
     <svg class="mark" viewBox="0 0 28 32" aria-hidden="true"><rect x="1" y="1" width="4.2" height="30"/><rect x="22.8" y="1" width="4.2" height="30"/><path d="M7.2 1h4.4l9.2 21.6V31h-0.6L7.2 7.6z"/><path d="M7.2 12.4l5.4 12.7V31H7.2z" opacity=".55"/><path d="M20.8 1v12.2L16.1 2.2 16.6 1z" opacity=".55"/></svg>
-    <span class="word">NARVO</span>
+    <svg class="wordmark" viewBox="-6 -6 632 112" aria-hidden="true"><path d="M0 100V0l80 100V0M130 100 170 0l40 100M260 100V0h50a25 25 0 0 1 0 50h-50M296 50l44 50M390 0l40 100 40-100"/><circle cx="570" cy="50" r="50"/></svg>
   </a>
-  <nav class="links" aria-label="Sections">
+  <nav class="hd-links" aria-label="Sections">
     <a href="#platform" data-i18n="nav.platform">Platform</a>
     <a href="#solutions" data-i18n="nav.solutions">Solutions</a>
-    <a href="#muqarrir" data-i18n="nav.cases">Case studies</a>
+    <a href="#films" data-i18n="nav.films">Films</a>
     <a href="#pilot" data-i18n="nav.pilot">Pilot</a>
     <a href="#about" data-i18n="nav.about">About</a>
   </nav>
-  <div class="nav-actions">
-    <button class="lang" id="langBtn" type="button" aria-label="العربية / English"><span data-i18n="nav.lang">العربية</span></button>
-    <button class="btn btn-gold btn-sm talk-open" type="button"><span class="dot-live"></span><span data-i18n="cta.talk">Talk to NARVO</span></button>
+  <div class="hd-end">
+    <button class="hd-lang" id="langBtn" type="button" aria-label="العربية / English"><span data-i18n="nav.lang">عربي</span></button>
+    <button class="hd-talk talk-open" type="button"><i class="live"></i><span data-i18n="cta.talk">Talk to NARVO</span></button>
+    <button class="hd-menu" id="menuBtn" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
   </div>
 </header>
 
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menu">
+    <a href="#platform"><i>01</i><span data-i18n="nav.platform">Platform</span></a>
+    <a href="#solutions"><i>02</i><span data-i18n="nav.solutions">Solutions</span></a>
+    <a href="#films"><i>03</i><span data-i18n="nav.films">Films</span></a>
+    <a href="#pilot"><i>04</i><span data-i18n="nav.pilot">Pilot</span></a>
+    <a href="#about"><i>05</i><span data-i18n="nav.about">About</span></a>
+    <a href="#talk"><i>06</i><span data-i18n="nav.talk">Contact</span></a>
+  </nav>
+</div>
+
 <main id="top">
-<!-- ============================== hero -->
-<section class="hero" id="hero">
-  <div class="hero-media" aria-hidden="true">
-    <video id="heroVideo" muted playsinline loop preload="none" poster="media/hero-poster.jpg"></video>
-    <canvas id="field"></canvas>
-  </div>
-  <div class="hero-inner">
-    <p class="eyebrow reveal"><span class="ln"></span><span data-i18n="hero.eyebrow">Emirati-founded · Abu Dhabi</span></p>
-    <h1 class="hero-title reveal" data-i18n-html="hero.title">Technology<br><em>you control.</em></h1>
+
+<!-- ============================== I. hero -->
+<section class="ch dark hero" id="hero">
+  <canvas class="ribbon" id="heroRibbon" aria-hidden="true"></canvas>
+  <div class="hero-in">
+    <p class="label reveal"><span data-i18n="hero.found">Emirati-founded. Abu Dhabi-based.</span></p>
+    <h1 class="hero-t">
+      <span class="l1" data-i18n="hero.l1" data-split>Technology you control.</span>
+      <span class="l2" data-i18n="hero.l2" data-split>Built around your requirement.</span>
+    </h1>
     <p class="hero-sub reveal" data-i18n="hero.sub">Private, Arabic-first AI that runs on your own servers. One core, twenty solutions, a person approving every action — and zero bytes leaving your organisation.</p>
     <div class="hero-cta reveal">
-      <button class="btn btn-gold talk-open" type="button"><span class="dot-live"></span><span data-i18n="cta.talkLong">Talk to our AI concierge</span></button>
-      <button class="btn btn-ghost play" type="button" data-video="overview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-i18n="cta.film">Watch the film</span></button>
+      <button class="pill pill-paper talk-open" type="button"><i class="live"></i><span data-i18n="cta.talk">Talk to NARVO</span></button>
+      <button class="txt-btn play" type="button" data-video="overview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-i18n="cta.film">Watch the film</span><span class="dur" data-dur="overview"></span></button>
     </div>
   </div>
   <div class="hero-foot reveal">
-    <div><b data-count="0">0</b><span data-i18n="hero.k1">bytes leave your organisation</span></div>
-    <div><b data-count="20">20</b><span data-i18n="hero.k2">solutions on one private core</span></div>
-    <div><b data-count="4">4</b><span data-i18n="hero.k3">weeks from pilot to decision</span></div>
+    <p><b>0</b><span data-i18n="hero.k1">bytes leave your organisation</span></p>
+    <p><b>20</b><span data-i18n="hero.k2">solutions on one private core</span></p>
+    <p><b>4</b><span data-i18n="hero.k3">weeks from pilot to decision</span></p>
+    <p class="backed"><span data-i18n="hero.backed">Backed by the MBZUAI Incubation and Entrepreneurship Center</span></p>
   </div>
-  <a class="scroll-cue" href="#film" aria-label="Scroll"><span></span></a>
 </section>
 
-<!-- ============================== film -->
-<section class="film" id="film">
+<!-- ============================== the film -->
+<section class="ch dark film" id="film">
+  <button class="film-frame play" type="button" data-video="overview" data-cursor="film">
+    <video id="reel" muted playsinline loop preload="none" aria-hidden="true"></video>
+    <img class="film-poster" src="media/overview-poster.jpg" alt="" loading="lazy">
+    <span class="film-cap">
+      <span class="label" data-i18n="film.kicker">The film</span>
+      <b data-i18n="film.name">NARVO — platform overview</b>
+      <span class="film-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-i18n="film.play">Play with sound</span><span class="dur" data-dur="overview"></span></span>
+    </span>
+  </button>
+</section>
+
+<!-- ============================== II. zero -->
+<section class="ch paper zero" id="platform">
   <div class="wrap">
-    <header class="sec-head reveal">
-      <p class="sec-num">01 <span class="ln"></span> <span data-i18n="film.kicker">The film</span></p>
-      <h2 data-i18n="film.title">Most AI asks you to send your data away. NARVO brings the AI to your data.</h2>
-    </header>
-    <button class="film-frame reveal play" type="button" data-video="overview" aria-label="Play">
-      <img src="media/narvo-overview-poster.jpg" alt="" loading="lazy">
-      <span class="film-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
-      <span class="film-meta"><b data-i18n="film.name">NARVO — platform overview</b><span class="dur" data-dur="overview"></span></span>
-    </button>
-  </div>
-</section>
-
-<!-- ============================== principles -->
-<section class="principles" id="platform">
-  <div class="wrap">
-    <header class="sec-head reveal">
-      <p class="sec-num">02 <span class="ln"></span> <span data-i18n="pr.kicker">Private by design</span></p>
-      <h2 data-i18n="pr.title">Intelligence that stays where your data lives.</h2>
-    </header>
-    <div class="pr-grid">
-      <article class="pr reveal">
-        <div class="pr-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path class="draw" d="M24 4 7 10v12c0 11 7.3 18.6 17 22 9.7-3.4 17-11 17-22V10z"/><path class="draw" d="m16 24 6 6 11-12"/></svg></div>
-        <h3 data-i18n="pr.1t">On your servers</h3>
-        <p data-i18n="pr.1d">Open-weight models run on your own infrastructure or UAE sovereign cloud — not on foreign AI services. Disconnect the internet and everything keeps working.</p>
-      </article>
-      <article class="pr reveal">
-        <div class="pr-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path class="draw" d="M8 12h22M8 20h14M8 28h18"/><path class="draw" d="M30 22c4 0 8 3 8 8s-4 8-8 8l-4 4v-4"/></svg></div>
-        <h3 data-i18n="pr.2t">Arabic-first</h3>
-        <p data-i18n="pr.2d">Modern Standard Arabic, Emirati dialect and English — in speech, scanned documents and conversation.</p>
-      </article>
-      <article class="pr reveal">
-        <div class="pr-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><circle class="draw" cx="24" cy="15" r="7"/><path class="draw" d="M10 41c1.5-8 7-12 14-12s12.5 4 14 12"/><path class="draw" d="m30 24 4 4 8-8"/></svg></div>
-        <h3 data-i18n="pr.3t">A person approves</h3>
-        <p data-i18n="pr.3d">The AI reads, checks and drafts. A named official approves every action that matters — nothing changes without a person.</p>
-      </article>
-      <article class="pr reveal">
-        <div class="pr-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><rect class="draw" x="9" y="6" width="30" height="36" rx="3"/><path class="draw" d="M15 15h18M15 22h18M15 29h11"/></svg></div>
-        <h3 data-i18n="pr.4t">Every action on record</h3>
-        <p data-i18n="pr.4d">Every model call, approval and action is written to an audit trail on your infrastructure. Numbers are computed from your data — never invented by the model.</p>
-      </article>
-    </div>
-
-    <!-- the stack -->
-    <div class="stack reveal" aria-label="Platform layers">
-      <div class="layer l5"><span class="ix">05</span><b data-i18n="st.5">Twenty solutions</b><i data-i18n="st.5d">cases · customers · decisions · documents · operations · sites</i></div>
-      <div class="layer l4 core"><span class="ix">04</span><b data-i18n="st.4">The NARVO core</b><i data-i18n="st.4d">agents · rules engine · retrieval · speech · governance · audit</i></div>
-      <div class="layer l3"><span class="ix">03</span><b data-i18n="st.3">Model runtime</b><i data-i18n="st.3d">vLLM · OpenAI-compatible · on CPU or GPU</i></div>
-      <div class="layer l2"><span class="ix">02</span><b data-i18n="st.2">Open-weight models</b><i data-i18n="st.2d">Qwen · Whisper · forecasting — weights you hold</i></div>
-      <div class="layer l1"><span class="ix">01</span><b data-i18n="st.1">Your hardware</b><i data-i18n="st.1d">on-premises server · private cloud · UAE sovereign cloud</i></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================== solutions -->
-<section class="solutions" id="solutions">
-  <div class="wrap">
-    <header class="sec-head reveal">
-      <p class="sec-num">03 <span class="ln"></span> <span data-i18n="so.kicker">Twenty solutions</span></p>
-      <h2 data-i18n="so.title">Starting points, built around your requirement.</h2>
-      <p class="lede" data-i18n="so.lede">We don't start from a product. We start from your requirement — and build, adapt or integrate around it.</p>
-    </header>
-    <div class="filters reveal" id="filters" role="tablist"></div>
-    <div class="so-grid" id="soGrid"></div>
-  </div>
-</section>
-
-<!-- ============================== case: muqarrir -->
-<section class="case" id="muqarrir">
-  <div class="wrap case-wrap">
-    <div class="case-copy">
-      <p class="sec-num reveal">04 <span class="ln"></span> <span data-i18n="mq.kicker">In the pilot stage</span></p>
-      <h2 class="reveal"><span class="mq-word">مُقرِّر</span> <span data-i18n="mq.title">Muqarrir — the AI meeting rapporteur</span></h2>
-      <p class="lede reveal" data-i18n="mq.lede">Built for a UAE government entity: it listens to the meeting live, in fuṣḥā, Emirati dialect and English — and the official minutes are ready before you leave the room.</p>
-      <ul class="ticks reveal">
-        <li data-i18n="mq.b1">Live transcript with speakers recognised</li>
-        <li data-i18n="mq.b2">Numbered decisions and actions with owners and deadlines</li>
-        <li data-i18n="mq.b3">Every decision linked to the original recording — click and listen</li>
-        <li data-i18n="mq.b4">Approve, stamp and export in Arabic and English</li>
-        <li data-i18n="mq.b5">Runs on your own GPU server — no internet, no cloud</li>
-      </ul>
-      <div class="reveal"><button class="btn btn-ghost play" type="button" data-video="muqarrir"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-i18n="mq.cta">Watch Muqarrir in action</span></button></div>
-    </div>
-    <button class="case-frame reveal play" type="button" data-video="muqarrir" aria-label="Play">
-      <img src="media/muqarrir-poster.jpg" alt="" loading="lazy">
-      <span class="film-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
-      <span class="film-meta"><b>مُقرِّر · Muqarrir</b><span class="dur" data-dur="muqarrir"></span></span>
-    </button>
-  </div>
-</section>
-
-<!-- ============================== more cases -->
-<section class="cases" id="cases">
-  <div class="wrap">
-    <header class="sec-head reveal">
-      <p class="sec-num">05 <span class="ln"></span> <span data-i18n="cs.kicker">See it working</span></p>
-      <h2 data-i18n="cs.title">Real systems, recorded on real screens.</h2>
-    </header>
-    <div class="cs-grid" id="csGrid"></div>
-  </div>
-</section>
-
-<!-- ============================== pilot -->
-<section class="pilot" id="pilot">
-  <div class="wrap">
-    <header class="sec-head reveal">
-      <p class="sec-num">06 <span class="ln"></span> <span data-i18n="pi.kicker">The pilot programme</span></p>
-      <h2 data-i18n="pi.title">A working pilot in weeks, not quarters.</h2>
-      <p class="lede" data-i18n="pi.lede">One priority use case becomes a working AI system — built on your data, under your control. You see it work before you commit to anything larger.</p>
-    </header>
-    <ol class="timeline reveal">
-      <li><span class="tl-dot"></span><b data-i18n="pi.s1t">Before we start</b><em data-i18n="pi.s1">Requirements session</em><p data-i18n="pi.s1d">Agree the use case, success criteria, data access and deployment.</p></li>
-      <li><span class="tl-dot"></span><b data-i18n="pi.s2t">Week 1</b><em data-i18n="pi.s2">First working version</em><p data-i18n="pi.s2d">We build, adapt or integrate a working system on your real or representative data.</p></li>
-      <li><span class="tl-dot"></span><b data-i18n="pi.s3t">Weeks 2–4</b><em data-i18n="pi.s3">Refine, measure, decide</em><p data-i18n="pi.s3d">Your team uses it, we refine it together — and you decide: scale, adjust or stop.</p></li>
-    </ol>
-    <div class="pilot-kinds">
-      <div class="pk reveal"><span>01</span><b data-i18n="pk.1">Private & sovereign AI</b><p data-i18n="pk.1d">Arabic dictation and meeting notes, a private assistant, internal search.</p></div>
-      <div class="pk reveal"><span>02</span><b data-i18n="pk.2">AI agents for operations</b><p data-i18n="pk.2d">Case intake, approvals routing, customer requests, documenting legacy systems.</p></div>
-      <div class="pk reveal"><span>03</span><b data-i18n="pk.3">Arabic-first document & knowledge AI</b><p data-i18n="pk.3d">Policy Q&A, contract review, bilingual document processing.</p></div>
-      <div class="pk reveal"><span>04</span><b data-i18n="pk.4">Predictive ML & decision intelligence</b><p data-i18n="pk.4d">Demand forecasting, risk flags, operational performance briefs.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================== about -->
-<section class="about" id="about">
-  <div class="wrap">
-    <header class="sec-head reveal">
-      <p class="sec-num">07 <span class="ln"></span> <span data-i18n="ab.kicker">Who we are</span></p>
-      <h2 data-i18n="ab.title">Emirati-founded. Abu Dhabi-based. Built with MBZUAI engineers.</h2>
-      <p class="lede" data-i18n="ab.lede">NARVO is an Emirati advanced-technology company in Masdar City, Abu Dhabi. We turn institutional requirements into working technology systems — keeping the solution path open and the delivery accountable.</p>
-    </header>
-    <h3 class="people-h reveal" data-i18n="ab.founders">Founders & leadership</h3>
-    <div class="people founders">
-      <div class="person reveal"><span class="mono">AA</span><b>Ahmed Alawlaqi</b><i data-i18n="ab.p1">Co-founder & CEO</i></div>
-      <div class="person reveal"><span class="mono">AM</span><b>Ali AlMehrzi</b><i data-i18n="ab.p2">Co-founder · Commercial Operations</i></div>
-      <div class="person reveal"><span class="mono">HR</span><b>Hamdan Bin Rakkad</b><i data-i18n="ab.p3">Co-founder · Strategic Markets & Affairs</i></div>
-    </div>
-    <h3 class="people-h reveal" data-i18n="ab.advisors">Strategic advisors</h3>
-    <div class="people advisors">
-      <div class="person reveal"><span class="mono">MA</span><b data-i18n="ab.a1n">Dr. Mohamed Alloghani</b><i data-i18n="ab.a1">Applied AI & AI systems · first Emirati PhD focused on AI</i></div>
-      <div class="person reveal"><span class="mono">DS</span><b>Daniel Searle</b><i data-i18n="ab.a2">AI transformation & growth · €1bn+ total contract value</i></div>
-      <div class="person reveal"><span class="mono">OO</span><b data-i18n="ab.a3n">Prof. Olivier Oullier</b><i data-i18n="ab.a3">AI, innovation & strategy · 300+ publications</i></div>
-      <div class="person reveal"><span class="mono">TH</span><b>Tom Hudson</b><i data-i18n="ab.a4">Government & international markets · $20bn+ UAE deals</i></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================== talk / contact -->
-<section class="talk" id="talk">
-  <div class="wrap talk-wrap">
-    <div class="talk-copy">
-      <p class="sec-num reveal">08 <span class="ln"></span> <span data-i18n="tk.kicker">Start a conversation</span></p>
-      <h2 class="reveal" data-i18n="tk.title">Start with one priority.</h2>
-      <p class="lede reveal" data-i18n="tk.lede">Talk to our AI concierge in Arabic or English — describe your challenge, and book a requirements session. You'll leave with a scope, success criteria and a pilot start date.</p>
-      <div class="contact reveal">
-        <a href="mailto:contact@narvo.ae">contact@narvo.ae</a>
-        <a href="tel:+971554500042" dir="ltr">+971 55 450 0042</a>
-        <span data-i18n="tk.addr">Masdar City, Abu Dhabi</span>
+    <p class="label reveal"><i>01</i><span data-i18n="pr.kicker">Private by design</span></p>
+    <div class="zero-grid">
+      <div class="zero-num" aria-hidden="true"><span id="zeroDigits">0</span></div>
+      <div class="zero-copy">
+        <h2 data-i18n="zr.t" data-split>bytes leave your organisation.</h2>
+        <p class="lede reveal" data-i18n="film.title">Most AI asks you to send your data away. NARVO brings the AI to your data.</p>
+        <p class="body reveal" data-i18n="zr.d">Models, data and the audit trail stay on your servers or UAE sovereign cloud. Disconnect the internet, and everything keeps working.</p>
       </div>
     </div>
-    <div class="orb-card reveal">
-      <button class="orb talk-open" id="orbBig" type="button" aria-label="Talk to NARVO"><canvas id="orbCanvas" width="560" height="560"></canvas><span class="orb-label" data-i18n="cta.tap">Tap to talk</span></button>
-      <p class="orb-note" data-i18n="tk.note">Uses your microphone. Prefer to write? Use the form below.</p>
-      <p class="orb-privacy" data-i18n="tk.privacy">Voice conversations on this website run through our voice partner, ElevenLabs. NARVO deployments for clients run entirely on their own servers.</p>
-      <form class="lead" id="leadForm" name="narvo-request" method="POST" data-netlify="true" netlify-honeypot="company_website">
-        <input type="hidden" name="form-name" value="narvo-request">
-        <p class="hp"><label>Leave empty <input name="company_website"></label></p>
-        <div class="row"><input name="name" required autocomplete="name" data-ph="f.name" placeholder="Full name"><input name="organization" required autocomplete="organization" data-ph="f.org" placeholder="Organisation"></div>
-        <div class="row"><input name="email" type="email" required autocomplete="email" data-ph="f.email" placeholder="Work email"><input name="phone" type="tel" autocomplete="tel" data-ph="f.phone" placeholder="Phone (optional)"></div>
-        <textarea name="use_case" rows="3" required data-ph="f.need" placeholder="What would you like AI to do for your organisation?"></textarea>
-        <input type="hidden" name="source" value="form">
-        <button class="btn btn-gold" type="submit" data-i18n="f.send">Request a requirements session</button>
-        <p class="form-msg" id="formMsg" role="status"></p>
+
+    <ol class="principles">
+      <li class="reveal"><i>i</i><h3 data-i18n="pr.1t">On your servers</h3><p data-i18n="pr.1d">Open-weight models run on your own infrastructure or UAE sovereign cloud — not on foreign AI services. Disconnect the internet and everything keeps working.</p></li>
+      <li class="reveal"><i>ii</i><h3 data-i18n="pr.2t">Arabic-first</h3><p data-i18n="pr.2d">Modern Standard Arabic, Emirati dialect and English — in speech, scanned documents and conversation.</p></li>
+      <li class="reveal"><i>iii</i><h3 data-i18n="pr.3t">A person approves</h3><p data-i18n="pr.3d">The AI reads, checks and drafts. A named official approves every action that matters — nothing changes without a person.</p></li>
+      <li class="reveal"><i>iv</i><h3 data-i18n="pr.4t">Every action on record</h3><p data-i18n="pr.4d">Every model call, approval and action is written to an audit trail on your infrastructure. Numbers are computed from your data — never invented by the model.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================== III. the stack -->
+<section class="ch paper2 stack" id="stack">
+  <div class="wrap">
+    <p class="label reveal"><i>02</i><span data-i18n="st.kicker">The architecture</span></p>
+    <h2 class="sec-t" data-i18n="st.title" data-split>Five layers, all under your control.</h2>
+    <div class="stack-grid">
+      <div class="iso-wrap" aria-hidden="true">
+        <div class="iso" id="iso">
+          <div class="plate" style="--i:0" data-l="1"><b>01</b></div>
+          <div class="plate" style="--i:1" data-l="2"><b>02</b></div>
+          <div class="plate" style="--i:2" data-l="3"><b>03</b></div>
+          <div class="plate core" style="--i:3" data-l="4"><b>04</b></div>
+          <div class="plate" style="--i:4" data-l="5"><b>05</b></div>
+        </div>
+      </div>
+      <ol class="layers" id="layers">
+        <li data-l="5"><i>05</i><b data-i18n="st.5">Twenty solutions</b><span data-i18n="st.5d">cases · customers · decisions · documents · operations · sites</span></li>
+        <li data-l="4" class="core"><i>04</i><b data-i18n="st.4">The NARVO core</b><span data-i18n="st.4d">agents · rules engine · retrieval · speech · governance · audit</span></li>
+        <li data-l="3"><i>03</i><b data-i18n="st.3">Model runtime</b><span data-i18n="st.3d">vLLM · OpenAI-compatible · on CPU or GPU</span></li>
+        <li data-l="2"><i>02</i><b data-i18n="st.2">Open-weight models</b><span data-i18n="st.2d">Qwen · Whisper · forecasting — weights you hold</span></li>
+        <li data-l="1"><i>01</i><b data-i18n="st.1">Your hardware</b><span data-i18n="st.1d">on-premises server · private cloud · UAE sovereign cloud</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== IV. twenty solutions -->
+<section class="ch paper solutions" id="solutions">
+  <div class="wrap">
+    <p class="label reveal"><i>03</i><span data-i18n="so.kicker">Twenty solutions</span></p>
+    <div class="so-head">
+      <h2 class="sec-t" data-i18n="so.title" data-split>Starting points, built around your requirement.</h2>
+      <p class="body reveal" data-i18n="so.lede">We don't start from a product. We start from your requirement — and build, adapt or integrate around it.</p>
+    </div>
+    <div class="filters" id="filters" role="tablist"></div>
+    <ol class="index" id="soList"></ol>
+  </div>
+  <div class="peek" id="peek" aria-hidden="true"><img alt=""><span></span></div>
+</section>
+
+<!-- ============================== V. muqarrir -->
+<section class="ch dark mq" id="muqarrir">
+  <div class="mq-word" aria-hidden="true">مُقرِّر</div>
+  <div class="wrap mq-grid">
+    <div class="mq-copy">
+      <p class="label reveal"><i>04</i><span data-i18n="mq.kicker">In the pilot stage</span></p>
+      <h2 class="sec-t" data-i18n="mq.title" data-split>Muqarrir — the AI meeting rapporteur</h2>
+      <p class="lede reveal" data-i18n="mq.lede">Built for a UAE government entity: it listens to the meeting live, in fuṣḥā, Emirati dialect and English — and the official minutes are ready before you leave the room.</p>
+      <ol class="mq-list">
+        <li class="reveal" data-i18n="mq.b1">Live transcript with speakers recognised</li>
+        <li class="reveal" data-i18n="mq.b2">Numbered decisions and actions with owners and deadlines</li>
+        <li class="reveal" data-i18n="mq.b3">Every decision linked to the original recording — click and listen</li>
+        <li class="reveal" data-i18n="mq.b4">Approve, stamp and export in Arabic and English</li>
+        <li class="reveal" data-i18n="mq.b5">Runs on your own GPU server — no internet, no cloud</li>
+      </ol>
+    </div>
+    <button class="mq-frame play reveal" type="button" data-video="muqarrir" data-cursor="film">
+      <img src="media/muqarrir-poster.jpg" alt="" loading="lazy">
+      <span class="film-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-i18n="mq.cta">Watch Muqarrir in action</span><span class="dur" data-dur="muqarrir"></span></span>
+    </button>
+  </div>
+</section>
+
+<!-- ============================== VI. films -->
+<section class="ch dark films" id="films">
+  <div class="wrap">
+    <p class="label reveal"><i>05</i><span data-i18n="cs.kicker">Films</span></p>
+    <div class="films-head">
+      <h2 class="sec-t" data-i18n="cs.title" data-split>Real systems, recorded on real screens.</h2>
+      <div class="strip-nav"><button type="button" id="stripPrev" aria-label="Previous">←</button><button type="button" id="stripNext" aria-label="Next">→</button></div>
+    </div>
+  </div>
+  <div class="strip" id="strip"></div>
+</section>
+
+<!-- ============================== VII. pilot -->
+<section class="ch paper pilot" id="pilot">
+  <div class="wrap">
+    <p class="label reveal"><i>06</i><span data-i18n="pi.kicker">The pilot programme</span></p>
+    <div class="so-head">
+      <h2 class="sec-t" data-i18n="pi.title" data-split>A working pilot in weeks, not quarters.</h2>
+      <p class="body reveal" data-i18n="pi.lede">One priority use case becomes a working AI system — built on your data, under your control. You see it work before you commit to anything larger.</p>
+    </div>
+    <div class="ruler reveal" id="ruler">
+      <div class="seg s1"><span class="when" data-i18n="pi.s1t">Before we start</span><b data-i18n="pi.s1">Requirements session</b><p data-i18n="pi.s1d">Agree the use case, success criteria, data access and deployment.</p></div>
+      <div class="seg s2"><span class="when" data-i18n="pi.s2t">Week 1</span><b data-i18n="pi.s2">First working version</b><p data-i18n="pi.s2d">We build, adapt or integrate a working system on your real or representative data.</p></div>
+      <div class="seg s3"><span class="when" data-i18n="pi.s3t">Weeks 2–4</span><b data-i18n="pi.s3">Refine, measure, decide</b><p data-i18n="pi.s3d">Your team uses it, we refine it together — and you decide: scale, adjust or stop.</p></div>
+    </div>
+    <div class="kinds">
+      <div class="reveal"><i>A</i><b data-i18n="pk.1">Private & sovereign AI</b><p data-i18n="pk.1d">Arabic dictation and meeting notes, a private assistant, internal search.</p></div>
+      <div class="reveal"><i>B</i><b data-i18n="pk.2">AI agents for operations</b><p data-i18n="pk.2d">Case intake, approvals routing, customer requests, documenting legacy systems.</p></div>
+      <div class="reveal"><i>C</i><b data-i18n="pk.3">Arabic-first document & knowledge AI</b><p data-i18n="pk.3d">Policy Q&A, contract review, bilingual document processing.</p></div>
+      <div class="reveal"><i>D</i><b data-i18n="pk.4">Predictive ML & decision intelligence</b><p data-i18n="pk.4d">Demand forecasting, risk flags, operational performance briefs.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== VIII. about -->
+<section class="ch paper2 about" id="about">
+  <div class="wrap">
+    <p class="label reveal"><i>07</i><span data-i18n="ab.kicker">Who we are</span></p>
+    <h2 class="sec-t" data-i18n="ab.title" data-split>Emirati-founded. Abu Dhabi-based. Built with MBZUAI engineers.</h2>
+    <p class="lede reveal" data-i18n="ab.lede">NARVO is an Emirati advanced-technology company in Masdar City, Abu Dhabi. We turn institutional requirements into working technology systems — keeping the solution path open and the delivery accountable.</p>
+    <div class="people">
+      <div>
+        <h3 class="label reveal" data-i18n="ab.founders">Founders & leadership</h3>
+        <ul>
+          <li class="reveal"><b data-i18n="ab.p1n">Ahmed Alawlaqi</b><span data-i18n="ab.p1">Co-founder & CEO</span></li>
+          <li class="reveal"><b data-i18n="ab.p2n">Ali AlMehrzi</b><span data-i18n="ab.p2">Co-founder · Commercial Operations</span></li>
+          <li class="reveal"><b data-i18n="ab.p3n">Hamdan Bin Rakkad</b><span data-i18n="ab.p3">Co-founder · Strategic Markets & Affairs</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="label reveal" data-i18n="ab.advisors">Strategic advisors</h3>
+        <ul>
+          <li class="reveal"><b data-i18n="ab.a1n">Dr. Mohamed Alloghani</b><span data-i18n="ab.a1">Applied AI & AI systems · first Emirati PhD focused on AI</span></li>
+          <li class="reveal"><b data-i18n="ab.a2n">Daniel Searle</b><span data-i18n="ab.a2">AI transformation & growth · €1bn+ total contract value</span></li>
+          <li class="reveal"><b data-i18n="ab.a3n">Prof. Olivier Oullier</b><span data-i18n="ab.a3">AI, innovation & strategy · 300+ publications</span></li>
+          <li class="reveal"><b data-i18n="ab.a4n">Tom Hudson</b><span data-i18n="ab.a4">Government & international markets · $20bn+ UAE deals</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== IX. talk -->
+<section class="ch dark talk" id="talk">
+  <canvas class="ribbon" id="talkRibbon" aria-hidden="true"></canvas>
+  <div class="wrap talk-in">
+    <p class="label reveal"><i>08</i><span data-i18n="tk.kicker">Start a conversation</span></p>
+    <h2 class="talk-t" data-i18n="tk.title" data-split>Start with one priority.</h2>
+    <p class="lede reveal" data-i18n="tk.lede">Talk to our AI concierge — describe your challenge and agree the next step. At the end, your summary goes to our team on WhatsApp in one tap.</p>
+    <div class="talk-langs reveal">
+      <button class="voice-btn talk-open" type="button" data-lang="ar" lang="ar" dir="rtl"><i class="live"></i><b>تحدّث بالعربية</b><span>Arabic</span></button>
+      <button class="voice-btn talk-open" type="button" data-lang="en" lang="en" dir="ltr"><i class="live"></i><b>Speak in English</b><span>الإنجليزية</span></button>
+    </div>
+    <p class="note reveal" data-i18n="tk.privacy">Voice conversations on this website run through our voice partner, ElevenLabs. NARVO deployments for clients run entirely on their own servers.</p>
+
+    <div class="write">
+      <div class="write-copy reveal">
+        <h3 data-i18n="tk.writeT">Prefer to write?</h3>
+        <p data-i18n="tk.writeD">Fill this in — WhatsApp opens with your request already written. Just press send.</p>
+        <div class="contact">
+          <a href="#" class="wa-link" id="waDirect"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.5-4.1-.1-.2-1.1-1.4-1.1-2.7s.7-1.9.9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg><span dir="ltr">+971 56 129 6035</span></a>
+          <a href="mailto:contact@narvo.ae">contact@narvo.ae</a>
+          <span data-i18n="tk.addr">Masdar City, Abu Dhabi</span>
+        </div>
+      </div>
+      <form class="lead reveal" id="leadForm" autocomplete="on">
+        <p class="hp"><label>Leave empty <input name="company_website" tabindex="-1"></label></p>
+        <label class="fld"><span data-i18n="f.name">Full name</span><input name="name" required autocomplete="name"></label>
+        <label class="fld"><span data-i18n="f.org">Organisation</span><input name="organization" required autocomplete="organization"></label>
+        <label class="fld"><span data-i18n="f.role">Role</span><input name="role" autocomplete="organization-title"></label>
+        <label class="fld"><span data-i18n="f.email">Work email</span><input name="email" type="email" autocomplete="email"></label>
+        <label class="fld wide"><span data-i18n="f.need">What would you like AI to do for your organisation?</span><textarea name="use_case" rows="3" required></textarea></label>
+        <button class="pill pill-wa" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg><span data-i18n="f.send">Send on WhatsApp</span></button>
       </form>
     </div>
   </div>
 </section>
 </main>
 
-<footer class="foot">
-  <div class="wrap foot-wrap">
-    <div class="foot-brand">
-      <svg class="mark" viewBox="0 0 28 32" aria-hidden="true"><rect x="1" y="1" width="4.2" height="30"/><rect x="22.8" y="1" width="4.2" height="30"/><path d="M7.2 1h4.4l9.2 21.6V31h-0.6L7.2 7.6z"/><path d="M7.2 12.4l5.4 12.7V31H7.2z" opacity=".55"/><path d="M20.8 1v12.2L16.1 2.2 16.6 1z" opacity=".55"/></svg>
-      <div><b>NARVO</b><span data-i18n="ft.tag">Technology you control.</span></div>
+<footer class="ft">
+  <div class="wrap">
+    <svg class="ft-word" viewBox="-6 -6 632 112" aria-label="NARVO"><path d="M0 100V0l80 100V0M130 100 170 0l40 100M260 100V0h50a25 25 0 0 1 0 50h-50M296 50l44 50M390 0l40 100 40-100"/><circle cx="570" cy="50" r="50"/></svg>
+    <div class="ft-row">
+      <p data-i18n="ft.tag">Technology you control.</p>
+      <nav>
+        <a href="#platform" data-i18n="nav.platform">Platform</a>
+        <a href="#solutions" data-i18n="nav.solutions">Solutions</a>
+        <a href="#films" data-i18n="nav.films">Films</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="mailto:contact@narvo.ae">contact@narvo.ae</a>
+      </nav>
+      <p class="copy">© 2026 NARVO · <span data-i18n="ft.rights">Masdar City, Abu Dhabi</span></p>
     </div>
-    <div class="foot-cols">
-      <div><b data-i18n="ft.c1">Company</b><a href="#about" data-i18n="nav.about">About</a><a href="#pilot" data-i18n="nav.pilot">Pilot</a><a href="#talk" data-i18n="ft.contact">Contact</a></div>
-      <div><b data-i18n="ft.c2">Platform</b><a href="#platform" data-i18n="ft.private">Private by design</a><a href="#solutions" data-i18n="nav.solutions">Solutions</a><a href="#muqarrir">Muqarrir</a></div>
-      <div><b data-i18n="ft.c3">Reach us</b><a href="mailto:contact@narvo.ae">contact@narvo.ae</a><a href="tel:+971554500042" dir="ltr">+971 55 450 0042</a><span data-i18n="tk.addr">Masdar City, Abu Dhabi</span></div>
-    </div>
-    <p class="copy">© 2026 NARVO · <span data-i18n="ft.rights">Emirati-founded. Abu Dhabi-based.</span></p>
   </div>
 </footer>
 
-<button class="mobile-talk talk-open" type="button" aria-label="Talk to NARVO"><span class="dot-live"></span><span data-i18n="cta.talk">Talk to NARVO</span></button>
+<button class="float-talk talk-open" type="button"><i class="live"></i><span data-i18n="cta.talk">Talk to NARVO</span></button>
+<div class="cursor" id="cursor" aria-hidden="true"><span data-i18n="cur.play">Play</span></div>
 
 <!-- ============================== video player -->
 <dialog class="player" id="player" aria-label="Video">
-  <button class="x" type="button" id="playerClose" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <div class="player-top">
+    <b id="playerTitle"></b>
+    <div class="player-langs" id="playerLangs"></div>
+    <button class="x" type="button" id="playerClose" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
   <div class="player-frame"><video id="playerVideo" controls playsinline preload="metadata"></video></div>
-  <div class="player-bar"><b id="playerTitle"></b><div class="player-langs" id="playerLangs"></div></div>
 </dialog>
 
-<!-- ============================== concierge -->
-<div class="concierge" id="concierge" hidden aria-live="polite">
-  <div class="cg-card">
-    <button class="x" type="button" id="cgClose" aria-label="End"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
-    <div class="cg-orb"><canvas id="cgCanvas" width="400" height="400"></canvas></div>
-    <p class="cg-status" id="cgStatus" data-i18n="cg.connecting">Connecting…</p>
-    <div class="cg-log" id="cgLog"></div>
-    <div class="cg-actions">
-      <button class="btn btn-ghost btn-sm" type="button" id="cgMute"><span data-i18n="cg.mute">Mute</span></button>
-      <button class="btn btn-gold btn-sm" type="button" id="cgEnd"><span data-i18n="cg.end">End conversation</span></button>
+<!-- ============================== voice concierge -->
+<div class="cg" id="cg" hidden>
+  <div class="cg-top">
+    <span class="label"><i class="live"></i><span data-i18n="cg.name">NARVO concierge</span></span>
+    <span class="cg-state" id="cgStatus"></span>
+    <button class="x" type="button" id="cgClose" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+
+  <!-- step 1: the language of the conversation -->
+  <div class="cg-pick" id="cgPick">
+    <p class="cg-ask"><span lang="ar" dir="rtl">اختر لغة المحادثة</span><span>Choose the language of the conversation</span></p>
+    <div class="cg-choices">
+      <button type="button" data-lang="ar" lang="ar" dir="rtl"><b>العربية</b><span>Arabic</span></button>
+      <button type="button" data-lang="en" lang="en" dir="ltr"><b>English</b><span>الإنجليزية</span></button>
+    </div>
+    <p class="cg-mic"><span lang="ar" dir="rtl">يستخدم الميكروفون</span><span>Uses your microphone</span></p>
+  </div>
+
+  <!-- step 2: the conversation -->
+  <div class="cg-talk" id="cgTalk" hidden>
+    <canvas class="cg-wave" id="cgWave" aria-hidden="true"></canvas>
+    <div class="cg-log" id="cgLog" aria-live="polite"></div>
+    <div class="cg-wa" id="cgWa" hidden>
+      <p class="label" data-i18n="cg.waReady">Your summary is ready</p>
+      <pre class="cg-wa-text" id="cgWaText"></pre>
+      <a class="pill pill-wa" id="cgWaBtn" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg><span data-i18n="cg.wa">Send on WhatsApp</span></a>
+      <p class="cg-count" id="cgCount" role="status"></p>
+    </div>
+    <div class="cg-bar">
+      <button class="pill pill-line" type="button" id="cgMute"><span data-i18n="cg.mute">Mute</span></button>
+      <button class="pill pill-wa-line" type="button" id="cgFinish"><span data-i18n="cg.finish">Finish & send on WhatsApp</span></button>
+      <button class="pill pill-paper" type="button" id="cgEnd"><span data-i18n="cg.end">End</span></button>
     </div>
   </div>
 </div>
