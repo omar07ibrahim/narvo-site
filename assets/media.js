@@ -38,5 +38,23 @@ window.NARVO_MEDIA = {
   },
   "poster": "media/muqarrir-poster.jpg"
  },
+ "case05": {
+  "title": {
+   "en": "Applications & cases — from days to minutes",
+   "ar": "الطلبات والحالات — من أيامٍ إلى دقائق"
+  },
+  "src": {
+   "ar": "media/case05-ar.mp4"
+  },
+  "dur": {
+   "ar": 63
+  },
+  "blurb": {
+   "en": "An agent reads Arabic and English documents, checks the circular in code, drafts the clarification — and waits for a person.",
+   "ar": "وكيلٌ يقرأ الوثائق العربية والإنجليزية، ويطابق التعميم برمجياً، ويصوغ طلب الاستيفاء — وينتظر الإنسان."
+  },
+  "solution": "05",
+  "poster": "media/case05-poster.jpg"
+ },
  "reel": "media/reel.mp4"
 };
