@@ -64,10 +64,12 @@ window.NARVO_MEDIA = {
    "ar": "خدمة المتعاملين عبر واتساب باللهجة الإماراتية"
   },
   "src": {
-   "ar": "media/case07-ar.mp4"
+   "ar": "media/case07-ar.mp4",
+   "en": "media/case07-en.mp4"
   },
   "dur": {
-   "ar": 52
+   "ar": 52,
+   "en": 48
   },
   "blurb": {
    "en": "Verifies identity, reads the live case, books a real appointment and hands over with full context.",
