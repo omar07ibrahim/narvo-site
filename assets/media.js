@@ -44,6 +44,28 @@ window.NARVO_MEDIA = {
    "en": "media/muqarrir-poster-en.jpg"
   }
  },
+ "muqarrir_tech": {
+  "title": {
+   "en": "Muqarrir — measured, not promised",
+   "ar": "مُقرِّر — قِيسَ، لا وُعِد به"
+  },
+  "src": {
+   "ar": "media/muqarrir_tech-ar.mp4",
+   "en": "media/muqarrir_tech-en.mp4"
+  },
+  "dur": {
+   "ar": 247,
+   "en": 200
+  },
+  "blurb": {
+   "en": "Six recognisers and four language models tested on real Arabic speech: what the vote, the judge and the quality grade really deliver.",
+   "ar": "ستة نماذج للتعرّف على الكلام وأربعة نماذج لغوية على كلامٍ عربيٍّ حقيقي: ما الذي يقدّمه التصويت والحَكَم وتقييم الصوت فعلاً."
+  },
+  "poster": {
+   "ar": "media/muqarrir_tech-poster-ar.jpg",
+   "en": "media/muqarrir_tech-poster-en.jpg"
+  }
+ },
  "case05": {
   "title": {
    "en": "Applications & cases — from days to minutes",

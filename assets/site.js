@@ -47,6 +47,11 @@
       "mq.b1": "Live transcript with speakers recognised", "mq.b2": "Numbered decisions and actions with owners and deadlines",
       "mq.b3": "Every decision linked to the original recording — click and listen", "mq.b4": "Approve, stamp and export in Arabic and English",
       "mq.b5": "Runs on your own GPU server — no internet, no cloud", "mq.cta": "Watch Muqarrir in action",
+      "mm.kicker": "Measured, not promised", "mm.title": "Tested on real Arabic speech, transcribed by people.",
+      "mm.lede": "Five recognisers vote on every sentence; a judge settles disputes with the meeting form at hand and may never invent a word. Every figure below was measured on our own GPU, in 8- and 16-bit precision.",
+      "mm.s1": "clips of real speech — Emirati, Saudi, news — behind every figure", "mm.s2": "test sets where the vote matched or beat the best single model",
+      "mm.s3": "points: how close it predicts its own word error, before anyone checks", "mm.s4": "more errors found when a person checks the words it flags",
+      "mm.film": "Muqarrir — the technical film",
       "cs.kicker": "Films", "cs.title": "Real systems, recorded on real screens.",
       "pi.kicker": "The pilot programme", "pi.title": "A working pilot in weeks, not quarters.",
       "pi.lede": "One priority use case becomes a working AI system — built on your data, under your control. You see it work before you commit to anything larger.",
@@ -79,7 +84,7 @@
       "cg.mic": "To talk, allow the microphone in your browser and try again — or write to us instead.", "cg.error": "Couldn't connect. Please try again — or write to us instead.",
       "cg.dropped": "The conversation ended before the summary.", "cg.again": "Try again", "cg.write": "Write instead",
       "player.ar": "العربية", "player.en": "English",
-      "pr.title": "Intelligence that stays where your data lives.", "film.langs": "Arabic · English", "so.discuss": "Discuss with the concierge", "cs.pilot": "In pilot", "cs.lede": "Short films of real NARVO systems at work, recorded on their own screens — each in Arabic and in English.",
+      "pr.title": "Intelligence that stays where your data lives.", "film.langs": "Arabic · English", "so.discuss": "Discuss with the concierge", "cs.pilot": "In pilot", "cs.tech": "Measured", "cs.lede": "Short films of real NARVO systems at work, recorded on their own screens — each in Arabic and in English.",
       "st.lede": "From the hardware up to the twenty solutions, every layer runs inside your organisation — none of it depends on an outside AI service.", "so.more": "Show all {n} solutions",
       "tk.cta": "Talk to our AI concierge", "tk.ctaSub": "Arabic or English · about five minutes · no account needed", "f.email": "Work email",
       "wa.hello": "Hello NARVO 👋", "wa.agent": "I've just spoken with your AI concierge on narvo.ae.", "wa.form": "I'm writing from narvo.ae.",
@@ -117,6 +122,11 @@
       "mq.b1": "تفريغٌ مباشر مع تمييز المتحدثين", "mq.b2": "قراراتٌ مرقّمة وتكليفاتٌ بأسماء المسؤولين ومواعيدها",
       "mq.b3": "كل قرارٍ مرتبط بلحظته في التسجيل الأصلي — انقر واسمع", "mq.b4": "اعتمادٌ وختمٌ وتصدير بالعربية والإنجليزية",
       "mq.b5": "يعمل على خادم الجهة — لا إنترنت، لا سحابة", "mq.cta": "شاهد «مُقرِّر» أثناء العمل",
+      "mm.kicker": "قِيسَ، لا وُعِد به", "mm.title": "مُختبَرٌ على كلامٍ عربيٍّ حقيقي، فرّغه بشر.",
+      "mm.lede": "خمسةُ نماذج تصوّت على كل جملة، وحَكَمٌ يحسم الخلاف ومعه بياناتُ الاجتماع، ولا يُسمح له باختراع كلمة. كلُّ رقمٍ أدناه قيس على معالجنا الرسومي، بدقة 8 و16 بت.",
+      "mm.s1": "مقطعاً من كلامٍ حقيقي — إماراتي وسعودي وأخبار — وراء كل رقم", "mm.s2": "مجموعات اختبار عادل فيها التصويتُ أفضلَ نموذجٍ منفرد أو تفوّق عليه",
+      "mm.s3": "نقطة: مدى دقة تنبّؤه بنسبة أخطائه قبل أن يراجعها أحد", "mm.s4": "أخطاءٌ أكثر يكتشفها المراجع حين يبدأ بالكلمات المعلَّمة",
+      "mm.film": "مُقرِّر — الفيلم التقني",
       "cs.kicker": "الأفلام", "cs.title": "أنظمةٌ حقيقية، مسجّلة على شاشاتٍ حقيقية.",
       "pi.kicker": "برنامج التجربة", "pi.title": "تجربةٌ عاملة خلال أسابيع، لا أرباع سنة.",
       "pi.lede": "أولويةٌ واحدة تتحول إلى نظام ذكاء اصطناعي عامل — على بياناتكم وتحت سيطرتكم. ترونه يعمل قبل أن تلتزموا بأي شيءٍ أكبر.",
@@ -147,7 +157,7 @@
       "cg.mic": "للتحدث، اسمح باستخدام الميكروفون في المتصفح وحاول مجدداً — أو اكتب لنا بدلاً من ذلك.", "cg.error": "تعذّر الاتصال. حاول مجدداً — أو اكتب لنا بدلاً من ذلك.",
       "cg.dropped": "انتهت المحادثة قبل إعداد الملخّص.", "cg.again": "حاول مجدداً", "cg.write": "اكتب لنا",
       "player.ar": "العربية", "player.en": "English",
-      "pr.title": "ذكاءٌ يبقى حيث تعيش بياناتكم.", "film.langs": "العربية · الإنجليزية", "so.discuss": "ناقشه مع المساعد الذكي", "cs.pilot": "في التجربة", "cs.lede": "أفلامٌ قصيرة لأنظمة نارفو حقيقية أثناء العمل، مسجّلة على شاشاتها — كلٌّ منها بالعربية وبالإنجليزية.",
+      "pr.title": "ذكاءٌ يبقى حيث تعيش بياناتكم.", "film.langs": "العربية · الإنجليزية", "so.discuss": "ناقشه مع المساعد الذكي", "cs.pilot": "في التجربة", "cs.tech": "قياسات", "cs.lede": "أفلامٌ قصيرة لأنظمة نارفو حقيقية أثناء العمل، مسجّلة على شاشاتها — كلٌّ منها بالعربية وبالإنجليزية.",
       "st.lede": "من الأجهزة وحتى الحلول العشرين، تعمل كل طبقةٍ داخل جهتكم — دون الاعتماد على أي خدمة ذكاء اصطناعي خارجية.", "so.more": "عرض جميع الحلول ({n})",
       "tk.cta": "تحدّث مع مساعدنا الذكي", "tk.ctaSub": "بالعربية أو الإنجليزية · نحو خمس دقائق · دون تسجيل", "f.email": "البريد الإلكتروني للعمل",
       "wa.hello": "مرحباً نارفو 👋", "wa.agent": "تحدّثتُ للتو مع المساعد الذكي على موقع narvo.ae.", "wa.form": "أكتب إليكم من موقع narvo.ae.",
@@ -298,12 +308,12 @@
   /* ------------------------------------------------------------------ the films: a grid of posters */
   function renderFilms() {
     const grid = $("#filmsGrid"); if (!grid) return;
-    const order = ["muqarrir", ...Object.keys(MEDIA).filter((k) => MEDIA[k].solution).sort((a, b) => MEDIA[a].solution.localeCompare(MEDIA[b].solution))];
+    const order = ["muqarrir", "muqarrir_tech", ...Object.keys(MEDIA).filter((k) => MEDIA[k].solution).sort((a, b) => MEDIA[a].solution.localeCompare(MEDIA[b].solution))];
     const list = order.filter((k) => MEDIA[k] && MEDIA[k].src);
     $("#films").hidden = !list.length;
     grid.innerHTML = list.map((key) => {
       const m = MEDIA[key], d = durOf(m);
-      const chip = key === "muqarrir" ? t("cs.pilot") : m.solution || "";
+      const chip = key === "muqarrir" ? t("cs.pilot") : key === "muqarrir_tech" ? t("cs.tech") : m.solution || "";
       return `<article class="fcard reveal${key === "muqarrir" ? " feat" : ""}">
         ${posterOf(key, m, "poster poster-sm play", chip)}
         <div class="fmeta"><b>${esc(m.title[lang] || m.title.en)}</b>
