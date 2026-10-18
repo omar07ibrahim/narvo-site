@@ -227,6 +227,21 @@ html[dir="rtl"] .cell:hover .go { transform: scaleX(-1) translateX(4px); }
 .mq-list li { counter-increment: m; display: grid; grid-template-columns: 40px 1fr; padding: 13px 0; border-bottom: 1px solid var(--hair); color: var(--soft); font-size: 15px; }
 .mq-list li::before { content: counter(m, decimal-leading-zero); font: 400 11px/2 var(--f-mono); color: var(--mute); }
 /* two dark chapters in a row share one hairline instead of two empty paddings */
+/* measured, not promised: the evaluation behind Muqarrir */
+.mm { margin-top: calc(var(--pad) * .8); padding-top: calc(var(--pad) * .55); border-top: 1px solid var(--hair); }
+.mm-head { max-width: 62ch; }
+.mm-t { font: 200 clamp(24px, 2.6vw, 38px)/1.2 var(--f-disp); letter-spacing: -.015em; margin-top: 18px; text-wrap: balance; }
+html[lang="ar"] .mm-t { letter-spacing: 0; line-height: 1.45; font-weight: 300; }
+.mm-lede { color: var(--soft); margin-top: 14px; font-size: 15px; }
+.mm-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px 6vw; align-items: center; margin-top: 36px; }
+.mm-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--hair); }
+.mm-stats li { padding: 20px 0 18px; border-bottom: 1px solid var(--hair); display: grid; gap: 8px; align-content: start; }
+.mm-stats li:nth-child(odd) { padding-inline-end: 24px; }
+.mm-stats li:nth-child(even) { padding-inline-start: 24px; border-inline-start: 1px solid var(--hair); }
+.mm-stats b { font: 200 clamp(30px, 3vw, 44px)/1 var(--f-disp); color: var(--bronze); font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; justify-self: start; }
+.mm-stats span { color: var(--soft); font-size: 14px; }
+@media (max-width: 860px) { .mm-grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 480px) { .mm-stats { grid-template-columns: minmax(0, 1fr); } .mm-stats li:nth-child(n) { padding-inline: 0; border-inline-start: 0; } }
 .mq + .films { padding-top: 0; }
 .mq + .films > .wrap::before { content: ""; display: block; height: 1px; background: var(--hair); margin-bottom: calc(var(--pad) * .7); }
 
