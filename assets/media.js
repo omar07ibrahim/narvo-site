@@ -205,5 +205,304 @@ window.NARVO_MEDIA = {
    "en": "media/case06-poster-en.jpg"
   }
  },
+ "case01": {
+  "title": {
+   "en": "Company knowledge, put to work",
+   "ar": "معرفة المؤسسة، في خدمة العمل"
+  },
+  "src": {
+   "ar": "media/case01-ar.mp4",
+   "en": "media/case01-en.mp4"
+  },
+  "dur": {
+   "ar": 63,
+   "en": 53
+  },
+  "blurb": {
+   "en": "Answers from your own documents with every source, access that follows the role, and a briefing whose tasks wait for approval.",
+   "ar": "إجاباتٌ من وثائقكم مع مصدر كلِّ معلومة، وصلاحياتٌ تتبع الدور، وإحاطةٌ تنتظر مهامُّها الاعتماد."
+  },
+  "solution": "01",
+  "poster": {
+   "ar": "media/case01-poster-ar.jpg",
+   "en": "media/case01-poster-en.jpg"
+  }
+ },
+ "case03": {
+  "title": {
+   "en": "Process intelligence — find the delay, measure the fix",
+   "ar": "ذكاء العمليات — اكتشف التأخير وقِس أثر الحل"
+  },
+  "src": {
+   "ar": "media/case03-ar.mp4",
+   "en": "media/case03-en.mp4"
+  },
+  "dur": {
+   "ar": 76,
+   "en": 62
+  },
+  "blurb": {
+   "en": "1,047 permits mapped from the event log, causes explained from the officers' notes, the fix simulated, approved and measured.",
+   "ar": "1,047 تصريحاً يُرسم مسارها من سجل الأحداث، وتُشرح الأسباب من ملاحظات الموظفين، ويُحاكى الحل ثم يُعتمد ويُقاس."
+  },
+  "solution": "03",
+  "poster": {
+   "ar": "media/case03-poster-ar.jpg",
+   "en": "media/case03-poster-en.jpg"
+  }
+ },
+ "case08": {
+  "title": {
+   "en": "Sales — the stalled deal moves again",
+   "ar": "المبيعات — الصفقة المتعثّرة تتحرك من جديد"
+  },
+  "src": {
+   "ar": "media/case08-ar.mp4",
+   "en": "media/case08-en.mp4"
+  },
+  "dur": {
+   "ar": 75,
+   "en": 63
+  },
+  "blurb": {
+   "en": "A cited account brief in under a minute, the quote checked line by line against the frame agreement, an Arabic WhatsApp approved before it goes.",
+   "ar": "ملخّصٌ موثّق للحساب في أقل من دقيقة، ومطابقة العرض بنداً بنداً مع الاتفاقية الإطارية، ورسالة واتساب عربية تُعتمد قبل إرسالها."
+  },
+  "solution": "08",
+  "poster": {
+   "ar": "media/case08-poster-ar.jpg",
+   "en": "media/case08-poster-en.jpg"
+  }
+ },
+ "case09": {
+  "title": {
+   "en": "Tenders — every claim backed by evidence",
+   "ar": "العطاءات — كلُّ ادعاءٍ مدعومٌ بدليل"
+  },
+  "src": {
+   "ar": "media/case09-ar.mp4",
+   "en": "media/case09-en.mp4"
+  },
+  "dur": {
+   "ar": 76,
+   "en": 63
+  },
+  "blurb": {
+   "en": "Forty-six requirements mapped to approved evidence, unsupported claims caught, sections drafted with citations and every gap assigned.",
+   "ar": "ستةٌ وأربعون متطلباً تُطابق مع الأدلة المعتمدة، وتُكشف الادعاءات غير المدعومة، وتُصاغ الأقسام بالمراجع، ويُسند كلُّ نقصٍ إلى مسؤول."
+  },
+  "solution": "09",
+  "poster": {
+   "ar": "media/case09-poster-ar.jpg",
+   "en": "media/case09-poster-en.jpg"
+  }
+ },
+ "case10": {
+  "title": {
+   "en": "Brand content — one truth in every channel",
+   "ar": "محتوى العلامة — حقيقةٌ واحدة في كل قناة"
+  },
+  "src": {
+   "ar": "media/case10-ar.mp4",
+   "en": "media/case10-en.mp4"
+  },
+  "dur": {
+   "ar": 75,
+   "en": 62
+  },
+  "blurb": {
+   "en": "Twelve channel variants written from the approved fact sheet, every sentence verified, and only the affected copy regenerated when a fact changes.",
+   "ar": "اثنا عشر نصاً للقنوات من صحيفة الحقائق المعتمدة، وكلُّ جملةٍ مُتحقَّق منها، وعند تغيّر معلومةٍ لا يُعاد إلا ما تأثّر بها."
+  },
+  "solution": "10",
+  "poster": {
+   "ar": "media/case10-poster-ar.jpg",
+   "en": "media/case10-poster-en.jpg"
+  }
+ },
+ "case11": {
+  "title": {
+   "en": "Employee services — answers and requests without the wait",
+   "ar": "خدمات الموظفين — إجاباتٌ وطلباتٌ بلا انتظار"
+  },
+  "src": {
+   "ar": "media/case11-ar.mp4",
+   "en": "media/case11-en.mp4"
+  },
+  "dur": {
+   "ar": 55,
+   "en": 45
+  },
+  "blurb": {
+   "en": "An employee asks in their own words: the rule is found, the form filled, the right approver signs and the service desk issues the certificate.",
+   "ar": "يسأل الموظف بكلماته، فيُعثر على القاعدة وتُعبّأ الاستمارة، ويعتمد المسؤول المختص، ويُصدر مكتب الخدمة الشهادة."
+  },
+  "solution": "11",
+  "poster": {
+   "ar": "media/case11-poster-ar.jpg",
+   "en": "media/case11-poster-en.jpg"
+  }
+ },
+ "case12": {
+  "title": {
+   "en": "Recruitment — AI compares, people decide",
+   "ar": "التوظيف — الذكاء يقارن، والإنسان يقرّر"
+  },
+  "src": {
+   "ar": "media/case12-ar.mp4",
+   "en": "media/case12-en.mp4"
+  },
+  "dur": {
+   "ar": 68,
+   "en": 57
+  },
+  "blurb": {
+   "en": "Minimum requirements checked by rules, identity removed before the model reads a CV, and every rating backed by a verified quote.",
+   "ar": "الحدّ الأدنى من المتطلبات يُفحص بالقواعد، وتُحذف بيانات الهوية قبل قراءة السيرة الذاتية، وكلُّ تقييمٍ مدعومٌ باقتباسٍ مُتحقَّق منه."
+  },
+  "solution": "12",
+  "poster": {
+   "ar": "media/case12-poster-ar.jpg",
+   "en": "media/case12-poster-en.jpg"
+  }
+ },
+ "case13": {
+  "title": {
+   "en": "Contracts — every commitment owned",
+   "ar": "العقود — لكلِّ التزامٍ مسؤول"
+  },
+  "src": {
+   "ar": "media/case13-ar.mp4",
+   "en": "media/case13-en.mp4"
+  },
+  "dur": {
+   "ar": 64,
+   "en": 52
+  },
+  "blurb": {
+   "en": "A vendor draft checked against sixteen approved positions, obligations extracted with owners and dates, and the renewal brief ready 21 days ahead.",
+   "ar": "مسودة المورّد تُراجع مقابل ستة عشر موقفاً معتمداً، وتُستخرج الالتزامات بمسؤوليها ومواعيدها، وملخّص التجديد جاهزٌ قبل 21 يوماً."
+  },
+  "solution": "13",
+  "poster": {
+   "ar": "media/case13-poster-ar.jpg",
+   "en": "media/case13-poster-en.jpg"
+  }
+ },
+ "case15": {
+  "title": {
+   "en": "Procurement — every award explained",
+   "ar": "المشتريات — كلُّ ترسيةٍ مُبرَّرة"
+  },
+  "src": {
+   "ar": "media/case15-ar.mp4",
+   "en": "media/case15-en.mp4"
+  },
+  "dur": {
+   "ar": 63,
+   "en": 56
+  },
+  "blurb": {
+   "en": "Three sealed bids compared with verbatim quotes, clarifications issued with the chair's approval, scores computed in code and the report approved.",
+   "ar": "ثلاثة عروضٍ مختومة تُقارن باقتباساتٍ حرفية، وتُصدر الاستيضاحات بموافقة الرئيس، وتُحسب الدرجات برمجياً ويُعتمد التقرير."
+  },
+  "solution": "15",
+  "poster": {
+   "ar": "media/case15-poster-ar.jpg",
+   "en": "media/case15-poster-en.jpg"
+  }
+ },
+ "case16": {
+  "title": {
+   "en": "Order exceptions — orders that keep moving",
+   "ar": "استثناءات الطلبات — طلباتٌ لا تتوقف"
+  },
+  "src": {
+   "ar": "media/case16-ar.mp4",
+   "en": "media/case16-en.mp4"
+  },
+  "dur": {
+   "ar": 75,
+   "en": 64
+  },
+  "blurb": {
+   "en": "Forty orders checked in code, a Gulf Arabic WhatsApp turned into clear requests, every option computed — and the planner's split approved.",
+   "ar": "أربعون طلباً تُفحص برمجياً، ورسالة واتساب بلهجةٍ خليجية تتحوّل إلى طلباتٍ واضحة، وكلُّ خيارٍ محسوب — ثم يُعتمد التقسيم."
+  },
+  "solution": "16",
+  "poster": {
+   "ar": "media/case16-poster-ar.jpg",
+   "en": "media/case16-poster-en.jpg"
+  }
+ },
+ "case17": {
+  "title": {
+   "en": "Demand planning — a plan that fits",
+   "ar": "تخطيط الطلب — خطةٌ قابلة للتنفيذ"
+  },
+  "src": {
+   "ar": "media/case17-ar.mp4",
+   "en": "media/case17-en.mp4"
+  },
+  "dur": {
+   "ar": 61,
+   "en": 51
+  },
+  "blurb": {
+   "en": "A backtested forecast with its uncertainty, three plans simulated against real storage limits and re-run instantly when demand shifts.",
+   "ar": "توقّعٌ مُختبَر مع نطاق عدم اليقين، وثلاث خطط تُحاكى مقابل حدود التخزين الفعلية، ويُعاد حسابها فوراً عند تغيّر الطلب."
+  },
+  "solution": "17",
+  "poster": {
+   "ar": "media/case17-poster-ar.jpg",
+   "en": "media/case17-poster-en.jpg"
+  }
+ },
+ "case19": {
+  "title": {
+   "en": "Field service — a prepared visit, a complete record",
+   "ar": "الخدمات الميدانية — زيارةٌ مُعدّة وسجلٌّ مكتمل"
+  },
+  "src": {
+   "ar": "media/case19-ar.mp4",
+   "en": "media/case19-en.mp4"
+  },
+  "dur": {
+   "ar": 65,
+   "en": 54
+  },
+  "blurb": {
+   "en": "A cited job brief before the visit, dictated notes and photos turned into a structured report, scored by the supervisor and approved.",
+   "ar": "ملخّص مهمةٍ موثّق قبل الزيارة، وملاحظاتٌ مُملاة وصورٌ تتحوّل إلى تقريرٍ منظّم، يقيّمه المشرف ثم يعتمده."
+  },
+  "solution": "19",
+  "poster": {
+   "ar": "media/case19-poster-ar.jpg",
+   "en": "media/case19-poster-en.jpg"
+  }
+ },
+ "case20": {
+  "title": {
+   "en": "Facilities — see the issue, check the result",
+   "ar": "المرافق — اكتشف المشكلة وتحقّق من الحل"
+  },
+  "src": {
+   "ar": "media/case20-ar.mp4",
+   "en": "media/case20-en.mp4"
+  },
+  "dur": {
+   "ar": 65,
+   "en": 54
+  },
+  "blurb": {
+   "en": "Building signals and complaints in one view, the cause explained, a work order from six systems — and the fix verified on the data.",
+   "ar": "إشارات المبنى والشكاوى في عرضٍ واحد، والسبب مشروح، وأمر عملٍ من ستة أنظمة — والإصلاح مُتحقَّق منه بالبيانات."
+  },
+  "solution": "20",
+  "poster": {
+   "ar": "media/case20-poster-ar.jpg",
+   "en": "media/case20-poster-en.jpg"
+  }
+ },
  "reel": "media/reel.mp4"
 };

@@ -304,7 +304,7 @@
     grid.innerHTML = list.map((key) => {
       const m = MEDIA[key], d = durOf(m);
       const chip = key === "muqarrir" ? t("cs.pilot") : m.solution || "";
-      return `<article class="fcard reveal">
+      return `<article class="fcard reveal${key === "muqarrir" ? " feat" : ""}">
         ${posterOf(key, m, "poster poster-sm play", chip)}
         <div class="fmeta"><b>${esc(m.title[lang] || m.title.en)}</b>
           <span class="line"><span class="dur">${d ? fmt(d) : ""}</span>${["ar", "en"].filter((x) => m.src[x]).map((x) => `<button type="button" data-video="${key}" data-l="${x}">${t("player." + x)}</button>`).join("")}</span>

@@ -233,6 +233,9 @@ html[dir="rtl"] .cell:hover .go { transform: scaleX(-1) translateX(4px); }
 /* ------------------------------------------------------------------ films */
 .films-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(18px, 2vw, 28px) clamp(16px, 1.6vw, 24px); }
 .fcard { display: grid; grid-template-rows: auto 1fr; }
+/* the pilot film leads the grid at twice the size, so twenty case films beside it fill every row */
+.fcard.feat { grid-column: span 2; grid-row: span 2; }
+.fcard.feat .fmeta b { font-size: clamp(22px, 1.9vw, 30px); }
 .fcard .poster-meta { display: none; }
 .fmeta { margin-top: 14px; display: grid; grid-template-rows: auto 1fr; gap: 10px; }
 .fmeta b { font: 300 clamp(17px, 1.3vw, 20px)/1.25 var(--f-disp); letter-spacing: -.01em; }
@@ -459,6 +462,8 @@ html[lang="ar"] .cg-after p, .cg[lang="ar"] .cg-after p { line-height: 1.8; }
   .poster-meta { padding: 14px 16px; gap: 6px; }
   .poster-meta b { font-size: 17px; }
   .films-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
+  .fcard.feat { grid-row: auto; }
+  .fcard.feat .fmeta b { font-size: 19px; }
   .films-grid .play-big { width: 44px; height: 44px; margin: -22px 0 0 -22px; }
   .films-grid .play-big svg { width: 16px; height: 16px; margin-inline-start: 2px; }
   .films-grid .poster .chip { inset: 8px auto auto 8px; padding: 5px 7px; font-size: 10px; }
