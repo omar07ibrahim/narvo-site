@@ -10,8 +10,8 @@ window.NARVO_MEDIA = {
    "en": "media/overview-en.mp4"
   },
   "dur": {
-   "ar": 119,
-   "en": 92
+   "ar": 122,
+   "en": 97
   },
   "blurb": {
    "en": "One private core, twenty tailored solutions and a person approving every action, on real screens.",
@@ -261,7 +261,7 @@ window.NARVO_MEDIA = {
   },
   "dur": {
    "ar": 76,
-   "en": 62
+   "en": 61
   },
   "blurb": {
    "en": "1,047 permits mapped from the event log, causes explained from the officers' notes, the fix simulated, approved and measured.",
