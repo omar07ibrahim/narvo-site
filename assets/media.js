@@ -2,8 +2,8 @@
 window.NARVO_MEDIA = {
  "overview": {
   "title": {
-   "en": "NARVO — platform overview",
-   "ar": "نارفو — نظرة على المنصة"
+   "en": "NARVO, the platform",
+   "ar": "نارفو: نظرة على المنصة"
   },
   "src": {
    "ar": "media/overview-ar.mp4",
@@ -14,8 +14,8 @@ window.NARVO_MEDIA = {
    "en": 92
   },
   "blurb": {
-   "en": "One private core, twenty solutions and a person approving every action — the platform, on real screens.",
-   "ar": "نواةٌ خاصة واحدة، وعشرون حلاً، وإنسانٌ يعتمد كل إجراء — المنصة على شاشاتٍ حقيقية."
+   "en": "One private core, twenty tailored solutions and a person approving every action, on real screens.",
+   "ar": "نواةٌ خاصة واحدة، وعشرون حلاً مخصّصاً، وإنسانٌ يعتمد كل إجراء، على شاشاتٍ حقيقية."
   },
   "poster": {
    "ar": "media/overview-poster-ar.jpg",
@@ -24,8 +24,8 @@ window.NARVO_MEDIA = {
  },
  "muqarrir": {
   "title": {
-   "en": "Muqarrir — the AI meeting rapporteur",
-   "ar": "مُقرِّر — مقرّر الاجتماعات الذكي"
+   "en": "Muqarrir, the AI meeting rapporteur",
+   "ar": "مُقرِّر، مقرّر الاجتماعات الذكي"
   },
   "src": {
    "ar": "media/muqarrir-ar.mp4",
@@ -36,8 +36,8 @@ window.NARVO_MEDIA = {
    "en": 106
   },
   "blurb": {
-   "en": "A live Arabic meeting becomes approved minutes — decisions, owners and deadlines, each linked to the recording.",
-   "ar": "اجتماعٌ عربيٌّ مباشر يتحوّل إلى محضرٍ معتمد — قراراتٌ ومسؤولون ومواعيد، كلٌّ منها مرتبطٌ بالتسجيل."
+   "en": "A live Arabic meeting becomes approved minutes: decisions, owners and deadlines, each linked to the recording.",
+   "ar": "اجتماعٌ عربيٌّ مباشر يتحوّل إلى محضرٍ معتمد: قراراتٌ ومسؤولون ومواعيد، كلٌّ منها مرتبطٌ بالتسجيل."
   },
   "poster": {
    "ar": "media/muqarrir-poster-ar.jpg",
@@ -46,8 +46,8 @@ window.NARVO_MEDIA = {
  },
  "muqarrir_tech": {
   "title": {
-   "en": "Muqarrir — measured, not promised",
-   "ar": "مُقرِّر — قِيسَ، لا وُعِد به"
+   "en": "Muqarrir, the technical film",
+   "ar": "مُقرِّر: الفيلم التقني"
   },
   "src": {
    "ar": "media/muqarrir_tech-ar.mp4",
@@ -68,8 +68,8 @@ window.NARVO_MEDIA = {
  },
  "case05": {
   "title": {
-   "en": "Applications & cases — from days to minutes",
-   "ar": "الطلبات والحالات — من أيامٍ إلى دقائق"
+   "en": "Applications and cases, from days to minutes",
+   "ar": "الطلبات والحالات: من أيامٍ إلى دقائق"
   },
   "src": {
    "ar": "media/case05-ar.mp4",
@@ -80,8 +80,8 @@ window.NARVO_MEDIA = {
    "en": 56
   },
   "blurb": {
-   "en": "An agent reads Arabic and English documents, checks the circular in code, drafts the clarification — and waits for a person.",
-   "ar": "وكيلٌ يقرأ الوثائق العربية والإنجليزية، ويطابق التعميم برمجياً، ويصوغ طلب الاستيفاء — وينتظر الإنسان."
+   "en": "An agent reads Arabic and English documents, checks the circular in code, drafts the clarification, and waits for a person.",
+   "ar": "وكيلٌ يقرأ الوثائق العربية والإنجليزية، ويطابق التعميم برمجياً، ويصوغ طلب الاستيفاء، وينتظر الإنسان."
   },
   "solution": "05",
   "poster": {
@@ -114,8 +114,8 @@ window.NARVO_MEDIA = {
  },
  "case02": {
   "title": {
-   "en": "Ask the data — numbers that are computed",
-   "ar": "اسأل البيانات — أرقامٌ محسوبة"
+   "en": "Ask the data. The numbers are computed.",
+   "ar": "اسأل البيانات: أرقامٌ محسوبة"
   },
   "src": {
    "ar": "media/case02-ar.mp4",
@@ -160,8 +160,8 @@ window.NARVO_MEDIA = {
  },
  "case18": {
   "title": {
-   "en": "Site inspection — from a photo to a notice",
-   "ar": "التفتيش الميداني — من صورةٍ إلى إشعار"
+   "en": "Site inspection, from a photo to a notice",
+   "ar": "التفتيش الميداني: من صورةٍ إلى إشعار"
   },
   "src": {
    "ar": "media/case18-ar.mp4",
@@ -172,8 +172,8 @@ window.NARVO_MEDIA = {
    "en": 49
   },
   "blurb": {
-   "en": "A vision model marks each defect with its confidence, maps it to the building code — and the inspector decides.",
-   "ar": "نموذج الرؤية يحدّد كلَّ مخالفةٍ ودرجة الثقة، ويربطها بمادة الكود — والمفتّش يقرّر."
+   "en": "A vision model marks each defect with its confidence, maps it to the building code, and the inspector decides.",
+   "ar": "نموذج الرؤية يحدّد كلَّ مخالفةٍ ودرجة الثقة، ويربطها بمادة الكود، والمفتّش يقرّر."
   },
   "solution": "18",
   "poster": {
@@ -183,8 +183,8 @@ window.NARVO_MEDIA = {
  },
  "case14": {
   "title": {
-   "en": "Invoice exceptions — computed, not guessed",
-   "ar": "استثناءات الفواتير — محسوبةٌ لا مُخمَّنة"
+   "en": "Invoice exceptions, computed from the records",
+   "ar": "استثناءات الفواتير، محسوبةً من السجلات"
   },
   "src": {
    "ar": "media/case14-ar.mp4",
@@ -218,8 +218,8 @@ window.NARVO_MEDIA = {
    "en": 39
   },
   "blurb": {
-   "en": "Translates on your servers segment by segment, checks numbers, dates and references — and a reviewer confirms.",
-   "ar": "يترجم على خوادمكم مقطعاً مقطعاً، ويدقّق الأرقام والتواريخ والمراجع — ويؤكّد المراجع."
+   "en": "Translates on your servers segment by segment, checks numbers, dates and references, and a reviewer confirms.",
+   "ar": "يترجم على خوادمكم مقطعاً مقطعاً، ويدقّق الأرقام والتواريخ والمراجع، ويؤكّد المراجع."
   },
   "solution": "06",
   "poster": {
@@ -252,8 +252,8 @@ window.NARVO_MEDIA = {
  },
  "case03": {
   "title": {
-   "en": "Process intelligence — find the delay, measure the fix",
-   "ar": "ذكاء العمليات — اكتشف التأخير وقِس أثر الحل"
+   "en": "Process intelligence: find the delay, measure the fix",
+   "ar": "ذكاء العمليات: اكتشف التأخير وقِس أثر الحل"
   },
   "src": {
    "ar": "media/case03-ar.mp4",
@@ -275,8 +275,8 @@ window.NARVO_MEDIA = {
  },
  "case08": {
   "title": {
-   "en": "Sales — the stalled deal moves again",
-   "ar": "المبيعات — الصفقة المتعثّرة تتحرك من جديد"
+   "en": "Sales: the stalled deal moves again",
+   "ar": "المبيعات: الصفقة المتعثّرة تتحرك من جديد"
   },
   "src": {
    "ar": "media/case08-ar.mp4",
@@ -298,8 +298,8 @@ window.NARVO_MEDIA = {
  },
  "case09": {
   "title": {
-   "en": "Tenders — every claim backed by evidence",
-   "ar": "العطاءات — كلُّ ادعاءٍ مدعومٌ بدليل"
+   "en": "Tenders with every claim backed by evidence",
+   "ar": "العطاءات: كلُّ ادعاءٍ مدعومٌ بدليل"
   },
   "src": {
    "ar": "media/case09-ar.mp4",
@@ -321,8 +321,8 @@ window.NARVO_MEDIA = {
  },
  "case10": {
   "title": {
-   "en": "Brand content — one truth in every channel",
-   "ar": "محتوى العلامة — حقيقةٌ واحدة في كل قناة"
+   "en": "Brand content: one truth in every channel",
+   "ar": "محتوى العلامة: حقيقةٌ واحدة في كل قناة"
   },
   "src": {
    "ar": "media/case10-ar.mp4",
@@ -344,8 +344,8 @@ window.NARVO_MEDIA = {
  },
  "case11": {
   "title": {
-   "en": "Employee services — answers and requests without the wait",
-   "ar": "خدمات الموظفين — إجاباتٌ وطلباتٌ بلا انتظار"
+   "en": "Employee services without the wait",
+   "ar": "خدمات الموظفين: إجاباتٌ وطلباتٌ بلا انتظار"
   },
   "src": {
    "ar": "media/case11-ar.mp4",
@@ -367,8 +367,8 @@ window.NARVO_MEDIA = {
  },
  "case12": {
   "title": {
-   "en": "Recruitment — AI compares, people decide",
-   "ar": "التوظيف — الذكاء يقارن، والإنسان يقرّر"
+   "en": "Recruitment: AI compares, people decide",
+   "ar": "التوظيف: الذكاء يقارن، والإنسان يقرّر"
   },
   "src": {
    "ar": "media/case12-ar.mp4",
@@ -390,8 +390,8 @@ window.NARVO_MEDIA = {
  },
  "case13": {
   "title": {
-   "en": "Contracts — every commitment owned",
-   "ar": "العقود — لكلِّ التزامٍ مسؤول"
+   "en": "Contracts where every commitment has an owner",
+   "ar": "العقود: لكلِّ التزامٍ مسؤول"
   },
   "src": {
    "ar": "media/case13-ar.mp4",
@@ -413,8 +413,8 @@ window.NARVO_MEDIA = {
  },
  "case15": {
   "title": {
-   "en": "Procurement — every award explained",
-   "ar": "المشتريات — كلُّ ترسيةٍ مُبرَّرة"
+   "en": "Procurement: every award explained",
+   "ar": "المشتريات: كلُّ ترسيةٍ مُبرَّرة"
   },
   "src": {
    "ar": "media/case15-ar.mp4",
@@ -436,8 +436,8 @@ window.NARVO_MEDIA = {
  },
  "case16": {
   "title": {
-   "en": "Order exceptions — orders that keep moving",
-   "ar": "استثناءات الطلبات — طلباتٌ لا تتوقف"
+   "en": "Order exceptions: orders that keep moving",
+   "ar": "استثناءات الطلبات: طلباتٌ لا تتوقف"
   },
   "src": {
    "ar": "media/case16-ar.mp4",
@@ -448,8 +448,8 @@ window.NARVO_MEDIA = {
    "en": 64
   },
   "blurb": {
-   "en": "Forty orders checked in code, a Gulf Arabic WhatsApp turned into clear requests, every option computed — and the planner's split approved.",
-   "ar": "أربعون طلباً تُفحص برمجياً، ورسالة واتساب بلهجةٍ خليجية تتحوّل إلى طلباتٍ واضحة، وكلُّ خيارٍ محسوب — ثم يُعتمد التقسيم."
+   "en": "Forty orders checked in code, a Gulf Arabic WhatsApp turned into clear requests, every option computed, and the planner's split approved.",
+   "ar": "أربعون طلباً تُفحص برمجياً، ورسالة واتساب بلهجةٍ خليجية تتحوّل إلى طلباتٍ واضحة، وكلُّ خيارٍ محسوب، ثم يُعتمد التقسيم."
   },
   "solution": "16",
   "poster": {
@@ -459,8 +459,8 @@ window.NARVO_MEDIA = {
  },
  "case17": {
   "title": {
-   "en": "Demand planning — a plan that fits",
-   "ar": "تخطيط الطلب — خطةٌ قابلة للتنفيذ"
+   "en": "Demand planning: a plan that fits",
+   "ar": "تخطيط الطلب: خطةٌ قابلة للتنفيذ"
   },
   "src": {
    "ar": "media/case17-ar.mp4",
@@ -482,8 +482,8 @@ window.NARVO_MEDIA = {
  },
  "case19": {
   "title": {
-   "en": "Field service — a prepared visit, a complete record",
-   "ar": "الخدمات الميدانية — زيارةٌ مُعدّة وسجلٌّ مكتمل"
+   "en": "Field service: a prepared visit, a complete record",
+   "ar": "الخدمات الميدانية: زيارةٌ مُعدّة وسجلٌّ مكتمل"
   },
   "src": {
    "ar": "media/case19-ar.mp4",
@@ -505,8 +505,8 @@ window.NARVO_MEDIA = {
  },
  "case20": {
   "title": {
-   "en": "Facilities — see the issue, check the result",
-   "ar": "المرافق — اكتشف المشكلة وتحقّق من الحل"
+   "en": "Facilities: see the issue, check the result",
+   "ar": "المرافق: اكتشف المشكلة وتحقّق من الحل"
   },
   "src": {
    "ar": "media/case20-ar.mp4",
@@ -517,8 +517,8 @@ window.NARVO_MEDIA = {
    "en": 54
   },
   "blurb": {
-   "en": "Building signals and complaints in one view, the cause explained, a work order from six systems — and the fix verified on the data.",
-   "ar": "إشارات المبنى والشكاوى في عرضٍ واحد، والسبب مشروح، وأمر عملٍ من ستة أنظمة — والإصلاح مُتحقَّق منه بالبيانات."
+   "en": "Building signals and complaints in one view, the cause explained, a work order from six systems, and the fix verified on the data.",
+   "ar": "إشارات المبنى والشكاوى في عرضٍ واحد، والسبب مشروح، وأمر عملٍ من ستة أنظمة، والإصلاح مُتحقَّق منه بالبيانات."
   },
   "solution": "20",
   "poster": {

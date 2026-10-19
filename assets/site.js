@@ -18,148 +18,118 @@
   /* ------------------------------------------------------------------ copy */
   const T = {
     en: {
-      "nav.platform": "Platform", "nav.solutions": "Solutions", "nav.films": "Films", "nav.pilot": "Pilot", "nav.about": "About", "nav.talk": "Contact", "nav.lang": "عربي",
-      "cta.talk": "Talk to NARVO", "cta.film": "Watch the film", "cur.play": "Play",
-      "hero.found": "Emirati-founded. Abu Dhabi-based.", "hero.l1": "Technology you control.", "hero.l2": "Built around your requirement.",
-      "hero.sub": "Private, Arabic-first AI that runs on your own servers. One core, twenty solutions, a person approving every action — and zero bytes leaving your organisation.",
-      "hero.k1": "bytes leave your organisation", "hero.k2": "solutions on one private core", "hero.k3": "weeks from pilot to decision",
-      "hero.backed": "Backed by the MBZUAI Incubation and Entrepreneurship Center",
-      "film.kicker": "The film", "film.name": "NARVO — platform overview", "film.play": "Play with sound",
-      "film.title": "Most AI asks you to send your data away. NARVO brings the AI to your data.",
-      "pr.kicker": "Private by design", "zr.t": "bytes leave your organisation.",
-      "zr.d": "Models, data and the audit trail stay on your servers or UAE sovereign cloud. Disconnect the internet, and everything keeps working.",
-      "pr.1t": "On your servers", "pr.1d": "Open-weight models run on your own infrastructure or UAE sovereign cloud — not on foreign AI services. Disconnect the internet and everything keeps working.",
-      "pr.2t": "Arabic-first", "pr.2d": "Modern Standard Arabic, Emirati dialect and English — in speech, scanned documents and conversation.",
-      "pr.3t": "A person approves", "pr.3d": "The AI reads, checks and drafts. A named official approves every action that matters — nothing changes without a person.",
-      "pr.4t": "Every action on record", "pr.4d": "Every model call, approval and action is written to an audit trail on your infrastructure. Numbers are computed from your data — never invented by the model.",
-      "st.kicker": "The architecture", "st.title": "Five layers, all under your control.",
-      "st.5": "Twenty solutions", "st.5d": "cases · customers · decisions · documents · operations · sites",
-      "st.4": "The NARVO core", "st.4d": "agents · rules engine · retrieval · speech · governance · audit",
-      "st.3": "Model runtime", "st.3d": "vLLM · OpenAI-compatible · on CPU or GPU",
-      "st.2": "Open-weight models", "st.2d": "Qwen · Whisper · forecasting — weights you hold",
-      "st.1": "Your hardware", "st.1d": "on-premises server · private cloud · UAE sovereign cloud",
-      "so.kicker": "Twenty solutions", "so.title": "Starting points, built around your requirement.",
-      "so.lede": "We don't start from a product. We start from your requirement — and build, adapt or integrate around it.",
-      "so.all": "All", "so.film": "Film", "so.watch": "Watch the film", "so.ask": "Discuss with the concierge",
-      "area.1": "Enterprise", "area.2": "Documents", "area.3": "Customers", "area.4": "People", "area.5": "Operations", "area.6": "Sites & field",
-      "mq.kicker": "In the pilot stage", "mq.title": "Muqarrir — the AI meeting rapporteur",
-      "mq.lede": "Built for a UAE government entity: it listens to the meeting live, in fuṣḥā, Emirati dialect and English — and the official minutes are ready before you leave the room.",
-      "mq.b1": "Live transcript with speakers recognised", "mq.b2": "Numbered decisions and actions with owners and deadlines",
-      "mq.b3": "Every decision linked to the original recording — click and listen", "mq.b4": "Approve, stamp and export in Arabic and English",
-      "mq.b5": "Runs on your own GPU server — no internet, no cloud", "mq.cta": "Watch Muqarrir in action",
-      "mm.kicker": "Measured, not promised", "mm.title": "Tested on real Arabic speech, transcribed by people.",
-      "mm.lede": "Five recognisers vote on every sentence, and the strongest three hear it again — slower, faster and denoised. A judge settles disputes with the meeting form at hand and may never invent a word. Every figure below was measured on our own GPU, in 8- and 16-bit precision.",
-      "mm.s1": "clips of real speech — Emirati, Saudi, news — behind every figure", "mm.s2": "test sets where it beats the best single model — and it is never measurably worse",
-      "mm.s3": "of recordings get the right quality grade, on datasets it was never tuned on", "mm.s4": "more errors found when a person checks the words it flags",
-      "mm.film": "Muqarrir — the technical film",
-      "cs.kicker": "Films", "cs.title": "Real systems, recorded on real screens.",
-      "pi.kicker": "The pilot programme", "pi.title": "A working pilot in weeks, not quarters.",
-      "pi.lede": "One priority use case becomes a working AI system — built on your data, under your control. You see it work before you commit to anything larger.",
-      "pi.s1t": "Before we start", "pi.s1": "Requirements session", "pi.s1d": "Agree the use case, success criteria, data access and deployment.",
-      "pi.s2t": "Week 1", "pi.s2": "First working version", "pi.s2d": "We build, adapt or integrate a working system on your real or representative data.",
-      "pi.s3t": "Weeks 2–4", "pi.s3": "Refine, measure, decide", "pi.s3d": "Your team uses it, we refine it together — and you decide: scale, adjust or stop.",
-      "pk.1": "Private & sovereign AI", "pk.1d": "Arabic dictation and meeting notes, a private assistant, internal search.",
-      "pk.2": "AI agents for operations", "pk.2d": "Case intake, approvals routing, customer requests, documenting legacy systems.",
-      "pk.3": "Arabic-first document & knowledge AI", "pk.3d": "Policy Q&A, contract review, bilingual document processing.",
-      "pk.4": "Predictive ML & decision intelligence", "pk.4d": "Demand forecasting, risk flags, operational performance briefs.",
-      "ab.kicker": "Who we are", "ab.title": "Emirati-founded. Abu Dhabi-based. Built with MBZUAI engineers.",
-      "ab.lede": "NARVO is an Emirati advanced-technology company in Masdar City, Abu Dhabi. We turn institutional requirements into working technology systems — keeping the solution path open and the delivery accountable.",
-      "ab.founders": "Founders & leadership", "ab.advisors": "Strategic advisors",
+      "nav.solutions": "Tailored solutions", "nav.pilot": "How we work", "nav.mq": "Muqarrir", "nav.films": "Films", "nav.about": "About", "nav.talk": "Contact", "nav.lang": "عربي",
+      "cta.talk": "Talk to NARVO", "cta.film": "Watch the film",
+      "hero.l1": "Technology you control.", "hero.l2": "Built around your requirement.",
+      "hero.sub": "Private AI for Arabic and English that runs on your own servers. Twenty solutions, already built, each one tailored to the way your organisation works.",
+      "hero.found": "Emirati founded. Based in Abu Dhabi.", "hero.backed": "Backed by",
+      "film.name": "NARVO, the platform", "film.langs": "Arabic and English",
+      "pf.title": "The AI comes to your data.",
+      "pf.lede": "Your documents, conversations and records stay inside your organisation. Switch the internet off and everything keeps working.",
+      "pf.1t": "On your servers", "pf.1d": "Open models run inside your organisation or on UAE sovereign cloud. Nothing depends on a foreign AI service.",
+      "pf.2t": "Arabic and English", "pf.2d": "Modern Standard Arabic, Emirati dialect and English, in speech, scanned documents and conversation.",
+      "pf.3t": "A person approves", "pf.3d": "The AI reads, checks and drafts. A named official approves every action that matters, and every step stays on record.",
+      "so.title": "Twenty solutions, tailored to you.",
+      "so.lede": "Each one is already built and working. We tailor it to your processes, systems and data, so you start from something proven and finish with something that is yours.",
+      "so.else": "Need something that is not on the list? We start from your requirement and build, adapt or integrate around it.", "so.elseCta": "Tell us what you need",
+      "so.tailor": "We tailor it to your processes, systems and data before it goes live.",
+      "so.watch": "Watch the film", "so.discuss": "Discuss it with the concierge",
+      "area.1": "Enterprise", "area.2": "Documents", "area.3": "Customers", "area.4": "People", "area.5": "Operations", "area.6": "Sites and field",
+      "pi.title": "From your requirement to a working system in four weeks.",
+      "pi.lede": "One priority, tailored on your data and under your control. You see it work before you commit to anything larger.",
+      "pi.s1t": "Before we start", "pi.s1": "Requirements session", "pi.s1d": "We agree the use case, what success looks like, data access and where it runs.",
+      "pi.s2t": "Week 1", "pi.s2": "First working version", "pi.s2d": "We tailor the solution to your real or representative data.",
+      "pi.s3t": "Weeks 2 to 4", "pi.s3": "Use, refine, decide", "pi.s3d": "Your team uses it and we refine it together. Then you decide to scale, adjust or stop.",
+      "mq.title": "Muqarrir, the meeting rapporteur",
+      "mq.lede": "In every government meeting, someone has to write the minutes. Muqarrir listens alongside them in fuṣḥā, Emirati dialect and English, and the minutes are ready before you leave the room.",
+      "mq.b1": "Speakers recognised as they talk", "mq.b2": "Decisions and actions with owners and deadlines",
+      "mq.b3": "Every decision linked to the moment it was said", "mq.b4": "Runs on your own server, with no internet",
+      "mq.note": "Built for a UAE government entity and now in pilot.", "mq.more": "What it does",
+      "mm.line": "clips of real Arabic speech, transcribed by people, stand behind every figure we quote.", "mm.film": "Watch the technical film",
+      "cs.title": "Real systems, filmed on real screens.", "cs.lede": "Each film shows a NARVO system at work in under two minutes, in Arabic and in English.",
+      "cs.pilot": "In pilot", "cs.tech": "Technical", "cs.more": "Show all {n} films",
+      "ab.title": "Emirati founded, based in Abu Dhabi, built with MBZUAI engineers.",
+      "ab.lede": "NARVO is an Emirati advanced technology company in Masdar City. We turn institutional requirements into working systems and stay accountable for the delivery.",
+      "ab.founders": "Founders and leadership", "ab.advisors": "Strategic advisors",
       "ab.p1n": "Ahmed Alawlaqi", "ab.p2n": "Ali AlMehrzi", "ab.p3n": "Hamdan Bin Rakkad",
-      "ab.p1": "Co-founder & CEO", "ab.p2": "Co-founder · Commercial Operations", "ab.p3": "Co-founder · Strategic Markets & Affairs",
-      "ab.a1n": "Dr. Mohamed Alloghani", "ab.a1": "Applied AI & AI systems · first Emirati PhD focused on AI",
-      "ab.a2n": "Daniel Searle", "ab.a2": "AI transformation & growth · €1bn+ total contract value",
-      "ab.a3n": "Prof. Olivier Oullier", "ab.a3": "AI, innovation & strategy · 300+ publications",
-      "ab.a4n": "Tom Hudson", "ab.a4": "Government & international markets · $20bn+ UAE deals",
-      "tk.kicker": "Start a conversation", "tk.title": "Start with one priority.",
-      "tk.lede": "Talk to our AI concierge — describe your challenge and agree the next step. At the end, your summary goes to our team on WhatsApp in one tap.",
+      "ab.p1": "Cofounder and CEO", "ab.p2": "Cofounder, Commercial Operations", "ab.p3": "Cofounder, Strategic Markets and Affairs",
+      "ab.a1n": "Dr. Mohamed Alloghani", "ab.a1": "Applied AI and AI systems. First Emirati PhD focused on AI.",
+      "ab.a2n": "Daniel Searle", "ab.a2": "AI transformation and growth. €1bn+ total contract value.",
+      "ab.a3n": "Prof. Olivier Oullier", "ab.a3": "AI, innovation and strategy. 300+ publications.",
+      "ab.a4n": "Tom Hudson", "ab.a4": "Government and international markets. $20bn+ in UAE deals.",
+      "ab.backed": "Backed by the Incubation and Entrepreneurship Center of Mohamed bin Zayed University of Artificial Intelligence",
+      "tk.title": "Start with one priority.",
+      "tk.lede": "Tell our AI concierge what you need and agree the next step together. Your summary reaches our team on WhatsApp in one tap.",
+      "tk.cta": "Talk to our AI concierge", "tk.ctaSub": "Arabic or English · about five minutes · no account needed",
       "tk.privacy": "Voice conversations on this website run through our voice partner, ElevenLabs. NARVO deployments for clients run entirely on their own servers.",
-      "tk.writeT": "Prefer to write?", "tk.writeD": "Fill this in — WhatsApp opens with your request already written. Just press send.", "tk.addr": "Masdar City, Abu Dhabi",
-      "f.name": "Full name", "f.org": "Organisation", "f.role": "Role", "f.need": "What would you like AI to do for your organisation?", "f.send": "Send on WhatsApp",
+      "tk.writeT": "Prefer to write?", "tk.writeD": "Fill this in and WhatsApp opens with your request already written. Just press send.", "tk.addr": "Masdar City, Abu Dhabi",
+      "f.name": "Full name", "f.org": "Organisation", "f.role": "Role", "f.email": "Work email", "f.need": "What would you like AI to do for your organisation?", "f.send": "Send on WhatsApp",
       "ft.tag": "Technology you control.", "ft.rights": "Masdar City, Abu Dhabi",
       "cg.name": "NARVO concierge", "cg.connecting": "Connecting…", "cg.listening": "Listening", "cg.speaking": "Speaking", "cg.ended": "Conversation ended",
       "cg.mute": "Mute", "cg.unmute": "Unmute", "cg.end": "End", "cg.wa": "Send on WhatsApp",
-      "cg.waReady": "Your summary is ready", "cg.waFallback": "Continue on WhatsApp", "cg.saved": "Summary ready — tap the green button",
+      "cg.waReady": "Your summary is ready", "cg.waFallback": "Continue on WhatsApp", "cg.saved": "Summary ready. Tap the green button.",
       "cg.auto": "Opening WhatsApp in {n}…", "cg.stay": "Stay here",
-      "cg.mic": "To talk, allow the microphone in your browser and try again — or write to us instead.", "cg.error": "Couldn't connect. Please try again — or write to us instead.",
+      "cg.mic": "To talk, allow the microphone in your browser and try again, or write to us instead.", "cg.error": "Couldn't connect. Please try again, or write to us instead.",
       "cg.dropped": "The conversation ended before the summary.", "cg.again": "Try again", "cg.write": "Write instead",
       "player.ar": "العربية", "player.en": "English",
-      "pr.title": "Intelligence that stays where your data lives.", "film.langs": "Arabic · English", "so.discuss": "Discuss with the concierge", "cs.pilot": "In pilot", "cs.tech": "Measured", "cs.lede": "Short films of real NARVO systems at work, recorded on their own screens — each in Arabic and in English.",
-      "st.lede": "From the hardware up to the twenty solutions, every layer runs inside your organisation — none of it depends on an outside AI service.", "so.more": "Show all {n} solutions",
-      "tk.cta": "Talk to our AI concierge", "tk.ctaSub": "Arabic or English · about five minutes · no account needed", "f.email": "Work email",
       "wa.hello": "Hello NARVO 👋", "wa.agent": "I've just spoken with your AI concierge on narvo.ae.", "wa.form": "I'm writing from narvo.ae.",
       "wa.me": "About me", "wa.discussed": "What we discussed", "wa.need": "What I need", "wa.interest": "Solution", "wa.timeline": "Timeline",
       "wa.agreed": "What we agreed", "wa.questions": "Notes", "wa.said": "What I said", "wa.cont": "I'd like to continue here.", "wa.ref": "Ref.",
       "wa.direct": "Hello NARVO 👋 I'd like to talk about a project.",
     },
     ar: {
-      "nav.platform": "المنصة", "nav.solutions": "الحلول", "nav.films": "الأفلام", "nav.pilot": "التجربة", "nav.about": "من نحن", "nav.talk": "تواصل", "nav.lang": "English",
-      "cta.talk": "تحدّث مع نارفو", "cta.film": "شاهد الفيلم", "cur.play": "تشغيل",
-      "hero.found": "شركةٌ إماراتية، مقرّها أبوظبي.", "hero.l1": "تقنيةٌ تحت سيطرتك.", "hero.l2": "مبنيّةٌ حول متطلباتك.",
-      "hero.sub": "ذكاءٌ اصطناعي خاص، بالعربية أولاً، يعمل على خوادمكم. نواةٌ واحدة، وعشرون حلاً، وإنسانٌ يعتمد كل إجراء — وصفرُ بايت يغادر جهتكم.",
-      "hero.k1": "بايت تغادر جهتكم", "hero.k2": "حلاً على نواةٍ خاصة واحدة", "hero.k3": "أسابيع من التجربة إلى القرار",
-      "hero.backed": "بدعمٍ من مركز الاحتضان وريادة الأعمال في جامعة محمد بن زايد للذكاء الاصطناعي",
-      "film.kicker": "الفيلم", "film.name": "نارفو — نظرة على المنصة", "film.play": "شاهد مع الصوت",
-      "film.title": "معظمُ حلول الذكاء الاصطناعي تطلب منك أن ترسل بياناتك إليها. «نارفو» تأتي بالذكاء الاصطناعي إلى بياناتك.",
-      "pr.kicker": "الخصوصية في التصميم", "zr.t": "بايت يغادر جهتكم.",
-      "zr.d": "النماذج والبيانات وسجل التدقيق تبقى على خوادمكم أو على السحابة السيادية في الإمارات. افصلوا الإنترنت، ويستمر كل شيء بالعمل.",
-      "pr.1t": "على خوادمكم", "pr.1d": "نماذج مفتوحة الأوزان تعمل على بنيتكم التحتية أو على السحابة السيادية في الإمارات — لا على خدمات ذكاء اصطناعي أجنبية. افصلوا الإنترنت، ويستمر كل شيء بالعمل.",
-      "pr.2t": "العربية أولاً", "pr.2d": "الفصحى واللهجة الإماراتية والإنجليزية — في الكلام والوثائق الممسوحة والمحادثة.",
-      "pr.3t": "الإنسان يعتمد", "pr.3d": "الذكاء الاصطناعي يقرأ ويدقق ويصوغ، والموظف المسؤول بالاسم يعتمد كل إجراءٍ مهم — لا يتغيّر شيءٌ دون إنسان.",
-      "pr.4t": "كل إجراءٍ مسجّل", "pr.4d": "كل استدعاءٍ للنموذج وكل اعتمادٍ وكل إجراء يُسجَّل في سجل تدقيق على بنيتكم التحتية. والأرقام تُحسب من بياناتكم — لا يخترعها النموذج.",
-      "st.kicker": "البنية", "st.title": "خمس طبقات، كلّها تحت سيطرتكم.",
-      "st.5": "عشرون حلاً", "st.5d": "الحالات · المتعاملون · القرار · المستندات · العمليات · المواقع",
-      "st.4": "نواة نارفو", "st.4d": "الوكلاء · محرك القواعد · الاسترجاع · الكلام · الحوكمة · التدقيق",
-      "st.3": "تشغيل النماذج", "st.3d": "vLLM · متوافق مع OpenAI · على المعالج أو وحدة الرسوميات",
-      "st.2": "نماذج مفتوحة الأوزان", "st.2d": "Qwen · Whisper · التنبؤ — أوزانٌ تملكونها",
-      "st.1": "أجهزتكم", "st.1d": "خادم داخل الجهة · سحابة خاصة · سحابة سيادية إماراتية",
-      "so.kicker": "عشرون حلاً", "so.title": "نقاط انطلاق… تُبنى حول متطلباتكم.",
-      "so.lede": "لا نبدأ من منتج، بل من متطلباتكم — ثم نبني أو نكيّف أو ندمج حولها.",
-      "so.all": "الكل", "so.film": "فيلم", "so.watch": "شاهد الفيلم", "so.ask": "ناقشه مع المساعد الذكي",
+      "nav.solutions": "حلول مخصّصة", "nav.pilot": "كيف نعمل", "nav.mq": "مُقرِّر", "nav.films": "الأفلام", "nav.about": "من نحن", "nav.talk": "تواصل", "nav.lang": "English",
+      "cta.talk": "تحدّث مع نارفو", "cta.film": "شاهد الفيلم",
+      "hero.l1": "تقنيةٌ تحت سيطرتك.", "hero.l2": "مبنيّةٌ حول متطلباتك.",
+      "hero.sub": "ذكاءٌ اصطناعي خاص بالعربية والإنجليزية، يعمل على خوادمكم. عشرون حلاً جاهزاً، نخصّص كلاً منها لطريقة عمل جهتكم.",
+      "hero.found": "شركةٌ إماراتية، مقرّها أبوظبي.", "hero.backed": "بدعمٍ من",
+      "film.name": "نارفو: نظرة على المنصة", "film.langs": "بالعربية والإنجليزية",
+      "pf.title": "الذكاء الاصطناعي يأتي إلى بياناتكم.",
+      "pf.lede": "تبقى مستنداتكم ومحادثاتكم وسجلاتكم داخل جهتكم. افصلوا الإنترنت، ويستمر كل شيءٍ بالعمل.",
+      "pf.1t": "على خوادمكم", "pf.1d": "نماذج مفتوحة تعمل داخل جهتكم أو على السحابة السيادية في الإمارات، دون الاعتماد على أي خدمة ذكاء اصطناعي أجنبية.",
+      "pf.2t": "بالعربية والإنجليزية", "pf.2d": "الفصحى واللهجة الإماراتية والإنجليزية، في الكلام والمستندات الممسوحة والمحادثة.",
+      "pf.3t": "الإنسان يعتمد", "pf.3d": "الذكاء الاصطناعي يقرأ ويدقّق ويصوغ، والمسؤول المعني يعتمد كل إجراءٍ مهم، وتبقى كل خطوةٍ مسجّلة.",
+      "so.title": "عشرون حلاً، مخصّصةٌ لكم.",
+      "so.lede": "كل حلٍّ منها مبنيٌّ ويعمل. نخصّصه لإجراءاتكم وأنظمتكم وبياناتكم، فتبدؤون من شيءٍ مُجرَّب وتنتهون بنظامٍ يخصّكم.",
+      "so.else": "تحتاجون شيئاً غير موجود في القائمة؟ نبدأ من متطلباتكم، ثم نبني أو نكيّف أو ندمج حولها.", "so.elseCta": "أخبرونا بما تحتاجونه",
+      "so.tailor": "نخصّصه لإجراءاتكم وأنظمتكم وبياناتكم قبل التشغيل.",
+      "so.watch": "شاهد الفيلم", "so.discuss": "ناقشه مع المساعد الذكي",
       "area.1": "المؤسسة", "area.2": "المستندات", "area.3": "العملاء", "area.4": "الموظفون", "area.5": "العمليات", "area.6": "المواقع والميدان",
-      "mq.kicker": "في مرحلة التجربة", "mq.title": "مُقرِّر — مقرّر الاجتماعات الذكي",
-      "mq.lede": "صُمّم لجهةٍ حكومية في الإمارات: يستمع إلى الاجتماع مباشرةً بالفصحى واللهجة الإماراتية والإنجليزية — ويكون المحضر الرسمي جاهزاً قبل أن تغادر القاعة.",
-      "mq.b1": "تفريغٌ مباشر مع تمييز المتحدثين", "mq.b2": "قراراتٌ مرقّمة وتكليفاتٌ بأسماء المسؤولين ومواعيدها",
-      "mq.b3": "كل قرارٍ مرتبط بلحظته في التسجيل الأصلي — انقر واسمع", "mq.b4": "اعتمادٌ وختمٌ وتصدير بالعربية والإنجليزية",
-      "mq.b5": "يعمل على خادم الجهة — لا إنترنت، لا سحابة", "mq.cta": "شاهد «مُقرِّر» أثناء العمل",
-      "mm.kicker": "قِيسَ، لا وُعِد به", "mm.title": "مُختبَرٌ على كلامٍ عربيٍّ حقيقي، فرّغه بشر.",
-      "mm.lede": "خمسةُ نماذج تصوّت على كل جملة، وأقواها الثلاثة تسمعها مرةً أخرى — أبطأ وأسرع وبعد تنقية الضجيج. وحَكَمٌ يحسم الخلاف ومعه بياناتُ الاجتماع، ولا يُسمح له باختراع كلمة. كلُّ رقمٍ أدناه قيس على معالجنا الرسومي، بدقة 8 و16 بت.",
-      "mm.s1": "مقطعاً من كلامٍ حقيقي — إماراتي وسعودي وأخبار — وراء كل رقم", "mm.s2": "مجموعات اختبار يتفوّق فيها على أفضل نموذجٍ منفرد — ولا يسوء بشكلٍ ملموس في أيٍّ منها",
-      "mm.s3": "من التسجيلات تنال تقييمَ الجودة الصحيح، على مجموعاتٍ لم يُضبط عليها قط", "mm.s4": "أخطاءٌ أكثر يكتشفها المراجع حين يبدأ بالكلمات المعلَّمة",
-      "mm.film": "مُقرِّر — الفيلم التقني",
-      "cs.kicker": "الأفلام", "cs.title": "أنظمةٌ حقيقية، مسجّلة على شاشاتٍ حقيقية.",
-      "pi.kicker": "برنامج التجربة", "pi.title": "تجربةٌ عاملة خلال أسابيع، لا أرباع سنة.",
-      "pi.lede": "أولويةٌ واحدة تتحول إلى نظام ذكاء اصطناعي عامل — على بياناتكم وتحت سيطرتكم. ترونه يعمل قبل أن تلتزموا بأي شيءٍ أكبر.",
-      "pi.s1t": "قبل البدء", "pi.s1": "جلسة المتطلبات", "pi.s1d": "نتفق على حالة الاستخدام ومعايير النجاح والوصول إلى البيانات وطريقة النشر.",
-      "pi.s2t": "الأسبوع الأول", "pi.s2": "أول نسخةٍ عاملة", "pi.s2d": "نبني أو نكيّف أو ندمج نظاماً عاملاً على بياناتكم الحقيقية أو التمثيلية.",
-      "pi.s3t": "الأسابيع 2–4", "pi.s3": "تحسين، قياس، قرار", "pi.s3d": "يستخدمه فريقكم ونحسّنه معاً — ثم تقررون: التوسيع أو التعديل أو الإيقاف.",
-      "pk.1": "ذكاءٌ اصطناعي خاص وسيادي", "pk.1d": "الإملاء العربي ومحاضر الاجتماعات، ومساعدٌ خاص، وبحثٌ داخلي.",
-      "pk.2": "وكلاء ذكيون للعمليات", "pk.2d": "استقبال الحالات، وتوجيه الاعتمادات، وطلبات المتعاملين، وتوثيق الأنظمة القديمة.",
-      "pk.3": "ذكاء المستندات والمعرفة بالعربية أولاً", "pk.3d": "أسئلة السياسات، ومراجعة العقود، ومعالجة المستندات ثنائية اللغة.",
-      "pk.4": "التعلم التنبؤي وذكاء القرار", "pk.4d": "التنبؤ بالطلب، وإشارات المخاطر، وموجزات الأداء التشغيلي.",
-      "ab.kicker": "من نحن", "ab.title": "شركةٌ إماراتية في أبوظبي، بمهندسين من جامعة محمد بن زايد للذكاء الاصطناعي.",
-      "ab.lede": "«نارفو» شركة إماراتية للتقنيات المتقدمة في مدينة مصدر بأبوظبي. نحوّل متطلبات المؤسسات إلى أنظمةٍ تقنية عاملة — مع إبقاء خيارات الحلول مفتوحة وتحمّل مسؤولية التنفيذ.",
+      "pi.title": "من متطلباتكم إلى نظامٍ يعمل خلال أربعة أسابيع.",
+      "pi.lede": "أولويةٌ واحدة، نخصّص لها الحل على بياناتكم وتحت سيطرتكم. ترونه يعمل قبل أن تلتزموا بأي شيءٍ أكبر.",
+      "pi.s1t": "قبل البدء", "pi.s1": "جلسة المتطلبات", "pi.s1d": "نتفق على حالة الاستخدام ومعايير النجاح والوصول إلى البيانات ومكان التشغيل.",
+      "pi.s2t": "الأسبوع الأول", "pi.s2": "أول نسخةٍ تعمل", "pi.s2d": "نخصّص الحل لبياناتكم الحقيقية أو التمثيلية.",
+      "pi.s3t": "من الأسبوع الثاني إلى الرابع", "pi.s3": "استخدام وتحسين وقرار", "pi.s3d": "يستخدمه فريقكم ونحسّنه معاً، ثم تقررون التوسيع أو التعديل أو الإيقاف.",
+      "mq.title": "مقرّر الاجتماعات الذكي",
+      "mq.lede": "في كل اجتماعٍ حكومي هناك من يكتب المحضر. «مُقرِّر» يستمع معه بالفصحى واللهجة الإماراتية والإنجليزية، ويكون المحضر جاهزاً قبل أن تغادروا القاعة.",
+      "mq.b1": "تمييز المتحدثين أثناء الكلام", "mq.b2": "قراراتٌ وتكليفات بأسماء المسؤولين ومواعيدها",
+      "mq.b3": "كل قرارٍ مرتبط بلحظة قوله في التسجيل", "mq.b4": "يعمل على خادمكم دون إنترنت",
+      "mq.note": "صُمّم لجهةٍ حكومية في الإمارات، وهو الآن في مرحلة التجربة.", "mq.more": "ماذا يفعل",
+      "mm.line": "مقطعاً من كلامٍ عربي حقيقي فرّغه بشر، تقف وراء كل رقمٍ نذكره.", "mm.film": "شاهد الفيلم التقني",
+      "cs.title": "أنظمةٌ حقيقية، مسجّلة على شاشاتٍ حقيقية.", "cs.lede": "كل فيلمٍ يعرض نظاماً من نارفو أثناء العمل في أقل من دقيقتين، بالعربية والإنجليزية.",
+      "cs.pilot": "في التجربة", "cs.tech": "تقني", "cs.more": "عرض جميع الأفلام ({n})",
+      "ab.title": "شركةٌ إماراتية في أبوظبي، بمهندسين من جامعة محمد بن زايد للذكاء الاصطناعي.",
+      "ab.lede": "«نارفو» شركةٌ إماراتية للتقنيات المتقدمة في مدينة مصدر. نحوّل متطلبات المؤسسات إلى أنظمةٍ تعمل، ونتحمّل مسؤولية التنفيذ.",
       "ab.founders": "المؤسسون والقيادة", "ab.advisors": "المستشارون الاستراتيجيون",
-      "ab.p1": "شريكٌ مؤسس والرئيس التنفيذي", "ab.p2": "شريكٌ مؤسس · العمليات التجارية", "ab.p3": "شريكٌ مؤسس · الأسواق الاستراتيجية والعلاقات",
-      "ab.a1n": "د. محمد اللوغاني", "ab.a1": "الذكاء الاصطناعي التطبيقي وأنظمته · أول إماراتي يحصل على دكتوراه في الذكاء الاصطناعي",
-      "ab.a2": "التحول بالذكاء الاصطناعي والنمو · عقودٌ تتجاوز مليار يورو", "ab.a3n": "البروفيسور أوليفييه أولييه", "ab.a3": "الذكاء الاصطناعي والابتكار والاستراتيجية · أكثر من 300 منشور",
-      "ab.a4": "الحكومة والأسواق الدولية · صفقات في الإمارات تتجاوز 20 مليار دولار",
-      "tk.kicker": "ابدأ المحادثة", "tk.title": "ابدأ بأولويةٍ واحدة.",
-      "tk.lede": "تحدّث مع مساعدنا الذكي — صِف التحدي واتفق على الخطوة التالية. وفي النهاية يصل ملخّصك إلى فريقنا عبر واتساب بضغطةٍ واحدة.",
+      "ab.p1": "شريكٌ مؤسس والرئيس التنفيذي", "ab.p2": "شريكٌ مؤسس، العمليات التجارية", "ab.p3": "شريكٌ مؤسس، الأسواق الاستراتيجية والعلاقات",
+      "ab.a1n": "د. محمد اللوغاني", "ab.a1": "الذكاء الاصطناعي التطبيقي وأنظمته. أول إماراتي يحصل على دكتوراه في الذكاء الاصطناعي.",
+      "ab.a2": "التحول بالذكاء الاصطناعي والنمو. عقودٌ تتجاوز مليار يورو.", "ab.a3n": "البروفيسور أوليفييه أولييه", "ab.a3": "الذكاء الاصطناعي والابتكار والاستراتيجية. أكثر من 300 منشور.",
+      "ab.a4": "الحكومة والأسواق الدولية. صفقاتٌ في الإمارات تتجاوز 20 مليار دولار.",
+      "ab.backed": "بدعمٍ من مركز الاحتضان وريادة الأعمال في جامعة محمد بن زايد للذكاء الاصطناعي",
+      "tk.title": "ابدأ بأولويةٍ واحدة.",
+      "tk.lede": "أخبِر مساعدنا الذكي بما تحتاجه، واتفقا معاً على الخطوة التالية. يصل ملخّصك إلى فريقنا عبر واتساب بضغطةٍ واحدة.",
+      "tk.cta": "تحدّث مع مساعدنا الذكي", "tk.ctaSub": "بالعربية أو الإنجليزية · نحو خمس دقائق · دون تسجيل",
       "tk.privacy": "تتم المحادثات الصوتية على هذا الموقع عبر شريكنا الصوتي ElevenLabs. أما حلول نارفو لدى العملاء فتعمل بالكامل على خوادمهم.",
-      "tk.writeT": "تفضّل الكتابة؟", "tk.writeD": "املأ هذه الحقول — يفتح واتساب وطلبك مكتوبٌ وجاهز. اضغط إرسال فقط.", "tk.addr": "مدينة مصدر، أبوظبي",
-      "f.name": "الاسم الكامل", "f.org": "الجهة", "f.role": "المسمّى الوظيفي", "f.need": "ما الذي تودّ أن يقوم به الذكاء الاصطناعي في جهتك؟", "f.send": "إرسال عبر واتساب",
+      "tk.writeT": "تفضّل الكتابة؟", "tk.writeD": "املأ هذه الحقول ويُفتح واتساب وطلبك مكتوب. اضغط إرسال فقط.", "tk.addr": "مدينة مصدر، أبوظبي",
+      "f.name": "الاسم الكامل", "f.org": "الجهة", "f.role": "المسمّى الوظيفي", "f.email": "البريد الإلكتروني للعمل", "f.need": "ما الذي تودّ أن يقوم به الذكاء الاصطناعي في جهتك؟", "f.send": "إرسال عبر واتساب",
       "ft.tag": "تقنيةٌ تحت سيطرتك.", "ft.rights": "مدينة مصدر، أبوظبي",
       "cg.name": "مساعد نارفو الذكي", "cg.connecting": "جارٍ الاتصال…", "cg.listening": "أستمع إليك", "cg.speaking": "يتحدث", "cg.ended": "انتهت المحادثة",
       "cg.mute": "كتم", "cg.unmute": "إلغاء الكتم", "cg.end": "إنهاء", "cg.wa": "إرسال عبر واتساب",
-      "cg.waReady": "ملخّصك جاهز", "cg.waFallback": "تابع عبر واتساب", "cg.saved": "الملخّص جاهز — اضغط الزر الأخضر",
+      "cg.waReady": "ملخّصك جاهز", "cg.waFallback": "تابع عبر واتساب", "cg.saved": "الملخّص جاهز. اضغط الزر الأخضر.",
       "cg.auto": "سيُفتح واتساب خلال {n}…", "cg.stay": "البقاء هنا",
-      "cg.mic": "للتحدث، اسمح باستخدام الميكروفون في المتصفح وحاول مجدداً — أو اكتب لنا بدلاً من ذلك.", "cg.error": "تعذّر الاتصال. حاول مجدداً — أو اكتب لنا بدلاً من ذلك.",
+      "cg.mic": "للتحدث، اسمح باستخدام الميكروفون في المتصفح وحاول مجدداً، أو اكتب لنا بدلاً من ذلك.", "cg.error": "تعذّر الاتصال. حاول مجدداً، أو اكتب لنا بدلاً من ذلك.",
       "cg.dropped": "انتهت المحادثة قبل إعداد الملخّص.", "cg.again": "حاول مجدداً", "cg.write": "اكتب لنا",
       "player.ar": "العربية", "player.en": "English",
-      "pr.title": "ذكاءٌ يبقى حيث تعيش بياناتكم.", "film.langs": "العربية · الإنجليزية", "so.discuss": "ناقشه مع المساعد الذكي", "cs.pilot": "في التجربة", "cs.tech": "قياسات", "cs.lede": "أفلامٌ قصيرة لأنظمة نارفو حقيقية أثناء العمل، مسجّلة على شاشاتها — كلٌّ منها بالعربية وبالإنجليزية.",
-      "st.lede": "من الأجهزة وحتى الحلول العشرين، تعمل كل طبقةٍ داخل جهتكم — دون الاعتماد على أي خدمة ذكاء اصطناعي خارجية.", "so.more": "عرض جميع الحلول ({n})",
-      "tk.cta": "تحدّث مع مساعدنا الذكي", "tk.ctaSub": "بالعربية أو الإنجليزية · نحو خمس دقائق · دون تسجيل", "f.email": "البريد الإلكتروني للعمل",
       "wa.hello": "مرحباً نارفو 👋", "wa.agent": "تحدّثتُ للتو مع المساعد الذكي على موقع narvo.ae.", "wa.form": "أكتب إليكم من موقع narvo.ae.",
       "wa.me": "بياناتي", "wa.discussed": "ما ناقشناه", "wa.need": "ما أحتاجه", "wa.interest": "الحل", "wa.timeline": "الإطار الزمني",
       "wa.agreed": "ما اتفقنا عليه", "wa.questions": "ملاحظات", "wa.said": "ما قلته", "wa.cont": "وأودّ المتابعة هنا.", "wa.ref": "المرجع",
@@ -186,7 +156,7 @@
     root.dir = lang === "ar" ? "rtl" : "ltr";
     $$("[data-i18n]").forEach((el) => { if (!el.closest("#cg")) el.textContent = t(el.dataset.i18n); });
     $$("[data-split]").forEach(split);
-    document.title = lang === "ar" ? "نارفو — تقنيةٌ تحت سيطرتك" : "NARVO — Technology you control";
+    document.title = lang === "ar" ? "نارفو · تقنيةٌ تحت سيطرتك" : "NARVO · Technology you control";
     $("#waDirect").href = waUrl(t("wa.direct"));
     // each film has a poster per language: the system's own screen in that language
     $$("img[data-poster]").forEach((im) => { const m = MEDIA[im.dataset.poster]; const src = m && posterSrc(m); if (src && im.getAttribute("src") !== src) im.src = src; });
@@ -216,7 +186,6 @@
     if (floatTalk.dataset.theme !== below) floatTalk.dataset.theme = below;
     const talkTop = $("#talk").getBoundingClientRect().top;
     floatTalk.classList.toggle("show", scrollY > innerHeight * 0.85 && talkTop > innerHeight * 0.5);
-    stackProgress();
   };
   addEventListener("scroll", onScroll, { passive: true });
 
@@ -233,7 +202,7 @@
     io.unobserve(el); io.observe(el);
   }
   function observe(root = document) {
-    $$(".reveal, [data-split], #stackSvg", root).forEach((el) => {
+    $$(".reveal, [data-split]", root).forEach((el) => {
       if (el.classList.contains("reveal") && !el.style.getPropertyValue("--d")) {
         const sibs = [...el.parentElement.children].filter((x) => x.classList.contains("reveal"));
         el.style.setProperty("--d", `${Math.min(sibs.indexOf(el), 7) * 0.06}s`);
@@ -242,12 +211,9 @@
     });
   }
 
-  /* ------------------------------------------------------------------ the twenty solutions: a grid, and a sheet with the detail */
-  let SOL = [], area = 0, allShown = false;
+  /* ------------------------------------------------------------------ the twenty solutions: an index by area, and a sheet with the detail */
+  let SOL = [];
   fetch("assets/solutions.json").then((r) => r.json()).then((d) => { SOL = d; renderSolutions(); }).catch(() => {});
-  // on a phone the full index is a long list: the first six, then the rest on request
-  const narrow = matchMedia("(max-width: 860px)");
-  narrow.addEventListener?.("change", () => renderSolutions());
   const caseFor = (n) => Object.entries(MEDIA).find(([, m]) => m.solution === n)?.[0];
   const play = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>`;
   const fmt = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
@@ -258,37 +224,27 @@
       <span class="poster-meta"><b>${esc(m.title[lang] || m.title.en)}</b><span><span class="dur">${durOf(m) ? fmt(durOf(m)) : ""}</span></span></span>
     </button>`;
   function renderSolutions() {
-    const grid = $("#soGrid"), bar = $("#filters");
-    if (!grid || !SOL.length) return;
-    const count = (a) => (a ? SOL.filter((s) => s.area === a).length : SOL.length);
-    bar.innerHTML = [0, 1, 2, 3, 4, 5, 6].map((a) => `<button role="tab" type="button" aria-selected="${a === area}" data-area="${a}">${a ? t("area." + a) : t("so.all")}<sup>${count(a)}</sup></button>`).join("");
+    const box = $("#soIndex");
+    if (!box || !SOL.length) return;
     const ar = lang === "ar";
-    const list = area ? SOL.filter((s) => s.area === area) : SOL;
-    const cut = !area && !allShown && narrow.matches ? 6 : list.length;
-    grid.innerHTML = list.slice(0, cut).map((s) => {
-      const key = caseFor(s.n);
-      return `<button class="cell" type="button" data-sol="${s.n}">
-        <span class="top"><i>${s.n}</i><span>${t("area." + s.area)}</span>${key ? `<span class="tag">${play}${t("so.film")}</span>` : ""}</span>
-        <span class="body"><b>${esc(ar ? s.ar : s.en)}</b><span>${esc(ar ? s.par : s.pen)}</span></span>
-        <span class="go" aria-hidden="true">→</span>
-      </button>`;
+    // six areas, each opened on request: the page stays short, all twenty are one tap away
+    const open = new Set($$("details.grp[open]", box).map((d) => d.dataset.area));
+    box.innerHTML = [1, 2, 3, 4, 5, 6].map((a) => {
+      const list = SOL.filter((s) => s.area === a);
+      return `<details class="grp" data-area="${a}"${open.has(String(a)) ? " open" : ""}><summary><h3>${t("area." + a)}</h3><span class="n">${list.length}</span><i class="plus" aria-hidden="true"></i></summary><ul>${list
+        .map((s) => `<li><button type="button" data-sol="${s.n}">${esc(ar ? s.ar : s.en)}</button></li>`).join("")}</ul></details>`;
     }).join("");
-    const more = $("#soMore");
-    more.hidden = cut >= list.length;
-    more.querySelector("span").textContent = t("so.more").replace("{n}", list.length);
-    watch(grid);
+    watch(box);
   }
-  $("#filters").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; area = Number(b.dataset.area); renderSolutions(); });
-  $("#soMore").addEventListener("click", () => { allShown = true; renderSolutions(); });
   const solSheet = $("#sheet");
   function openSheet(n) {
     const s = SOL.find((x) => x.n === n); if (!s) return;
     const key = caseFor(n), m = key && MEDIA[key], ar = lang === "ar";
     $("#sheetIn").innerHTML = `
-      <p class="label"><i>${s.n}</i><span>${t("area." + s.area)}</span></p>
+      <p class="area">${t("area." + s.area)}</p>
       <h3>${esc(ar ? s.ar : s.en)}</h3>
       <p class="pitch">${esc(ar ? s.par : s.pen)}</p>
-      <p class="desc">${esc(ar ? s.sar : s.sen)}</p>
+      <p class="desc">${esc(ar ? s.sar : s.sen)} ${t("so.tailor")}</p>
       ${m ? posterOf(key, m) : ""}
       <div class="acts"><button class="pill pill-ink talk-open" type="button" data-topic="${s.n} ${esc(s.en)}"><i class="live"></i><span>${t("so.discuss")}</span></button>${m ? `<button class="pill pill-line play" type="button" data-video="${key}"><svg class="ico" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg><span>${t("so.watch")}</span></button>` : ""}</div>`;
     $("#sheetIn").scrollTop = 0;
@@ -300,20 +256,22 @@
     solSheet.classList.remove("on");
     if (now) solSheet.close(); else setTimeout(() => { if (solSheet.open) solSheet.close(); }, 450);
   }
-  $("#soGrid").addEventListener("click", (e) => { const c = e.target.closest(".cell"); if (c) openSheet(c.dataset.sol); });
+  $("#soIndex").addEventListener("click", (e) => { const c = e.target.closest("[data-sol]"); if (c) openSheet(c.dataset.sol); });
   $("#sheetClose").addEventListener("click", () => closeSheet());
   solSheet.addEventListener("click", (e) => { if (e.target === solSheet) closeSheet(); });
   solSheet.addEventListener("cancel", (e) => { e.preventDefault(); closeSheet(); });
 
-  /* ------------------------------------------------------------------ the films: a grid of posters */
+  /* ------------------------------------------------------------------ the films: a grid of posters, the first five and then the rest on request */
+  let filmsAll = false;
   function renderFilms() {
     const grid = $("#filmsGrid"); if (!grid) return;
     const order = ["muqarrir", "muqarrir_tech", ...Object.keys(MEDIA).filter((k) => MEDIA[k].solution).sort((a, b) => MEDIA[a].solution.localeCompare(MEDIA[b].solution))];
     const list = order.filter((k) => MEDIA[k] && MEDIA[k].src);
     $("#films").hidden = !list.length;
-    grid.innerHTML = list.map((key) => {
+    const cut = filmsAll ? list.length : Math.min(list.length, 5);
+    grid.innerHTML = list.slice(0, cut).map((key) => {
       const m = MEDIA[key], d = durOf(m);
-      const chip = key === "muqarrir" ? t("cs.pilot") : key === "muqarrir_tech" ? t("cs.tech") : m.solution || "";
+      const chip = key === "muqarrir" ? t("cs.pilot") : key === "muqarrir_tech" ? t("cs.tech") : "";
       return `<article class="fcard reveal${key === "muqarrir" ? " feat" : ""}">
         ${posterOf(key, m, "poster poster-sm play", chip)}
         <div class="fmeta"><b>${esc(m.title[lang] || m.title.en)}</b>
@@ -321,8 +279,12 @@
         </div>
       </article>`;
     }).join("");
+    const more = $("#filmsMore");
+    more.hidden = cut >= list.length;
+    more.querySelector("span").textContent = t("cs.more").replace("{n}", list.length);
     observe(grid);
   }
+  $("#filmsMore").addEventListener("click", () => { filmsAll = true; renderFilms(); });
   function renderDurations() {
     $$("[data-dur]").forEach((el) => { const m = MEDIA[el.dataset.dur]; const d = m && durOf(m); el.textContent = d ? fmt(d) : ""; });
   }
@@ -513,39 +475,6 @@
     ? { lines: 210, x0: 0.3, x1: 1.12, y0: 1.12, y1: -0.08, bow: 0.1, w: 0.2, twist: 1.35, alpha: 0.5, lw: 0.7, fade: () => 1 - clamp(scrollY / (heroEl.offsetHeight * 0.9), 0, 1) * 0.7 }
     : { lines: 130, x0: -0.15, x1: 1.2, y0: 0.66, y1: 0.0, bow: 0.06, w: 0.13, twist: 1.2, alpha: 0.42, lw: 0.6, fade: () => 1 - clamp(scrollY / (heroEl.offsetHeight * 0.9), 0, 1) * 0.7 });
 
-  /* ------------------------------------------------------------------ the stack separates as you scroll through it */
-  const svg = $("#stackSvg"), stackEl = $("#stack");
-  const NS = "http://www.w3.org/2000/svg";
-  const plates = [];
-  if (svg) {
-    const W = 232, H = 112, cx = 320;
-    const el = (n, a) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
-    const diamond = (y) => `M${cx},${y - H} L${cx + W},${y} L${cx},${y + H} L${cx - W},${y} Z`;
-    // two faint verticals tie the corners of the stack together
-    svg.append(el("line", { class: "guide", x1: cx - W, y1: 0, x2: cx - W, y2: 560 }), el("line", { class: "guide", x1: cx + W, y1: 0, x2: cx + W, y2: 560 }));
-    for (let i = 0; i < 5; i++) {
-      const g = el("g", { class: "plate" + (i === 3 ? " core" : ""), "data-l": String(i + 1) });
-      const thick = el("path", { class: "thick", d: `M${cx - W},0 L${cx},${H} L${cx + W},0 L${cx + W},12 L${cx},${H + 12} L${cx - W},12 Z` });
-      const top = el("path", { class: "top", d: diamond(0), pathLength: "1" });
-      const n = el("text", { class: "n", x: cx - W + 22, y: 6 }); n.textContent = String(i + 1).padStart(2, "0");
-      g.append(thick, top, n); svg.append(g); plates.push(g);
-    }
-  }
-  function stackProgress() {
-    if (!svg) return;
-    const r = stackEl.getBoundingClientRect();
-    const p = clamp((innerHeight * 0.9 - r.top) / (innerHeight * 0.9 + r.height * 0.5), 0, 1);
-    const gap = 30 + 52 * Math.sin(p * Math.PI * 0.5);
-    plates.forEach((g, i) => g.setAttribute("transform", `translate(0 ${(470 - i * gap).toFixed(1)})`));
-  }
-  const lightPlate = (l) => { plates.forEach((g) => g.classList.toggle("on", g.dataset.l === l)); $$("#layers li").forEach((li) => li.classList.toggle("on", li.dataset.l === l)); };
-  if (svg) { io.observe(svg); stackProgress(); }
-  $$("#layers li").forEach((li) => {
-    li.addEventListener("pointerenter", () => lightPlate(li.dataset.l));
-    li.addEventListener("click", () => lightPlate(li.dataset.l));
-  });
-  $("#layers").addEventListener("pointerleave", () => lightPlate(null));
-
   /* ------------------------------------------------------------------ the player */
   const player = $("#player"), pv = $("#playerVideo");
   let current = null;
@@ -594,7 +523,7 @@
     const l = d.language === "ar" ? "ar" : d.language === "en" ? "en" : lang;
     const k = (x) => tl(l, x);
     const out = [k("wa.hello"), k(d.source === "form" ? "wa.form" : "wa.agent"), "", `*${k("wa.me")}*`];
-    out.push(`👤 ${d.name || "—"}${d.role ? ` — ${d.role}` : ""}`);
+    out.push(`👤 ${d.name || ""}${d.role ? `, ${d.role}` : ""}`);
     if (d.organization) out.push(`🏢 ${d.organization}`);
     if (d.email) out.push(`✉️ ${d.email}`);
     if (d.phone) out.push(`📞 ${d.phone}`);
@@ -778,6 +707,7 @@
     // the form speaks the language of the conversation the visitor chose
     if (cl !== lang) { lang = cl; applyLang(); }
     const f = $("#leadForm");
+    $("#leadBox").open = true;
     f.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
     if (fine) setTimeout(() => f.querySelector("input[name=name]")?.focus({ preventScroll: true }), 700);
   });
@@ -836,17 +766,6 @@
     };
     (document.fonts?.ready || Promise.resolve()).then(go, go);
   })();
-
-  /* the hero figures count up once the page is open */
-  function countUp(el, to, ms = 1200) {
-    if (reduced || !to) { el.textContent = String(to); return; }
-    const t0 = performance.now();
-    const step = (now) => { const k = Math.min(1, (now - t0) / ms); el.textContent = String(Math.round(to * (1 - Math.pow(1 - k, 4)))); if (k < 1) requestAnimationFrame(step); };
-    requestAnimationFrame(step);
-  }
-  // they start as the line of figures fades in, the last beat of the opening
-  const figs = $$(".hero-foot b").map((b) => { const to = Number(b.textContent); if (!reduced) b.textContent = "0"; return [b, to]; });
-  setTimeout(() => figs.forEach(([b, to]) => countUp(b, to)), document.body.classList.contains("loading") ? 2150 : 950);
 
   /* ------------------------------------------------------------------ go */
   applyLang();
