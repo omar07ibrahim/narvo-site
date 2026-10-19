@@ -40,8 +40,8 @@
   "ar": "نشر وتشغيل منصة الذكاء الاصطناعي الخاصة",
   "pen": "Run business AI in an environment shaped around you.",
   "par": "شغّل ذكاء الأعمال في بيئة مصممة حولك.",
-  "sen": "Models, access, evaluation and costs for every AI workload — on your infrastructure, with data that never leaves.",
-  "sar": "النماذج والصلاحيات والتقييم والتكاليف لكل أحمال الذكاء الاصطناعي — على بنيتك التحتية دون خروج البيانات."
+  "sen": "Models, access, evaluation and costs for every AI workload, on your infrastructure, with data that never leaves.",
+  "sar": "النماذج والصلاحيات والتقييم والتكاليف لكل أحمال الذكاء الاصطناعي، على بنيتك التحتية دون خروج البيانات."
  },
  {
   "n": "05",
@@ -84,7 +84,7 @@
   "ar": "ذكاء المبيعات والتنفيذ",
   "pen": "Keep sales opportunities moving across teams.",
   "par": "حافظ على تقدّم فرص المبيعات بين الفرق.",
-  "sen": "Account briefs from enquiries, interactions and offers; conflicts flagged, follow-ups drafted, CRM updated on approval.",
+  "sen": "Account briefs from enquiries, interactions and offers; conflicts flagged, follow up messages drafted, CRM updated on approval.",
   "sar": "ملخصات حسابات من الاستفسارات والتفاعلات والعروض، مع رصد التعارضات وصياغة المتابعات وتحديث النظام بعد الاعتماد."
  },
  {
@@ -128,7 +128,7 @@
   "ar": "ذكاء التوظيف والاستقطاب",
   "pen": "From application overload to a clear finalist comparison.",
   "par": "من تكدّس الطلبات إلى مقارنة واضحة للمرشحين النهائيين.",
-  "sen": "Applications compared against job-related criteria with traceable evidence. HR selects; AI never decides.",
+  "sen": "Applications compared against the criteria of the job, with traceable evidence. HR selects and AI never decides.",
   "sar": "مقارنة الطلبات بمعايير الوظيفة مع أدلة قابلة للتتبع. الموارد البشرية تختار، والذكاء الاصطناعي لا يقرر."
  },
  {
@@ -183,7 +183,7 @@
   "ar": "تخطيط الطلب والموارد",
   "pen": "Turn changing demand into a feasible plan.",
   "par": "حوّل الطلب المتغيّر إلى خطة قابلة للتنفيذ.",
-  "sen": "Forecast demand with uncertainty, compare plans against real capacity limits and explain the trade-offs.",
+  "sen": "Forecast demand with uncertainty, compare plans against real capacity limits and explain what each choice costs.",
   "sar": "توقّع الطلب مع هامش عدم اليقين، وقارن الخطط بحدود السعة الفعلية، واشرح المفاضلات."
  },
  {
