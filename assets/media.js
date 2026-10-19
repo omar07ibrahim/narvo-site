@@ -54,8 +54,8 @@ window.NARVO_MEDIA = {
    "en": "media/muqarrir_tech-en.mp4"
   },
   "dur": {
-   "ar": 247,
-   "en": 200
+   "ar": 277,
+   "en": 221
   },
   "blurb": {
    "en": "Six recognisers and four language models tested on real Arabic speech: what the vote, the judge and the quality grade really deliver.",
