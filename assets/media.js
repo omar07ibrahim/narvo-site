@@ -261,7 +261,7 @@ window.NARVO_MEDIA = {
   },
   "dur": {
    "ar": 76,
-   "en": 61
+   "en": 62
   },
   "blurb": {
    "en": "1,047 permits mapped from the event log, causes explained from the officers' notes, the fix simulated, approved and measured.",
