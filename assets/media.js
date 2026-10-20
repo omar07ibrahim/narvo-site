@@ -10,8 +10,8 @@ window.NARVO_MEDIA = {
    "en": "media/overview-en.mp4"
   },
   "dur": {
-   "ar": 122,
-   "en": 97
+   "ar": 123,
+   "en": 99
   },
   "blurb": {
    "en": "One private core, twenty tailored solutions and a person approving every action, on real screens.",
