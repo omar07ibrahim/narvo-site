@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NARVO Client portal</title>
+<meta name="description" content="A private space for each NARVO client: films, files and the next steps of your tailored solution.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b0f13">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #0b0f13; --silver: #ebe7df; --mute: #8b949c; --soft: #b9c1c8; --bronze: #b9986b; --hair: rgba(235, 231, 223, .12); --hair2: rgba(235, 231, 223, .28);
+  --gut: clamp(16px, 4vw, 64px); --ease: cubic-bezier(.2, .7, .1, 1);
+  --f-disp: "Alexandria", "IBM Plex Sans", system-ui, sans-serif; --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100svh; display: grid; grid-template-rows: auto 1fr auto; background: radial-gradient(1200px 700px at 70% 10%, #18212a 0%, var(--ink) 60%) var(--ink); color: var(--silver); font: 300 16px/1.6 var(--f-body); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+h1, p { margin: 0; }
+::selection { background: var(--bronze); color: var(--ink); }
+:focus-visible { outline: 1px solid currentColor; outline-offset: 4px; border-radius: 2px; }
+.wrap { width: min(1240px, 100%); margin: 0 auto; padding: 0 var(--gut); }
+.hd { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 22px; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand .mark { width: 17px; height: 20px; fill: currentColor; }
+.brand .word { height: 11px; width: auto; fill: none; stroke: currentColor; stroke-width: 12; overflow: visible; }
+.hd a.back { font-size: 14px; color: var(--mute); transition: color .3s; }
+.hd a.back:hover { color: var(--silver); }
+main { display: grid; align-items: center; padding-block: 40px 80px; }
+.grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(40px, 8vw, 120px); align-items: center; }
+.label { font: 400 13px/1.4 var(--f-body); color: var(--mute); letter-spacing: .02em; }
+h1 { font: 200 clamp(40px, 6vw, 84px)/1.02 var(--f-disp); letter-spacing: -.03em; margin-top: 18px; text-wrap: balance; }
+.lede { font-size: clamp(17px, 1.4vw, 20px); color: var(--soft); max-width: 46ch; margin-top: 24px; text-wrap: pretty; }
+.card { border: 1px solid var(--hair2); border-radius: 14px; padding: clamp(24px, 3vw, 40px); background: rgba(235, 231, 223, .03); }
+.card h2 { margin: 0; font: 300 24px/1.2 var(--f-disp); letter-spacing: -.01em; }
+.card p.hint { color: var(--mute); font-size: 14px; margin-top: 10px; }
+form { display: grid; gap: 12px; margin-top: 24px; }
+input { height: 54px; padding: 0 18px; border-radius: 10px; border: 1px solid var(--hair2); background: rgba(11, 15, 19, .6); color: var(--silver); font: 400 17px var(--f-body); letter-spacing: .1em; text-transform: uppercase; width: 100%; }
+input::placeholder { color: #69727a; letter-spacing: .02em; text-transform: none; }
+input:focus { outline: none; border-color: var(--silver); }
+button { height: 54px; border: 0; border-radius: 999px; background: var(--silver); color: var(--ink); font: 400 15px var(--f-body); cursor: pointer; transition: background .3s, transform .3s var(--ease); }
+button:hover { background: #fff; }
+button:active { transform: scale(.98); }
+.err { min-height: 22px; font-size: 14px; color: #e39a86; }
+.list { margin: 28px 0 0; padding: 22px 0 0; list-style: none; border-top: 1px solid var(--hair); display: grid; gap: 10px; color: var(--soft); font-size: 15px; }
+.list li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; }
+.list li::before { content: ""; width: 6px; height: 6px; margin-top: 10px; border-radius: 50%; background: var(--bronze); }
+.ft { padding-block: 22px 28px; border-top: 1px solid var(--hair); font-size: 13px; color: var(--mute); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+.ft a:hover { color: var(--silver); }
+@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } main { align-items: start; } }
+</style>
+</head>
+<body>
+<header class="wrap hd">
+  <a class="brand" href="../" aria-label="NARVO home">
+    <svg class="mark" viewBox="0 0 28 32" aria-hidden="true"><rect x="1" y="1" width="4.2" height="30"/><rect x="22.8" y="1" width="4.2" height="30"/><path d="M7.2 1h4.4l9.2 21.6V31h-0.6L7.2 7.6z"/><path d="M7.2 12.4l5.4 12.7V31H7.2z" opacity=".55"/><path d="M20.8 1v12.2L16.1 2.2 16.6 1z" opacity=".55"/></svg>
+    <svg class="word" viewBox="-6 -6 632 112" aria-hidden="true"><path d="M0 100V0l80 100V0M130 100 170 0l40 100M260 100V0h50a25 25 0 0 1 0 50h-50M296 50l44 50M390 0l40 100 40-100"/><circle cx="570" cy="50" r="50"/></svg>
+  </a>
+  <a class="back" href="../">narvo site</a>
+</header>
+
+<main class="wrap">
+  <div class="grid">
+    <div>
+      <p class="label">NARVO Client portal</p>
+      <h1>Your tailored solution, in one place</h1>
+      <p class="lede">Every NARVO client has a private space here: the concept films made for you, the sample files behind them, and what comes next in the pilot.</p>
+    </div>
+    <div class="card">
+      <h2>Open your space</h2>
+      <p class="hint">Enter the access code from your NARVO contact.</p>
+      <form id="f" autocomplete="off">
+        <label for="code" style="position:absolute;left:-9999px">Access code</label>
+        <input id="code" placeholder="Access code" autocapitalize="characters" spellcheck="false" required>
+        <button type="submit">Open</button>
+        <p class="err" id="err" role="alert"></p>
+      </form>
+      <ul class="list">
+        <li>Concept films in English, with subtitles</li>
+        <li>The Excel files shown in the films</li>
+        <li>Sample data only, no client records</li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer class="wrap ft"><span>© 2026 NARVO · Masdar City, Abu Dhabi</span><a href="mailto:contact@narvo.ae">contact@narvo.ae</a></footer>
+
+<script>
+(() => {
+  // code → client space. Only hashes of the codes are kept here
+  const SPACES = { "ba0b00f0cff3db7697cd3c3778e532a404b54ea8f942f763aa9613514a8efadc": "bin-hilal/" };
+  const sha = async (t) => [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)))].map((b) => b.toString(16).padStart(2, "0")).join("");
+  document.getElementById("f").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const v = document.getElementById("code").value.trim().toUpperCase().replace(/\s+/g, "");
+    const to = SPACES[await sha(v)];
+    if (to) location.href = to + "#k=" + encodeURIComponent(v);
+    else document.getElementById("err").textContent = "That code does not open a client space. Check it with your NARVO contact.";
+  });
+})();
+</script>
+</body>
+</html>

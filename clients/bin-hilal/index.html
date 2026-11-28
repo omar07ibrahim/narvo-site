@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="locked">
+<head>
+<script>
+// soft access gate: the page opens with the client's code (from the link, or remembered on this device)
+window.GATE = { key: "narvo-client-bin-hilal", hash: "ba0b00f0cff3db7697cd3c3778e532a404b54ea8f942f763aa9613514a8efadc" };
+try { if (localStorage.getItem(GATE.key) === GATE.hash) document.documentElement.classList.remove("locked"); } catch (e) {}
+</script>
+<noscript><style>html.locked main, html.locked .ft { display: block !important; } .gate { display: none !important; }</style></noscript>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NARVO Client portal · Bin Hilal Holdings</title>
+<meta name="description" content="Two concept films for group finance: expense and invoice processing, and group financial consolidation. Sample data.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b0f13">
+<meta property="og:title" content="NARVO · Two concepts for group finance">
+<meta property="og:description" content="Expense and invoice processing. Group financial consolidation. Two short films with sample data, prepared for Bin Hilal Holdings.">
+<meta property="og:url" content="https://omar07ibrahim.github.io/narvo-site/clients/bin-hilal/">
+<meta property="og:image" content="https://omar07ibrahim.github.io/narvo-site/clients/bin-hilal/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #0b0f13; --ink2: #11171c; --paper: #efece6; --paper2: #e6e2da; --silver: #ebe7df; --mute: #8b949c; --soft: #b9c1c8;
+  --bronze: #b9986b; --hair: rgba(235, 231, 223, .12); --hair2: rgba(235, 231, 223, .28);
+  --gut: clamp(16px, 4vw, 64px); --max: 1240px; --ease: cubic-bezier(.2, .7, .1, 1);
+  --f-disp: "Alexandria", "IBM Plex Sans", system-ui, sans-serif; --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; accent-color: var(--bronze); }
+body { margin: 0; background: var(--ink); color: var(--silver); font: 300 16px/1.6 var(--f-body); -webkit-font-smoothing: antialiased; overflow-x: clip; font-variant-numeric: tabular-nums; }
+img, video, svg { display: block; max-width: 100%; }
+a { color: inherit; }
+h1, h2, h3, p, ol, ul { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+::selection { background: var(--bronze); color: var(--ink); }
+:focus-visible { outline: 1px solid currentColor; outline-offset: 4px; border-radius: 2px; }
+.wrap { width: min(var(--max), 100%); margin: 0 auto; padding: 0 var(--gut); }
+
+.hd { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 22px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.brand .mark { width: 17px; height: 20px; fill: currentColor; }
+.brand .word { height: 11px; width: auto; fill: none; stroke: currentColor; stroke-width: 12; overflow: visible; }
+.tag { font-size: 13px; color: var(--mute); border: 1px solid var(--hair2); border-radius: 999px; padding: 6px 12px; white-space: nowrap; }
+
+.intro { padding-block: clamp(48px, 9vw, 120px) clamp(40px, 6vw, 80px); }
+.label { font: 400 13px/1.4 var(--f-body); color: var(--mute); letter-spacing: .02em; }
+h1 { font: 200 clamp(36px, 5.4vw, 76px)/1.04 var(--f-disp); letter-spacing: -.03em; margin-top: 18px; max-width: 15ch; text-wrap: balance; }
+.lede { font-size: clamp(17px, 1.4vw, 20px); color: var(--soft); max-width: 54ch; margin-top: 24px; text-wrap: pretty; }
+.toc { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
+.toc a { display: inline-flex; align-items: center; gap: 10px; min-height: 46px; padding: 0 20px; border-radius: 999px; border: 1px solid var(--hair2); text-decoration: none; font-size: 15px; transition: border-color .3s, background .3s; }
+.toc a:hover { border-color: var(--silver); }
+.toc a span { color: var(--mute); font-size: 13px; }
+
+.film { padding-block: clamp(56px, 8vw, 112px); border-top: 1px solid var(--hair); }
+.film.light { background: var(--paper); color: var(--ink); --mute: #575c61; --soft: #3f454a; --hair: rgba(11, 15, 19, .12); --hair2: rgba(11, 15, 19, .3); border-top: 0; }
+.film-head { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 20px; margin-bottom: clamp(22px, 3vw, 36px); }
+h2 { font: 200 clamp(30px, 3.8vw, 54px)/1.08 var(--f-disp); letter-spacing: -.025em; margin-top: 12px; text-wrap: balance; }
+.dur { font-size: 13px; color: var(--mute); white-space: nowrap; }
+
+.screen { position: relative; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: #000; box-shadow: 0 30px 80px -40px rgba(0, 0, 0, .55); }
+.screen video { width: 100%; height: 100%; object-fit: contain; background: #000; }
+.screen .cover { position: absolute; inset: 0; border: 0; padding: 0; margin: 0; cursor: pointer; background: #000; color: var(--silver); }
+.screen .cover img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s var(--ease), filter .6s; filter: brightness(.8); }
+.screen .cover:hover img { transform: scale(1.015); filter: brightness(.92); }
+.screen .cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(11, 15, 19, .7), rgba(11, 15, 19, 0) 45%); }
+.play { position: absolute; z-index: 2; left: 50%; top: 50%; width: clamp(64px, 8vw, 92px); height: clamp(64px, 8vw, 92px); transform: translate(-50%, -50%); border-radius: 50%; background: var(--silver); display: grid; place-items: center; transition: transform .4s var(--ease), background .3s; }
+.cover:hover .play { transform: translate(-50%, -50%) scale(1.06); background: #fff; }
+.play svg { width: 26%; height: 26%; fill: var(--ink); margin-left: 6%; }
+.cover-meta { position: absolute; z-index: 2; left: clamp(14px, 2.2vw, 28px); bottom: clamp(12px, 2vw, 24px); font-size: 13px; color: #d5dade; text-align: left; }
+
+.body { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); margin-top: clamp(32px, 4vw, 56px); }
+.body h3 { font: 400 13px/1.4 var(--f-body); color: var(--mute); margin-bottom: 16px; letter-spacing: .02em; }
+.steps { counter-reset: s; display: grid; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 40px 1fr; gap: 8px; padding: 14px 0; border-top: 1px solid var(--hair); color: var(--soft); text-wrap: pretty; }
+.steps li::before { content: counter(s, decimal-leading-zero); font-size: 13px; color: var(--mute); padding-top: 3px; }
+.steps b { font-weight: 400; color: inherit; }
+.film:not(.light) .steps b { color: var(--silver); }
+.film.light .steps b { color: var(--ink); }
+.why { color: var(--soft); text-wrap: pretty; }
+.why + .why { margin-top: 14px; }
+.files { display: grid; gap: 10px; margin-top: 28px; }
+.file { display: grid; grid-template-columns: 40px 1fr auto; align-items: center; gap: 14px; padding: 14px 16px; border: 1px solid var(--hair2); border-radius: 8px; text-decoration: none; transition: border-color .3s, background .3s; }
+.file:hover { border-color: currentColor; }
+.file i { width: 40px; height: 40px; border-radius: 6px; display: grid; place-items: center; font: 500 11px/1 var(--f-body); font-style: normal; color: #fff; background: #1f6f43; }
+.file i.img { background: #4b5560; }
+.file b { font-weight: 400; display: block; line-height: 1.3; overflow-wrap: anywhere; }
+.file small { color: var(--mute); font-size: 13px; }
+.file svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.5; opacity: .7; }
+
+.ft { padding-block: clamp(56px, 8vw, 104px) 40px; border-top: 1px solid var(--hair); }
+.ft-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: end; }
+.ft p.big { font: 200 clamp(26px, 3vw, 40px)/1.15 var(--f-disp); letter-spacing: -.02em; max-width: 20ch; text-wrap: balance; }
+.ft .note { color: var(--mute); font-size: 14px; margin-top: 18px; max-width: 52ch; }
+.ft .iec { width: min(320px, 100%); height: auto; opacity: .9; justify-self: end; }
+.ft .end { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--hair); font-size: 13px; color: var(--mute); }
+.ft .end a { text-decoration: none; }
+.ft .end a:hover { color: var(--silver); }
+
+.portal { display: flex; align-items: center; gap: 14px; }
+.portal small { font-size: 13px; color: var(--mute); padding-left: 14px; border-left: 1px solid var(--hair2); line-height: 1.2; }
+.portal small a { text-decoration: none; }
+.portal small a:hover { color: var(--silver); }
+
+.gate { display: none; min-height: calc(100svh - 80px); place-items: center; padding: 40px var(--gut) 80px; }
+html.locked .gate { display: grid; }
+html.locked main, html.locked .ft { display: none; }
+.gate-card { width: min(440px, 100%); }
+.gate h1 { font-size: clamp(32px, 4.4vw, 48px); margin-top: 14px; }
+.gate p { color: var(--soft); margin-top: 14px; }
+.gate form { display: flex; gap: 10px; margin-top: 28px; }
+.gate input { flex: 1; min-width: 0; height: 52px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--hair2); background: rgba(235, 231, 223, .04); color: var(--silver); font: 400 16px var(--f-body); letter-spacing: .08em; text-transform: uppercase; }
+.gate input::placeholder { color: #69727a; letter-spacing: .02em; text-transform: none; }
+.gate input:focus { outline: none; border-color: var(--silver); }
+.gate button { height: 52px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--silver); color: var(--ink); font: 400 15px var(--f-body); cursor: pointer; transition: background .3s; }
+.gate button:hover { background: #fff; }
+.gate .err { min-height: 24px; margin-top: 12px; font-size: 14px; color: #e39a86; }
+
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .7s ease var(--d, 0s), transform .8s var(--ease) var(--d, 0s); }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+
+@media (max-width: 860px) {
+  .body { grid-template-columns: 1fr; }
+  .ft-grid { grid-template-columns: 1fr; }
+  .ft .iec { justify-self: start; }
+  .film-head { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .tag { display: none; }
+  .toc a { width: 100%; justify-content: space-between; }
+}
+</style>
+</head>
+<body>
+
+<header class="wrap hd">
+  <div class="portal">
+  <a class="brand" href="../../" aria-label="NARVO home">
+    <svg class="mark" viewBox="0 0 28 32" aria-hidden="true"><rect x="1" y="1" width="4.2" height="30"/><rect x="22.8" y="1" width="4.2" height="30"/><path d="M7.2 1h4.4l9.2 21.6V31h-0.6L7.2 7.6z"/><path d="M7.2 12.4l5.4 12.7V31H7.2z" opacity=".55"/><path d="M20.8 1v12.2L16.1 2.2 16.6 1z" opacity=".55"/></svg>
+    <svg class="word" viewBox="-6 -6 632 112" aria-hidden="true"><path d="M0 100V0l80 100V0M130 100 170 0l40 100M260 100V0h50a25 25 0 0 1 0 50h-50M296 50l44 50M390 0l40 100 40-100"/><circle cx="570" cy="50" r="50"/></svg>
+  </a>
+  <small><a href="../">Client portal</a></small>
+  </div>
+  <span class="tag">Concept demo · Sample data</span>
+</header>
+
+<section class="gate" aria-labelledby="gate-t">
+  <div class="gate-card">
+    <p class="label">NARVO Client portal</p>
+    <h1 id="gate-t">Enter your access code</h1>
+    <p>This space was prepared for one client. The code came with the link from your NARVO contact.</p>
+    <form id="gateForm" autocomplete="off">
+      <label for="code" class="label" style="position:absolute;left:-9999px">Access code</label>
+      <input id="code" name="code" placeholder="Access code" autocapitalize="characters" spellcheck="false" required>
+      <button type="submit">Open</button>
+    </form>
+    <p class="err" id="gateErr" role="alert"></p>
+  </div>
+</section>
+
+<main>
+  <section class="wrap intro">
+    <p class="label reveal">Prepared for Bin Hilal Holdings · November 2026</p>
+    <h1 class="reveal" style="--d:.08s">Two tailored solutions for group finance</h1>
+    <p class="lede reveal" style="--d:.16s">Two short films, about a minute each. One follows a handwritten invoice from a site photo to a record finance has checked. The other brings three companies on three systems into one group P&amp;L you can trace back to every journal line. A person confirms every step that matters.</p>
+    <nav class="toc reveal" style="--d:.24s" aria-label="Films">
+      <a href="#expense">Expense and invoice processing <span>1:10</span></a>
+      <a href="#consolidation">Group financial consolidation <span>1:11</span></a>
+    </nav>
+  </section>
+
+  <section class="film" id="expense">
+    <div class="wrap">
+      <div class="film-head reveal">
+        <div><p class="label">Concept 01 · Expense and invoice processing</p><h2>One unclear number on a photo</h2></div>
+        <span class="dur">1 min 10 s · English</span>
+      </div>
+      <div class="screen reveal" data-src="https://omar07ibrahim.github.io/narvo-media/concepts/expense-processing.mp4?v=2">
+        <button class="cover" type="button" aria-label="Play the film: One unclear number on a photo">
+          <img src="poster-expense.jpg" width="1600" height="900" alt="" decoding="async">
+          <span class="play"><svg viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z"/></svg></span>
+        </button>
+      </div>
+      <div class="body">
+        <div class="reveal">
+          <h3>What happens in the film</h3>
+          <ol class="steps">
+            <li><span><b>Photo from site.</b> An engineer photographs a handwritten invoice and tags it to Site A, pump maintenance. A printed receipt waits in the same queue.</span></li>
+            <li><span><b>Photo left, draft right.</b> Supplier, date, invoice number and two line items are read from the photo, each one boxed where it came from.</span></li>
+            <li><span><b>One amount is unclear.</b> It reads as 420 or 470, so it is marked for review and one click zooms into the original.</span></li>
+            <li><span><b>Checked by a person.</b> The reviewer confirms 420. The arithmetic closes: 500 plus 25 VAT makes 525. Project, category and the change are kept in the history.</span></li>
+            <li><span><b>Handed to accounts.</b> Approve for export gives an Excel file with Invoices and Line Items linked by one ID, the review status and a link to the photo.</span></li>
+          </ol>
+        </div>
+        <div class="reveal" style="--d:.1s">
+          <h3>Why it matters</h3>
+          <p class="why">Nothing unclear is guessed. When a figure could be read two ways, finance sees the original and decides, and the record keeps who decided and when.</p>
+          <p class="why">Printed and handwritten documents, Arabic and English, go through the same review.</p>
+          <div class="files">
+            <a class="file" href="files/Expenses_2026-11-25.xlsx" download><i>XLS</i><span><b>Expenses_2026-11-25.xlsx</b><small>The export shown in the film</small></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v9M4 7l4 4 4-4M3 14h10"/></svg></a>
+            <a class="file" href="files/DOC-1187_original.jpg" target="_blank" rel="noopener"><i class="img">JPG</i><span><b>DOC-1187_original.jpg</b><small>The invoice photo</small></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3h7v7M13 3 5 11"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="film light" id="consolidation">
+    <div class="wrap">
+      <div class="film-head reveal">
+        <div><p class="label">Concept 02 · Group financial consolidation</p><h2>One figure in the P&amp;L</h2></div>
+        <span class="dur">1 min 11 s · English</span>
+      </div>
+      <div class="screen reveal" data-src="https://omar07ibrahim.github.io/narvo-media/concepts/group-consolidation.mp4?v=2">
+        <button class="cover" type="button" aria-label="Play the film: One figure in the P&amp;L">
+          <img src="poster-consolidation.jpg" width="1600" height="900" alt="" decoding="async">
+          <span class="play"><svg viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z"/></svg></span>
+        </button>
+      </div>
+      <div class="body">
+        <div class="reveal">
+          <h3>What happens in the film</h3>
+          <ol class="steps">
+            <li><span><b>Collect.</b> October close: a journal from Odoo, a trial balance from another ERP and an Excel workbook. Duplicates and rows without an account code are held for review.</span></li>
+            <li><span><b>Map.</b> Two companies book the same cost under different codes. NARVO proposes one group line, site equipment expense, and the controller confirms the rule.</span></li>
+            <li><span><b>Match.</b> Both sides of an intercompany sale of AED 12,000 are matched and eliminated. A charge of AED 1,200 has no partner, so it stays in review and shows whose entry is missing.</span></li>
+            <li><span><b>Report.</b> The group P&amp;L shows each company, the eliminations, the group total and September alongside. Click any total for the journal entries, the mapping rule and who approved the adjustment.</span></li>
+            <li><span><b>Export.</b> Every figure goes to Excel with a link to its source.</span></li>
+          </ol>
+        </div>
+        <div class="reveal" style="--d:.1s">
+          <h3>Why it matters</h3>
+          <p class="why">Group figures stop being a spreadsheet nobody can audit. Every number opens down to the line it came from, and every rule and elimination has a name and a date on it.</p>
+          <p class="why">The companies keep their own systems. Nothing has to be migrated first.</p>
+          <div class="files">
+            <a class="file" href="files/Group_PnL_Oct2026_detail.xlsx" download><i>XLS</i><span><b>Group_PnL_Oct2026_detail.xlsx</b><small>The group report shown in the film, with live formulas</small></span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v9M4 7l4 4 4-4M3 14h10"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-grid reveal">
+      <div>
+        <p class="big">Tailored AI solutions that run on your own servers.</p>
+        <p class="note">Both films are concept demos with sample data. Noor Bay Group, its companies, the people and the amounts are fictional.</p>
+      </div>
+      <img class="iec" src="../../assets/mbzuai-iec-light.png" width="1600" height="181" alt="MBZUAI Incubation and Entrepreneurship Center">
+    </div>
+    <div class="end"><span>NARVO · Abu Dhabi</span><a href="../../">narvo site</a></div>
+  </div>
+</footer>
+
+<script>
+(async () => {
+  const sha = async (t) => [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)))].map((b) => b.toString(16).padStart(2, "0")).join("");
+  const norm = (c) => c.trim().toUpperCase().replace(/\s+/g, "");
+  const open = () => {
+    try { localStorage.setItem(GATE.key, GATE.hash); } catch (e) {}
+    document.documentElement.classList.remove("locked");
+    document.querySelectorAll(".intro .reveal").forEach((el) => el.classList.add("in"));
+  };
+  const m = location.hash.match(/k=([^&]+)/);
+  if (m) {
+    history.replaceState(null, "", location.pathname + location.search);
+    if (await sha(norm(decodeURIComponent(m[1])).replace(/^#/, "")) === GATE.hash) open();
+  }
+  document.getElementById("gateForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const v = norm(document.getElementById("code").value);
+    if (await sha(v) === GATE.hash) open();
+    else document.getElementById("gateErr").textContent = "That code does not open this space. Check it with your NARVO contact.";
+  });
+})();
+
+(() => {
+  // reveal blocks once as they arrive
+  const els = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -4% 0px", threshold: 0 });
+    els.forEach((el) => io.observe(el));
+  } else els.forEach((el) => el.classList.add("in"));
+
+  // the film loads only when asked for; one plays at a time
+  document.querySelectorAll(".screen").forEach((box) => {
+    box.querySelector(".cover").addEventListener("click", () => {
+      document.querySelectorAll(".screen video").forEach((v) => v.pause());
+      const v = document.createElement("video");
+      v.src = box.dataset.src;
+      v.controls = true; v.playsInline = true; v.preload = "auto";
+      v.poster = box.querySelector("img").src;
+      v.setAttribute("playsinline", "");
+      v.addEventListener("play", () => document.querySelectorAll(".screen video").forEach((o) => { if (o !== v) o.pause(); }));
+      box.replaceChildren(v);
+      v.play().catch(() => {});
+    });
+  });
+})();
+</script>
+</body>
+</html>
